@@ -4,6 +4,7 @@ import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import { posts, getAuthor } from "@/lib/data";
 import DataDownloads from "@/components/DataDownloads";
+import MobileNav from "@/components/MobileNav";
 
 interface PostPageProps {
   params: Promise<{ id: string }>;
@@ -37,6 +38,9 @@ export default async function PostPage({ params }: PostPageProps) {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
       <header>
         <div className="relative w-full h-24 md:h-32 bg-[#1e4d2b]">
           <Image
@@ -54,12 +58,12 @@ export default async function PostPage({ params }: PostPageProps) {
           <DataDownloads showToc={false} />
         </div>
 
-        <main className="flex-1 overflow-auto bg-gray-50">
+        <main id="main-content" className="flex-1 overflow-auto bg-gray-50" role="main">
           <div className="bg-white border-b border-gray-200 py-3 px-4">
             <div className="max-w-3xl mx-auto">
               <Link
                 href="/"
-                className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
+                className="text-gray-700 hover:text-gray-900 text-sm transition-colors"
               >
                 &larr; Back to Home
               </Link>
@@ -73,35 +77,37 @@ export default async function PostPage({ params }: PostPageProps) {
                   <h1 className="text-2xl font-bold text-gray-800">
                     {post.title}
                   </h1>
-                  <span className="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-emerald-50 text-emerald-700 flex-shrink-0">
+                  <span className="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-emerald-50 text-emerald-800 flex-shrink-0">
                     {post.type}
                   </span>
                 </div>
 
                 {author && (
-                  <div className="text-gray-600">
+                  <div className="text-gray-700">
                     <p className="font-medium">{author.name}</p>
                     <p className="text-sm">{author.location}</p>
                   </div>
                 )}
 
-                <div className="flex items-center gap-4 mt-3 text-sm text-gray-500">
-                  <span>{formatDate(post.date)}</span>
+                <div className="flex items-center gap-4 mt-3 text-sm text-gray-700">
+                  <time dateTime={post.date}>{formatDate(post.date)}</time>
                   {post.link && (
                     <a
                       href={post.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-emerald-600 hover:text-emerald-700"
+                      className="text-emerald-700 hover:text-emerald-800"
                     >
-                      View on Front Porch Forum →
+                      View on Front Porch Forum
+                      <span aria-hidden="true"> →</span>
+                      <span className="sr-only">(opens in new tab)</span>
                     </a>
                   )}
                 </div>
               </header>
 
               <div className="px-6 py-6">
-                <div className="prose prose-gray max-w-none prose-p:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-800">
+                <div className="prose prose-gray max-w-none prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-800">
                   <ReactMarkdown>{post.content}</ReactMarkdown>
                 </div>
               </div>
@@ -110,12 +116,13 @@ export default async function PostPage({ params }: PostPageProps) {
         </main>
       </div>
 
-      <footer className="py-6 px-4 bg-[#1e4d2b] text-white/80 text-center text-sm">
+      <footer className="py-6 px-4 bg-[#1e4d2b] text-white text-center text-sm" role="contentinfo">
         <p>Town of Middlesex, Vermont</p>
-        <p className="mt-1 text-white/60">
+        <p className="mt-1 text-white/90">
           Created by Matt Rkiouak with input from the Middlesex Budget Committee and other volunteers
         </p>
       </footer>
+      <MobileNav showToc={false} />
     </div>
   );
 }
