@@ -75,13 +75,31 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
       </nav>
 
       <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+        Town Reports
+      </h2>
+
+      <nav className="flex flex-col gap-0.5 mb-6">
+        {YEARS.map((year) => (
+          <a
+            key={`report-${year}`}
+            href={`https://storage.googleapis.com/middlesex-budget-org/reports/${year}.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-2 py-1 text-gray-600 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
+          >
+            FY {year} ↗
+          </a>
+        ))}
+      </nav>
+
+      <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
         Budget Data
       </h2>
 
       <nav className="flex flex-col gap-0.5">
         {YEARS.map((year) => (
           <a
-            key={year}
+            key={`csv-${year}`}
             href={`/data/${year}.csv`}
             download
             className="px-2 py-1 text-gray-600 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
