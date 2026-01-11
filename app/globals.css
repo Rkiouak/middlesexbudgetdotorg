@@ -55,3 +55,11 @@ button:focus-visible,
   white-space: nowrap;
   border-width: 0;
 }
+
+/* Cross-platform: Consistent divider rendering */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #e5e7eb;
+  margin: 2rem 0;
+}

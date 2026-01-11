@@ -5,7 +5,7 @@ export default function CommunityPosts() {
   const posts = getPostsWithAuthors();
 
   return (
-    <section className="py-8 px-4 bg-white border-b border-gray-200">
+    <section className="py-8 px-4 bg-white border-b-2 border-gray-200">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-xl font-bold text-gray-800 mb-4">
           Community Posts

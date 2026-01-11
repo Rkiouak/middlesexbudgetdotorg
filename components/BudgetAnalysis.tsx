@@ -32,7 +32,7 @@ export default function BudgetAnalysis({ content }: BudgetAnalysisProps) {
   return (
     <section className="py-12 px-4 bg-white">
       <div className="max-w-4xl mx-auto">
-        <article className="prose prose-gray max-w-none prose-headings:text-gray-800 prose-h1:text-3xl prose-h2:text-2xl prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2 prose-h3:text-xl prose-p:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-800 prose-table:text-sm prose-th:bg-gray-50 prose-th:text-gray-700 prose-td:text-gray-600">
+        <article className="prose prose-gray max-w-none prose-headings:text-gray-800 prose-h1:text-3xl prose-h2:text-2xl prose-h2:border-b-2 prose-h2:border-gray-200 prose-h2:pb-2 prose-h3:text-xl prose-p:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-800 prose-table:text-sm prose-th:bg-gray-50 prose-th:text-gray-700 prose-td:text-gray-600">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{

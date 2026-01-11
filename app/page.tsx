@@ -29,7 +29,7 @@ export default function Home() {
           <DataDownloads />
         </div>
         <main id="main-content" className="flex-1 overflow-auto" role="main">
-          <div className="py-6 px-4 border-b border-gray-200">
+          <div className="py-6 px-4 border-b-2 border-gray-200">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-xl md:text-2xl text-gray-800 font-semibold">
                 Budget Transparency Portal
