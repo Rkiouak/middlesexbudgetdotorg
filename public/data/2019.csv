@@ -1,0 +1,673 @@
+section,line_item,fiscal_year,budgeted,actual
+General Government,Wages: Selectboard,2019,3434.0,3432.0
+General Government,Wages: Selectboard,2020,3536.0,
+General Government,Wages: Selectboard,2021,3642.0,
+General Government,Wages: Selectboard Clerk,2019,20547.0,20894.87
+General Government,Wages: Selectboard Clerk,2020,21382.0,
+General Government,Wages: Selectboard Clerk,2021,22019.0,
+General Government,Wages: Payroll Tax(SS&MED),2019,1834.0,1331.0
+General Government,Wages: Payroll Tax(SS&MED),2020,2177.0,
+General Government,Wages: Payroll Tax(SS&MED),2021,2242.0,
+General Government,Wages: Retirement,2019,1130.0,1137.0
+General Government,Wages: Retirement,2020,1229.0,
+General Government,Wages: Retirement,2021,1321.0,
+General Government,Insurance: Health,2019,5876.0,6595.0
+General Government,Insurance: Health,2020,6768.0,
+General Government,Insurance: Health,2021,7646.0,
+General Government,Insurance: Property & Casuality,2019,9825.0,9692.0
+General Government,Insurance: Property & Casuality,2020,10296.0,
+General Government,Insurance: Property & Casuality,2021,11188.0,
+General Government,Insurance: Workers Compensation,2019,386.0,577.0
+General Government,Insurance: Workers Compensation,2020,1000.0,
+General Government,Insurance: Workers Compensation,2021,750.0,
+General Government,Insurance: Unemployment Comp,2019,154.0,45.0
+General Government,Insurance: Unemployment Comp,2020,154.0,
+General Government,Insurance: Unemployment Comp,2021,154.0,
+General Government,Advertising/Printing,2019,1500.0,470.3
+General Government,Advertising/Printing,2020,1250.0,
+General Government,Advertising/Printing,2021,600.0,
+General Government,Selectboard Courses,2019,0.0,0.0
+General Government,Selectboard Courses,2020,200.0,
+General Government,Selectboard Courses,2021,200.0,
+General Government,Town Property Maintenance,2019,0.0,0.0
+General Government,Town Property Maintenance,2020,2000.0,
+General Government,Town Property Maintenance,2021,2600.0,
+General Government,Welch Park,2019,1000.0,2057.0
+General Government,Welch Park,2020,1000.0,
+General Government,Welch Park,2021,1000.0,
+General Government,Discretionary Fund,2019,5000.0,2411.0
+General Government,Discretionary Fund,2020,8000.0,
+General Government,Discretionary Fund,2021,8000.0,
+General Government,Legal Fees,2019,4000.0,1149.0
+General Government,Legal Fees,2020,3000.0,
+General Government,Legal Fees,2021,2000.0,
+General Government,Town Report,2019,2950.0,2628.0
+General Government,Town Report,2020,3000.0,
+General Government,Town Report,2021,2000.0,
+General Government,VLCT Dues,2019,3017.0,3017.0
+General Government,VLCT Dues,2020,3097.0,
+General Government,VLCT Dues,2021,3224.0,
+General Government,County Tax,2019,17401.0,17401.0
+General Government,County Tax,2020,18149.0,
+General Government,County Tax,2021,19000.0,
+General Government,CV Solid Waste,2019,1757.0,1756.0
+General Government,CV Solid Waste,2020,1757.0,
+General Government,CV Solid Waste,2021,1738.0,
+General Government,CV Reg Planning Comm,2019,1956.0,1956.0
+General Government,CV Reg Planning Comm,2020,2077.0,
+General Government,CV Reg Planning Comm,2021,2184.0,
+General Government,Conservation Commission,2019,500.0,226.0
+General Government,Conservation Commission,2020,500.0,
+General Government,Conservation Commission,2021,500.0,
+General Government,Elections,2019,2500.0,3970.0
+General Government,Elections,2020,1500.0,
+General Government,Elections,2021,2500.0,
+General Government,Misc Expense,2019,0.0,149.36
+General Government,Misc Expense,2020,500.0,
+General Government,Misc Expense,2021,500.0,
+General Government,Town Hall Building Fund,2019,0.0,0.0
+General Government,Town Hall Building Fund,2020,10000.0,
+General Government,Town Hall Building Fund,2021,10000.0,
+General Government,What's Next Middlesex,2019,0.0,-638.8
+General Government,What's Next Middlesex,2020,0.0,
+General Government,What's Next Middlesex,2021,0.0,
+General Government,Tax Abatements,2019,0.0,0.0
+General Government,Tax Abatements,2020,0.0,
+General Government,Tax Abatements,2021,0.0,
+Administration,"Office: Wages (Clerk,Ass't Clerk,Treas,Bookeeper)",2019,51709,48183
+Administration,"Office: Wages (Clerk,Ass't Clerk,Treas,Bookeeper)",2020,54464,
+Administration,"Office: Wages (Clerk,Ass't Clerk,Treas,Bookeeper)",2021,58293,
+Administration,Listers: Wages,2019,12219,13590
+Administration,Listers: Wages,2020,14420,
+Administration,Listers: Wages,2021,29705,
+Administration,Delinquent Tax Collector: Wages,2019,2510,440
+Administration,Delinquent Tax Collector: Wages,2020,2060,
+Administration,Delinquent Tax Collector: Wages,2021,3266,
+Administration,ADMIN: Payroll Tax (SS&MED),2019,5102,5066
+Administration,ADMIN: Payroll Tax (SS&MED),2020,5428,
+Administration,ADMIN: Payroll Tax (SS&MED),2021,6982,
+Administration,ADMIN: Unemployment,2019,211,25
+Administration,ADMIN: Unemployment,2020,211,
+Administration,ADMIN: Unemployment,2021,217,
+Administration,ADMIN: Retirement,2019,1087,1183
+Administration,ADMIN: Retirement,2020,1183,
+Administration,ADMIN: Retirement,2021,1271,
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2019,371,205
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2020,371,
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2021,381,
+Administration,ADMIN: Insurance: Health,2019,5645,6865
+Administration,ADMIN: Insurance: Health,2020,6548,
+Administration,ADMIN: Insurance: Health,2021,7346,
+Administration,ADMIN: Insurance: Workers Comp,2019,386,-275
+Administration,ADMIN: Insurance: Workers Comp,2020,406,
+Administration,ADMIN: Insurance: Workers Comp,2021,387,
+Administration,Office Supplies,2019,3500,1729
+Administration,Office Supplies,2020,3500,
+Administration,Office Supplies,2021,3500,
+Administration,Telephone,2019,4800,4541
+Administration,Telephone,2020,4800,
+Administration,Telephone,2021,4800,
+Administration,Postage,2019,3000,2386
+Administration,Postage,2020,3000,
+Administration,Postage,2021,3000,
+Administration,Auditing,2019,7200,7400
+Administration,Auditing,2020,7400,
+Administration,Auditing,2021,7400,
+Administration,Listing Mileage/Expenses,2019,2500,2972
+Administration,Listing Mileage/Expenses,2020,2500,
+Administration,Listing Mileage/Expenses,2021,3000,
+Administration,Clerical Mileage,2019,0,0
+Administration,Clerical Mileage,2020,0,
+Administration,Clerical Mileage,2021,0,
+Administration,Clerk's Office Seminars,2019,300,75
+Administration,Clerk's Office Seminars,2020,300,
+Administration,Clerk's Office Seminars,2021,100,
+Administration,Listing Mapping,2019,750,335
+Administration,Listing Mapping,2020,750,
+Administration,Listing Mapping,2021,750,
+Administration,Copier Lease,2019,2100,1929
+Administration,Copier Lease,2020,2100,
+Administration,Copier Lease,2021,2100,
+Administration,Computer Maintenance,2019,5000,13016
+Administration,Computer Maintenance,2020,10000,
+Administration,Computer Maintenance,2021,14000,
+Town Hall,Electricity,2019,2250,2717
+Town Hall,Electricity,2020,2700,
+Town Hall,Electricity,2021,2800,
+Town Hall,Heat,2019,2000,1623
+Town Hall,Heat,2020,2000,
+Town Hall,Heat,2021,2000,
+Town Hall,Grounds,2019,2500,846
+Town Hall,Grounds,2020,2500,
+Town Hall,Grounds,2021,2500,
+Town Hall,Building Repairs,2019,3500,2506
+Town Hall,Building Repairs,2020,5000,
+Town Hall,Building Repairs,2021,5000,
+Town Hall,Building Fund (*Moved to Gen Gov),2019,0,0
+Town Hall,Building Fund (*Moved to Gen Gov),2020,0,
+Town Hall,Building Fund (*Moved to Gen Gov),2021,0,
+Town Hall,Street Lights,2019,2200,1765
+Town Hall,Street Lights,2020,2200,
+Town Hall,Street Lights,2021,2000,
+Town Hall,Janitorial,2019,1500,1251
+Town Hall,Janitorial,2020,1500,
+Town Hall,Janitorial,2021,1500,
+Public Safety,Wages: Health Officer,2019,1040,0
+Public Safety,Wages: Health Officer,2020,1040,
+Public Safety,Wages: Health Officer,2021,1040,
+Public Safety,Wages: Animal Control Officer,2019,1040,0
+Public Safety,Wages: Animal Control Officer,2020,1040,
+Public Safety,Wages: Animal Control Officer,2021,1040,
+Public Safety,P/S : Payroll Tax (SS & MED),2019,159,0
+Public Safety,P/S : Payroll Tax (SS & MED),2020,159,
+Public Safety,P/S : Payroll Tax (SS & MED),2021,159,
+Public Safety,P/S: Workers Compensation,2019,0,0
+Public Safety,P/S: Workers Compensation,2020,94,
+Public Safety,P/S: Workers Compensation,2021,94,
+Public Safety,Courses/Seminars,2019,100,0
+Public Safety,Courses/Seminars,2020,100,
+Public Safety,Courses/Seminars,2021,100,
+Public Safety,Ambulance,2019,65894,65894
+Public Safety,Ambulance,2020,67871,
+Public Safety,Ambulance,2021,67871,
+Public Safety,Speed Enforcement,2019,7500,3717
+Public Safety,Speed Enforcement,2020,7500,
+Public Safety,Speed Enforcement,2021,7500,
+Public Safety,Dog Pound,2019,600,180
+Public Safety,Dog Pound,2020,600,
+Public Safety,Dog Pound,2021,600,
+Public Safety,Emergency Management,2019,250,0
+Public Safety,Emergency Management,2020,3705,
+Public Safety,Emergency Management,2021,1900,
+Fire Department,FD-Insurance: Property & Casualty,2019,7370,7084
+Fire Department,FD-Insurance: Property & Casualty,2020,7810,
+Fire Department,FD-Insurance: Property & Casualty,2021,8395,
+Fire Department,FD-Insurance: Workers Compensation,2019,1280,1211
+Fire Department,FD-Insurance: Workers Compensation,2020,1145,
+Fire Department,FD-Insurance: Workers Compensation,2021,1217,
+Fire Department,FD-Supplies,2019,200,159
+Fire Department,FD-Supplies,2020,200,
+Fire Department,FD-Supplies,2021,200,
+Fire Department,FD-Equipment Repair,2019,7000,15374
+Fire Department,FD-Equipment Repair,2020,7000,
+Fire Department,FD-Equipment Repair,2021,7000,
+Fire Department,FD-Equipment Purchase,2019,6000,3016
+Fire Department,FD-Equipment Purchase,2020,3000,
+Fire Department,FD-Equipment Purchase,2021,3000,
+Fire Department,FD-Telephone,2019,1100,1079
+Fire Department,FD-Telephone,2020,1100,
+Fire Department,FD-Telephone,2021,1100,
+Fire Department,FD-Fast Squad,2019,1000,730
+Fire Department,FD-Fast Squad,2020,1000,
+Fire Department,FD-Fast Squad,2021,1000,
+Fire Department,FD-Electricity,2019,1600,2090
+Fire Department,FD-Electricity,2020,1600,
+Fire Department,FD-Electricity,2021,2000,
+Fire Department,FD-Fuel - Heat,2019,3000,3717
+Fire Department,FD-Fuel - Heat,2020,4000,
+Fire Department,FD-Fuel - Heat,2021,4000,
+Fire Department,FD-Building Maintenance,2019,1500,2697
+Fire Department,FD-Building Maintenance,2020,3000,
+Fire Department,FD-Building Maintenance,2021,3000,
+Fire Department,FD-Radio Dispatch,2019,22387,22178
+Fire Department,FD-Radio Dispatch,2020,24405,
+Fire Department,FD-Radio Dispatch,2021,26224,
+Fire Department,FD-VSFA/Dues/Accounting/Training,2019,1750,1560
+Fire Department,FD-VSFA/Dues/Accounting/Training,2020,1000,
+Fire Department,FD-VSFA/Dues/Accounting/Training,2021,1000,
+Fire Department,Courses & Seminars,2019,0,600
+Fire Department,Courses & Seminars,2020,1000,
+Fire Department,Courses & Seminars,2021,1000,
+Fire Department,FD-Forest Fire Warden,2019,250,0
+Fire Department,FD-Forest Fire Warden,2020,250,
+Fire Department,FD-Forest Fire Warden,2021,250,
+Fire Department,FD-GAS & Diesel,2019,2000,432
+Fire Department,FD-GAS & Diesel,2020,2000,
+Fire Department,FD-GAS & Diesel,2021,2000,
+Fire Department,FD-Stipends,2019,3000,2460
+Fire Department,FD-Stipends,2020,3000,
+Fire Department,FD-Stipends,2021,3000,
+Fire Department,FD-Communication/Radio,2019,1200,712
+Fire Department,FD-Communication/Radio,2020,1200,
+Fire Department,FD-Communication/Radio,2021,1200,
+Fire Department,E911 Signs,2019,0,0
+Fire Department,E911 Signs,2020,0,
+Fire Department,E911 Signs,2021,0,
+Fire Department Debt Service,Fire Station Bond,2019,40000,40000
+Fire Department Debt Service,Fire Station Bond,2020,40000,
+Fire Department Debt Service,Fire Station Bond,2021,40000,
+Fire Department Debt Service,Fire Station Interest,2019,20583,20043
+Fire Department Debt Service,Fire Station Interest,2020,19844,
+Fire Department Debt Service,Fire Station Interest,2021,17487,
+Fire Department Debt Service,VTECH Freightliner Tanker - PRIN,2019,10400,10400
+Fire Department Debt Service,VTECH Freightliner Tanker - PRIN,2020,14594,
+Fire Department Debt Service,VTECH Freightliner Tanker - PRIN,2021,14594,
+Fire Department Debt Service,VTECH Freightliner Tanker - INT,2019,2100,2075
+Fire Department Debt Service,VTECH Freightliner Tanker - INT,2020,3056,
+Fire Department Debt Service,VTECH Freightliner Tanker - INT,2021,2629,
+Fire Department Debt Service,Equipment Note FD,2019,2000,2000
+Fire Department Debt Service,Equipment Note FD,2020,2000,
+Fire Department Debt Service,Equipment Note FD,2021,0,
+Fire Department Debt Service,Equipment Note FD Interest,2019,75,112
+Fire Department Debt Service,Equipment Note FD Interest,2020,57,
+Fire Department Debt Service,Equipment Note FD Interest,2021,0,
+Public Works - Winter Maintenance,Road Salt,2019,10564,14560
+Public Works - Winter Maintenance,Road Salt,2020,12800,
+Public Works - Winter Maintenance,Road Salt,2021,13745,
+Public Works - Winter Maintenance,Winter Sand,2019,37500,59182
+Public Works - Winter Maintenance,Winter Sand,2020,37500,
+Public Works - Winter Maintenance,Winter Sand,2021,37500,
+Public Works - Winter Maintenance,Trucking,2019,32000,41540
+Public Works - Winter Maintenance,Trucking,2020,32000,
+Public Works - Winter Maintenance,Trucking,2021,32000,
+Public Works - Summer Maintenance,Chloride,2019,14400,16108
+Public Works - Summer Maintenance,Chloride,2020,14250,
+Public Works - Summer Maintenance,Chloride,2021,16000,
+Public Works - Summer Maintenance,Seed,2019,3000,0
+Public Works - Summer Maintenance,Seed,2020,3000,
+Public Works - Summer Maintenance,Seed,2021,3342,
+Public Works - Summer Maintenance,Hot Mix/Cold Patch,2019,500,251
+Public Works - Summer Maintenance,Hot Mix/Cold Patch,2020,1000,
+Public Works - Summer Maintenance,Hot Mix/Cold Patch,2021,1000,
+Public Works - Summer Maintenance,Stone Ditch Lining,2019,3000,1068
+Public Works - Summer Maintenance,Stone Ditch Lining,2020,3000,
+Public Works - Summer Maintenance,Stone Ditch Lining,2021,7000,
+Public Works - Summer Maintenance,"Hay, Mulch, Netting",2019,5000,1375
+Public Works - Summer Maintenance,"Hay, Mulch, Netting",2020,5000,
+Public Works - Summer Maintenance,"Hay, Mulch, Netting",2021,7200,
+Public Works - Summer Maintenance,Road Gravel,2019,5000,0
+Public Works - Summer Maintenance,Road Gravel,2020,5000,
+Public Works - Summer Maintenance,Road Gravel,2021,14046,
+Public Works - Summer Maintenance,Roadside Mowing,2019,9800,10000
+Public Works - Summer Maintenance,Roadside Mowing,2020,10000,
+Public Works - Summer Maintenance,Roadside Mowing,2021,18927,
+Public Works - Summer Maintenance,Rental Equipment,2019,2500,11685
+Public Works - Summer Maintenance,Rental Equipment,2020,2500,
+Public Works - Summer Maintenance,Rental Equipment,2021,1500,
+Public Works - Summer Maintenance,Tree Service,2019,1000,1300
+Public Works - Summer Maintenance,Tree Service,2020,2000,
+Public Works - Summer Maintenance,Tree Service,2021,1000,
+Public Works - Summer Maintenance,Storm Water Discharge Fee,2019,0,0
+Public Works - Summer Maintenance,Storm Water Discharge Fee,2020,1350,
+Public Works - Summer Maintenance,Storm Water Discharge Fee,2021,1350,
+Public Works - Summer Maintenance,Miscellaneous Summer Maintenance,2019,0,3934
+Public Works - Summer Maintenance,Miscellaneous Summer Maintenance,2020,0,
+Public Works - Summer Maintenance,Miscellaneous Summer Maintenance,2021,0,
+Public Works - Summer Maintenance,Green-Up,2019,0,-244
+Public Works - Summer Maintenance,Green-Up,2020,500,
+Public Works - Summer Maintenance,Green-Up,2021,500,
+Public Works - Summer Maintenance,Emergency Road Repairs,2019,0,44678
+Public Works - Summer Maintenance,Emergency Road Repairs,2020,0,
+Public Works - Summer Maintenance,Emergency Road Repairs,2021,0,
+Public Works - Specialized Services,Trucks,2019,0,0
+Public Works - Specialized Services,Trucks,2020,0,
+Public Works - Specialized Services,Trucks,2021,24000,
+Public Works - Specialized Services,Excavator Rental,2019,0,0
+Public Works - Specialized Services,Excavator Rental,2020,0,
+Public Works - Specialized Services,Excavator Rental,2021,10000,
+Public Works - Specialized Services,1 Month Wages,2019,0,0
+Public Works - Specialized Services,1 Month Wages,2020,0,
+Public Works - Specialized Services,1 Month Wages,2021,6000,
+Public Works - Equipment Maintenance,Equipment Repairs & Vendors,2019,15000,49374
+Public Works - Equipment Maintenance,Equipment Repairs & Vendors,2020,21500,
+Public Works - Equipment Maintenance,Equipment Repairs & Vendors,2021,24000,
+Public Works - Equipment Maintenance,Equipment Parts & Supplies,2019,15000,16107
+Public Works - Equipment Maintenance,Equipment Parts & Supplies,2020,15000,
+Public Works - Equipment Maintenance,Equipment Parts & Supplies,2021,8500,
+Public Works - Equipment Maintenance,Plow & Sander Equipment,2019,8000,0
+Public Works - Equipment Maintenance,Plow & Sander Equipment,2020,8000,
+Public Works - Equipment Maintenance,Plow & Sander Equipment,2021,8000,
+Public Works - Equipment Maintenance,Bulk Oil & DEF,2019,4050,533
+Public Works - Equipment Maintenance,Bulk Oil & DEF,2020,5000,
+Public Works - Equipment Maintenance,Bulk Oil & DEF,2021,5000,
+Public Works - Equipment Maintenance,Inspections,2019,300,0
+Public Works - Equipment Maintenance,Inspections,2020,400,
+Public Works - Equipment Maintenance,Inspections,2021,400,
+Public Works - Equipment Maintenance,Tires,2019,12000,9735
+Public Works - Equipment Maintenance,Tires,2020,9000,
+Public Works - Equipment Maintenance,Tires,2021,8000,
+Public Works - Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2019,1030,1395
+Public Works - Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2020,1382,
+Public Works - Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2021,1800,
+Public Works - Garage Maintenance,Waste Disposal,2019,1000,1594
+Public Works - Garage Maintenance,Waste Disposal,2020,1000,
+Public Works - Garage Maintenance,Waste Disposal,2021,1650,
+Public Works - Garage Maintenance,Air Gas Services,2019,775,857
+Public Works - Garage Maintenance,Air Gas Services,2020,775,
+Public Works - Garage Maintenance,Air Gas Services,2021,775,
+Public Works - Garage Maintenance,Vermont State UST Fee,2019,50,50
+Public Works - Garage Maintenance,Vermont State UST Fee,2020,50,
+Public Works - Garage Maintenance,Vermont State UST Fee,2021,0,
+Public Works - Garage Maintenance,Fuel Tank Maintenance,2019,300,717
+Public Works - Garage Maintenance,Fuel Tank Maintenance,2020,300,
+Public Works - Garage Maintenance,Fuel Tank Maintenance,2021,1000,
+Public Works - Garage Maintenance,Garage Door Maintenance,2019,1000,0
+Public Works - Garage Maintenance,Garage Door Maintenance,2020,1000,
+Public Works - Garage Maintenance,Garage Door Maintenance,2021,500,
+Public Works - Garage Maintenance,Office Supplies & Misc,2019,500,170
+Public Works - Garage Maintenance,Office Supplies & Misc,2020,500,
+Public Works - Garage Maintenance,Office Supplies & Misc,2021,500,
+Public Works - Garage Maintenance,Small Tool Purchase (moved to this sub group from below),2019,0,0
+Public Works - Garage Maintenance,Small Tool Purchase (moved to this sub group from below),2020,0,
+Public Works - Garage Maintenance,Small Tool Purchase (moved to this sub group from below),2021,3500,
+Public Works - Garage Maintenance,Building Maintenance,2019,0,6285
+Public Works - Garage Maintenance,Building Maintenance,2020,0,
+Public Works - Garage Maintenance,Building Maintenance,2021,0,
+Public Works - Utilities,Electricty,2019,2500,3042
+Public Works - Utilities,Electricty,2020,2500,
+Public Works - Utilities,Electricty,2021,4000,
+Public Works - Utilities,Heat,2019,5655,4140
+Public Works - Utilities,Heat,2020,6000,
+Public Works - Utilities,Heat,2021,5000,
+Public Works - Utilities,Phone,2019,1500,916
+Public Works - Utilities,Phone,2020,1500,
+Public Works - Utilities,Phone,2021,1000,
+"Public Works - Gas, Diesel","Gas, Diesel",2019,41500,51370
+"Public Works - Gas, Diesel","Gas, Diesel",2020,43675,
+"Public Works - Gas, Diesel","Gas, Diesel",2021,55000,
+Public Works - Wages & Benefits,Wages,2019,198789,196928
+Public Works - Wages & Benefits,Wages,2020,209853,
+Public Works - Wages & Benefits,Wages,2021,216149,
+Public Works - Wages & Benefits,P/W : Payroll Tax (SS & MED),2019,15208,15091
+Public Works - Wages & Benefits,P/W : Payroll Tax (SS & MED),2020,16054,
+Public Works - Wages & Benefits,P/W : Payroll Tax (SS & MED),2021,16535,
+Public Works - Wages & Benefits,Unemployment Taxes,2019,650,105
+Public Works - Wages & Benefits,Unemployment Taxes,2020,650,
+Public Works - Wages & Benefits,Unemployment Taxes,2021,519,
+Public Works - Wages & Benefits,Retirement,2019,10934,11210
+Public Works - Wages & Benefits,Retirement,2020,12067,
+Public Works - Wages & Benefits,Retirement,2021,12969,
+Public Works - Wages & Benefits,Life & ADD& Long Term Disability,2019,1825,1138
+Public Works - Wages & Benefits,Life & ADD& Long Term Disability,2020,1825,
+Public Works - Wages & Benefits,Life & ADD& Long Term Disability,2021,1547,
+Public Works - Wages & Benefits,Health Insurance,2019,27923,24491
+Public Works - Wages & Benefits,Health Insurance,2020,22022,
+Public Works - Wages & Benefits,Health Insurance,2021,24927,
+Public Works - Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2019,5910,8512
+Public Works - Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2020,7400,
+Public Works - Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2021,7548,
+Public Works - Wages & Benefits,Property & Casualty Insurance,2019,10898,10382
+Public Works - Wages & Benefits,Property & Casualty Insurance,2020,11330,
+Public Works - Wages & Benefits,Property & Casualty Insurance,2021,12200,
+Public Works - Wages & Benefits,Workers Comp Insurance,2019,24957,19538
+Public Works - Wages & Benefits,Workers Comp Insurance,2020,22000,
+Public Works - Wages & Benefits,Workers Comp Insurance,2021,19453,
+Public Works - Wages & Benefits,Courses & Seminars,2019,300,60
+Public Works - Wages & Benefits,Courses & Seminars,2020,300,
+Public Works - Wages & Benefits,Courses & Seminars,2021,300,
+Public Works - General & Construction,Culverts,2019,20000,1950
+Public Works - General & Construction,Culverts,2020,20000,
+Public Works - General & Construction,Culverts,2021,15848,
+Public Works - General & Construction,Signs,2019,3500,131
+Public Works - General & Construction,Signs,2020,3500,
+Public Works - General & Construction,Signs,2021,3500,
+Public Works - General & Construction,Bridge Fund,2019,6000,6000
+Public Works - General & Construction,Bridge Fund,2020,6000,
+Public Works - General & Construction,Bridge Fund,2021,6000,
+Public Works - General & Construction,Paving Fund,2019,30000,30000
+Public Works - General & Construction,Paving Fund,2020,30000,
+Public Works - General & Construction,Paving Fund,2021,30000,
+Public Works - General & Construction,Construction,2019,20000,17669
+Public Works - General & Construction,Construction,2020,20000,
+Public Works - General & Construction,Construction,2021,0,
+Public Works - General & Construction,Gravel,2019,,
+Public Works - General & Construction,Gravel,2020,,
+Public Works - General & Construction,Gravel,2021,6000,
+Public Works - General & Construction,Ditch Stone,2019,,
+Public Works - General & Construction,Ditch Stone,2020,,
+Public Works - General & Construction,Ditch Stone,2021,1600,
+Public Works - General & Construction,Hydro Seeding,2019,,
+Public Works - General & Construction,Hydro Seeding,2020,,
+Public Works - General & Construction,Hydro Seeding,2021,1550,
+Public Works - General & Construction,Ledge Removal,2019,,
+Public Works - General & Construction,Ledge Removal,2020,,
+Public Works - General & Construction,Ledge Removal,2021,6000,
+Public Works - General & Construction,Erosion Matting,2019,,
+Public Works - General & Construction,Erosion Matting,2020,,
+Public Works - General & Construction,Erosion Matting,2021,600,
+Public Works - General & Construction,Mud Season Mitigation,2019,,
+Public Works - General & Construction,Mud Season Mitigation,2020,,
+Public Works - General & Construction,Mud Season Mitigation,2021,7500,
+Public Works - General & Construction,Small Equipment Purchase (Moved to Garage Maintenance),2019,3500,0
+Public Works - General & Construction,Small Equipment Purchase (Moved to Garage Maintenance),2020,3500,
+Public Works - General & Construction,Small Equipment Purchase (Moved to Garage Maintenance),2021,0,
+Public Works - General & Construction,Equipment Purchase,2019,0,11491
+Public Works - General & Construction,Equipment Purchase,2020,0,
+Public Works - General & Construction,Equipment Purchase,2021,1500,
+Public Works - General & Construction,Grants: Town Match,2019,0,0
+Public Works - General & Construction,Grants: Town Match,2020,0,
+Public Works - General & Construction,Grants: Town Match,2021,0,
+Public Works - General & Construction,Town Garage Building Fund,2019,5000,5000
+Public Works - General & Construction,Town Garage Building Fund,2020,5000,
+Public Works - General & Construction,Town Garage Building Fund,2021,5000,
+Public Works Debt Service,2019 Freightliner Dump,2019,0,0
+Public Works Debt Service,2019 Freightliner Dump,2020,21409,
+Public Works Debt Service,2019 Freightliner Dump,2021,21409,
+Public Works Debt Service,2019 Freightliner Dump-INT,2019,0,921
+Public Works Debt Service,2019 Freightliner Dump-INT,2020,4857,
+Public Works Debt Service,2019 Freightliner Dump-INT,2021,4179,
+Public Works Debt Service,2018 International Dump-PRIN,2019,25000,25000
+Public Works Debt Service,2018 International Dump-PRIN,2020,20355,
+Public Works Debt Service,2018 International Dump-PRIN,2021,20355,
+Public Works Debt Service,2018 International Dump-INT,2019,2400,2345
+Public Works Debt Service,2018 International Dump-INT,2020,3197,
+Public Works Debt Service,2018 International Dump-INT,2021,2568,
+Public Works Debt Service,2014 Western Star 4700 -PRIN,2019,29008,29007
+Public Works Debt Service,2014 Western Star 4700 -PRIN,2020,0,
+Public Works Debt Service,2014 Western Star 4700 -PRIN,2021,0,
+Public Works Debt Service,2014 West. Star Trk-INTER,2019,810,814
+Public Works Debt Service,2014 West. Star Trk-INTER,2020,0,
+Public Works Debt Service,2014 West. Star Trk-INTER,2021,0,
+Public Works Debt Service,2015 GMC TRK-PRIN,2019,5870,5870
+Public Works Debt Service,2015 GMC TRK-PRIN,2020,0,
+Public Works Debt Service,2015 GMC TRK-PRIN,2021,0,
+Public Works Debt Service,2015 GMC TRK - INT,2019,174,173
+Public Works Debt Service,2015 GMC TRK - INT,2020,0,
+Public Works Debt Service,2015 GMC TRK - INT,2021,0,
+Public Works Debt Service,2014 Komatsu Loader -PRIN,2019,23658,23658
+Public Works Debt Service,2014 Komatsu Loader -PRIN,2020,0,
+Public Works Debt Service,2014 Komatsu Loader -PRIN,2021,0,
+Public Works Debt Service,2014 Komatsu Loader-INT,2019,700,698
+Public Works Debt Service,2014 Komatsu Loader-INT,2020,0,
+Public Works Debt Service,2014 Komatsu Loader-INT,2021,0,
+Cemetery,Labor,2019,6900,3180
+Cemetery,Labor,2020,6900,
+Cemetery,Labor,2021,6900,
+Cemetery,Materials,2019,0,25
+Cemetery,Materials,2020,0,
+Cemetery,Materials,2021,0,
+Cemetery,Repair to Cemetery,2019,0,0
+Cemetery,Repair to Cemetery,2020,0,
+Cemetery,Repair to Cemetery,2021,0,
+Recreation,Wages: Recreation,2019,5291,4700
+Recreation,Wages: Recreation,2020,6180,
+Recreation,Wages: Recreation,2021,5305,
+Recreation,REC: Payroll Tax,2019,445,369
+Recreation,REC: Payroll Tax,2020,473,
+Recreation,REC: Payroll Tax,2021,406,
+Recreation,REC:Workers Comp Insurance,2019,0,159
+Recreation,REC:Workers Comp Insurance,2020,345,
+Recreation,REC:Workers Comp Insurance,2021,318,
+Recreation,"Dues, Conferences, Travel",2019,275,0
+Recreation,"Dues, Conferences, Travel",2020,275,
+Recreation,"Dues, Conferences, Travel",2021,250,
+Recreation,Wrightsville Beach Dues,2019,1989,2712
+Recreation,Wrightsville Beach Dues,2020,2710,
+Recreation,Wrightsville Beach Dues,2021,2750,
+Recreation,"Town BOR- mowing, brush hog, aerating",2019,3520,4185
+Recreation,"Town BOR- mowing, brush hog, aerating",2020,3520,
+Recreation,"Town BOR- mowing, brush hog, aerating",2021,3520,
+Recreation,"Recreation Supplies (seed, soil, fertilizer)",2019,480,0
+Recreation,"Recreation Supplies (seed, soil, fertilizer)",2020,480,
+Recreation,"Recreation Supplies (seed, soil, fertilizer)",2021,500,
+Recreation,Portalet Rental Recreation field,2019,1200,0
+Recreation,Portalet Rental Recreation field,2020,600,
+Recreation,Portalet Rental Recreation field,2021,600,
+Recreation,Learn to Swim Program,2019,500,303
+Recreation,Learn to Swim Program,2020,500,
+Recreation,Learn to Swim Program,2021,500,
+Recreation,Recreation Equipment (nets/hardware),2019,350,0
+Recreation,Recreation Equipment (nets/hardware),2020,0,
+Recreation,Recreation Equipment (nets/hardware),2021,0,
+Recreation,Bandstand Mowing,2019,0,0
+Recreation,Bandstand Mowing,2020,0,
+Recreation,Bandstand Mowing,2021,0,
+Recreation,Walter Kelly Park-Mowing & Portalet,2019,2920,2519
+Recreation,Walter Kelly Park-Mowing & Portalet,2020,2920,
+Recreation,Walter Kelly Park-Mowing & Portalet,2021,2940,
+Recreation,Facility Maintenance Fund,2019,0,0
+Recreation,Facility Maintenance Fund,2020,0,
+Recreation,Facility Maintenance Fund,2021,500,
+Zoning/BRD of Adjustment,Wages: Zoning,2019,6916,5840
+Zoning/BRD of Adjustment,Wages: Zoning,2020,6180,
+Zoning/BRD of Adjustment,Wages: Zoning,2021,6896,
+Zoning/BRD of Adjustment,Zoning: Payroll Tax,2019,581,438
+Zoning/BRD of Adjustment,Zoning: Payroll Tax,2020,473,
+Zoning/BRD of Adjustment,Zoning: Payroll Tax,2021,528,
+Zoning/BRD of Adjustment,Zoning: Workers Compensation,2019,0,0
+Zoning/BRD of Adjustment,Zoning: Workers Compensation,2020,27,
+Zoning/BRD of Adjustment,Zoning: Workers Compensation,2021,31,
+Zoning/BRD of Adjustment,Mileage/expenses,2019,25,89
+Zoning/BRD of Adjustment,Mileage/expenses,2020,25,
+Zoning/BRD of Adjustment,Mileage/expenses,2021,25,
+Zoning/BRD of Adjustment,Advertising,2019,0,192
+Zoning/BRD of Adjustment,Advertising,2020,0,
+Zoning/BRD of Adjustment,Advertising,2021,0,
+Zoning/BRD of Adjustment,Zoning: Legal/enforcement,2019,0,315
+Zoning/BRD of Adjustment,Zoning: Legal/enforcement,2020,1000,
+Zoning/BRD of Adjustment,Zoning: Legal/enforcement,2021,2000,
+Zoning/BRD of Adjustment,Courses/Seminars,2019,200,130
+Zoning/BRD of Adjustment,Courses/Seminars,2020,200,
+Zoning/BRD of Adjustment,Courses/Seminars,2021,250,
+Planning Commission,Advertising,2019,500,218
+Planning Commission,Advertising,2020,500,
+Planning Commission,Advertising,2021,500,
+Planning Commission,Mapping,2019,0,1219
+Planning Commission,Mapping,2020,0,
+Planning Commission,Mapping,2021,0,
+Planning Commission,Mail Drop/Postage,2019,500,400
+Planning Commission,Mail Drop/Postage,2020,500,
+Planning Commission,Mail Drop/Postage,2021,500,
+Planning Commission,Printing & Copying,2019,500,175
+Planning Commission,Printing & Copying,2020,500,
+Planning Commission,Printing & Copying,2021,500,
+Planning Commission,Consultation,2019,500,4257
+Planning Commission,Consultation,2020,2500,
+Planning Commission,Consultation,2021,7500,
+Special Articles,CV Economic Development,2019,600,600
+Special Articles,CV Economic Development,2020,600,
+Special Articles,CV Economic Development,2021,600,
+Special Articles,CV Home Health & Hospice,2019,3750,3750
+Special Articles,CV Home Health & Hospice,2020,4050,
+Special Articles,CV Home Health & Hospice,2021,4050,
+Special Articles,Girls/Boyz First Mentoring,2019,1500,1500
+Special Articles,Girls/Boyz First Mentoring,2020,1500,
+Special Articles,Girls/Boyz First Mentoring,2021,1500,
+Special Articles,Kellogg-Hubbard Library,2019,29801,29801
+Special Articles,Kellogg-Hubbard Library,2020,29801,
+Special Articles,Kellogg-Hubbard Library,2021,29801,
+Special Articles,Middlesex Community Conn.,2019,3000,3000
+Special Articles,Middlesex Community Conn.,2020,3000,
+Special Articles,Middlesex Community Conn.,2021,3000,
+Special Articles,Middlesex Conservation Fund,2019,5000,5000
+Special Articles,Middlesex Conservation Fund,2020,5000,
+Special Articles,Middlesex Conservation Fund,2021,5000,
+Special Articles,Montpelier Senior Center,2019,5500,5500
+Special Articles,Montpelier Senior Center,2020,5500,
+Special Articles,Montpelier Senior Center,2021,7000,
+Special Articles,Putnamville Speed Signs,2019,0,0
+Special Articles,Putnamville Speed Signs,2020,0,
+Special Articles,Putnamville Speed Signs,2021,8000,
+Special Articles,Waterbury Area Senior Center,2019,10000,10000
+Special Articles,Waterbury Area Senior Center,2020,10000,
+Special Articles,Waterbury Area Senior Center,2021,10000,
+Special Articles,American Red Cross,2019,250,250
+Special Articles,American Red Cross,2020,0,
+Special Articles,American Red Cross,2021,250,
+Special Articles,Big Heavy World,2019,0,0
+Special Articles,Big Heavy World,2020,0,
+Special Articles,Big Heavy World,2021,250,
+Special Articles,Capstone Community Action,2019,249,249
+Special Articles,Capstone Community Action,2020,0,
+Special Articles,Capstone Community Action,2021,0,
+Special Articles,Circle,2019,199,199
+Special Articles,Circle,2020,199,
+Special Articles,Circle,2021,199,
+Special Articles,Community Harvest of Central Vermont,2019,0,0
+Special Articles,Community Harvest of Central Vermont,2020,250,
+Special Articles,Community Harvest of Central Vermont,2021,250,
+Special Articles,Cross Trail Vermont,2019,1731,1731
+Special Articles,Cross Trail Vermont,2020,0,
+Special Articles,Cross Trail Vermont,2021,0,
+Special Articles,CV Adult Basic Education,2019,250,250
+Special Articles,CV Adult Basic Education,2020,250,
+Special Articles,CV Adult Basic Education,2021,250,
+Special Articles,CV Council on Aging,2019,250,250
+Special Articles,CV Council on Aging,2020,250,
+Special Articles,CV Council on Aging,2021,250,
+Special Articles,CV Dart Animal Response Team,2019,0,0
+Special Articles,CV Dart Animal Response Team,2020,0,
+Special Articles,CV Dart Animal Response Team,2021,100,
+Special Articles,Family Center of Vermont,2019,250,250
+Special Articles,Family Center of Vermont,2020,250,
+Special Articles,Family Center of Vermont,2021,0,
+Special Articles,Good Beginnings,2019,250,250
+Special Articles,Good Beginnings,2020,250,
+Special Articles,Good Beginnings,2021,250,
+Special Articles,Good Samaitian Haven,2019,250,250
+Special Articles,Good Samaitian Haven,2020,0,
+Special Articles,Good Samaitian Haven,2021,0,
+Special Articles,Green Mtn Transit,2019,199,199
+Special Articles,Green Mtn Transit,2020,249,
+Special Articles,Green Mtn Transit,2021,249,
+Special Articles,Green Up Vermont,2019,100,100
+Special Articles,Green Up Vermont,2020,100,
+Special Articles,Green Up Vermont,2021,100,
+Special Articles,Home Share Now,2019,500,500
+Special Articles,Home Share Now,2020,250,
+Special Articles,Home Share Now,2021,0,
+Special Articles,Montpelier Veteran's Council,2019,200,200
+Special Articles,Montpelier Veteran's Council,2020,250,
+Special Articles,Montpelier Veteran's Council,2021,250,
+Special Articles,Mother Up,2019,0,0
+Special Articles,Mother Up,2020,250,
+Special Articles,Mother Up,2021,0,
+Special Articles,Our House of Central Vermont,2019,250,250
+Special Articles,Our House of Central Vermont,2020,250,
+Special Articles,Our House of Central Vermont,2021,250,
+Special Articles,Peoples Health & Wellness,2019,250,250
+Special Articles,Peoples Health & Wellness,2020,250,
+Special Articles,Peoples Health & Wellness,2021,250,
+Special Articles,Sexual Assault Crisis Team,2019,245,245
+Special Articles,Sexual Assault Crisis Team,2020,250,
+Special Articles,Sexual Assault Crisis Team,2021,250,
+Special Articles,T W Wood Gallery,2019,250,250
+Special Articles,T W Wood Gallery,2020,250,
+Special Articles,T W Wood Gallery,2021,0,
+Special Articles,The Childrens Room,2019,250,250
+Special Articles,The Childrens Room,2020,250,
+Special Articles,The Childrens Room,2021,0,
+Special Articles,Vermont Cares,2019,250,250
+Special Articles,Vermont Cares,2020,0,
+Special Articles,Vermont Cares,2021,0,
+Special Articles,VT Assoc for the Blind,2019,249,249
+Special Articles,VT Assoc for the Blind,2020,249,
+Special Articles,VT Assoc for the Blind,2021,0,
+Special Articles,VT Center for Independent Living,2019,199,199
+Special Articles,VT Center for Independent Living,2020,199,
+Special Articles,VT Center for Independent Living,2021,195,
+Special Articles,Vermont Family Network,2019,0,0
+Special Articles,Vermont Family Network,2020,0,
+Special Articles,Vermont Family Network,2021,250,
+Special Articles,VT Rural Fire Prot Task Force,2019,100,100
+Special Articles,VT Rural Fire Prot Task Force,2020,100,
+Special Articles,VT Rural Fire Prot Task Force,2021,100,
+Special Articles,Washington County Diversion,2019,250,250
+Special Articles,Washington County Diversion,2020,250,
+Special Articles,Washington County Diversion,2021,250,
+Special Articles,Washington County Youth Service,2019,175,175
+Special Articles,Washington County Youth Service,2020,175,
+Special Articles,Washington County Youth Service,2021,175,
+Special Articles,Winooski Natural Resources,2019,0,0
+Special Articles,Winooski Natural Resources,2020,0,
+Special Articles,Winooski Natural Resources,2021,250,

@@ -1,0 +1,481 @@
+section,line_item,fiscal_year,budgeted,actual
+General Government,Wages: Selectboard,2020,3536,3536.33
+General Government,Wages: Selectboard,2021,3642,
+General Government,Wages: Selectboard,2022,3715,
+General Government,Wages: Selectboard Clerk,2020,21382,21737.6
+General Government,Wages: Selectboard Clerk,2021,22019,
+General Government,Wages: Selectboard Clerk,2022,23328,
+General Government,Wages: Payroll Tax(SS&MED),2020,2177,1848.31
+General Government,Wages: Payroll Tax(SS&MED),2021,2242,
+General Government,Wages: Payroll Tax(SS&MED),2022,2353,
+General Government,Wages: Retirement,2020,1229,0.0
+General Government,Wages: Retirement,2021,1321,
+General Government,Wages: Retirement,2022,1458,
+General Government,Insurance: Health,2020,6768,6998.71
+General Government,Insurance: Health,2021,7646,
+General Government,Insurance: Health,2022,7872,
+General Government,Insurance: Property & Casuality,2020,10296,10301.08
+General Government,Insurance: Property & Casuality,2021,11188,
+General Government,Insurance: Property & Casuality,2022,8538,
+General Government,Insurance: Workers Compensation,2020,1000,364.5
+General Government,Insurance: Workers Compensation,2021,750,
+General Government,Insurance: Workers Compensation,2022,863,
+General Government,Insurance: Unemployment Comp,2020,154,43.92
+General Government,Insurance: Unemployment Comp,2021,154,
+General Government,Insurance: Unemployment Comp,2022,181,
+General Government,Advertising/Printing,2020,1250,-18.26
+General Government,Advertising/Printing,2021,600,
+General Government,Advertising/Printing,2022,500,
+General Government,Selectboard Courses,2020,200,0.0
+General Government,Selectboard Courses,2021,200,
+General Government,Selectboard Courses,2022,200,
+General Government,Town Property Maintenance,2020,2000,2100.0
+General Government,Town Property Maintenance,2021,2600,
+General Government,Town Property Maintenance,2022,2500,
+General Government,Welch Park,2020,1000,1001.02
+General Government,Welch Park,2021,1000,
+General Government,Welch Park,2022,500,
+General Government,Discretionary Fund,2020,8000,2077.89
+General Government,Discretionary Fund,2021,8000,
+General Government,Discretionary Fund,2022,8000,
+General Government,Legal Fees,2020,3000,874.4
+General Government,Legal Fees,2021,2000,
+General Government,Legal Fees,2022,2000,
+General Government,Town Report,2020,3000,2454.94
+General Government,Town Report,2021,2000,
+General Government,Town Report,2022,2800,
+General Government,VLCT Dues,2020,3097,3097.0
+General Government,VLCT Dues,2021,3224,
+General Government,VLCT Dues,2022,3224,
+General Government,County Tax,2020,18149,18149.0
+General Government,County Tax,2021,19000,
+General Government,County Tax,2022,18500,
+General Government,CV Solid Waste,2020,1757,1756.0
+General Government,CV Solid Waste,2021,1738,
+General Government,CV Solid Waste,2022,1724,
+General Government,CV Reg Planning Comm,2020,2077,2077.2
+General Government,CV Reg Planning Comm,2021,2184,
+General Government,CV Reg Planning Comm,2022,2207,
+General Government,Conservation Commission,2020,500,94.06
+General Government,Conservation Commission,2021,500,
+General Government,Conservation Commission,2022,500,
+General Government,Elections,2020,1500,1707.53
+General Government,Elections,2021,2500,
+General Government,Elections,2022,1500,
+General Government,Misc Expense,2020,500,420.47
+General Government,Misc Expense,2021,500,
+General Government,Misc Expense,2022,500,
+General Government,Town Hall Building Fund (Moved from Town Hall),2020,0,0.0
+General Government,Town Hall Building Fund (Moved from Town Hall),2021,10000,
+General Government,Town Hall Building Fund (Moved from Town Hall),2022,10000,
+General Government,Grant Match- Capital Plan,2020,0,0.0
+General Government,Grant Match- Capital Plan,2021,0,
+General Government,Grant Match- Capital Plan,2022,900,
+General Government,Covid-19,2020,0,1881.32
+General Government,Covid-19,2021,0,
+General Government,Covid-19,2022,0,
+General Government,Tax Abatements,2020,0,7.7
+General Government,Tax Abatements,2021,0,
+General Government,Tax Abatements,2022,0,
+Administration,"Office: Wages (Clerk,Ass't Clerk,Treas,Bookeeper)",2020,54464,51778.28
+Administration,"Office: Wages (Clerk,Ass't Clerk,Treas,Bookeeper)",2021,58293,
+Administration,"Office: Wages (Clerk,Ass't Clerk,Treas,Bookeeper)",2022,93160,
+Administration,Listers: Wages,2020,14420,12248.23
+Administration,Listers: Wages,2021,29705,
+Administration,Listers: Wages,2022,30302,
+Administration,Delinquent Tax Collector: Wages,2020,2060,788.5
+Administration,Delinquent Tax Collector: Wages,2021,3266,
+Administration,Delinquent Tax Collector: Wages,2022,2837,
+Administration,ADMIN: Payroll Tax (SS&MED),2020,5428,5165.42
+Administration,ADMIN: Payroll Tax (SS&MED),2021,6982,
+Administration,ADMIN: Payroll Tax (SS&MED),2022,9662,
+Administration,ADMIN: Unemployment,2020,211,51.28
+Administration,ADMIN: Unemployment,2021,217,
+Administration,ADMIN: Unemployment,2022,470,
+Administration,ADMIN: Retirement,2020,1183,2567.4
+Administration,ADMIN: Retirement,2021,1271,
+Administration,ADMIN: Retirement,2022,1403,
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2020,371,281.97
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2021,381,
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2022,381,
+Administration,ADMIN: Insurance: Health,2020,6548,6238.76
+Administration,ADMIN: Insurance: Health,2021,7346,
+Administration,ADMIN: Insurance: Health,2022,7564,
+Administration,ADMIN: Insurance: Workers Comp,2020,406,0.0
+Administration,ADMIN: Insurance: Workers Comp,2021,387,
+Administration,ADMIN: Insurance: Workers Comp,2022,425,
+Administration,Office Supplies,2020,3500,2474.25
+Administration,Office Supplies,2021,3500,
+Administration,Office Supplies,2022,3000,
+Administration,Equipment Repair,2020,0,34.21
+Administration,Equipment Repair,2021,0,
+Administration,Equipment Repair,2022,1000,
+Administration,Equipment Purchase,2020,0,4448.67
+Administration,Equipment Purchase,2021,0,
+Administration,Equipment Purchase,2022,1000,
+Administration,Lister Computer Upgrade,2020,0,0.0
+Administration,Lister Computer Upgrade,2021,0,
+Administration,Lister Computer Upgrade,2022,15000,
+Administration,Telephone,2020,4800,4950.14
+Administration,Telephone,2021,4800,
+Administration,Telephone,2022,5000,
+Administration,Postage,2020,3000,3124.0
+Administration,Postage,2021,3000,
+Administration,Postage,2022,3000,
+Administration,Auditing,2020,7400,7650.0
+Administration,Auditing,2021,7400,
+Administration,Auditing,2022,8200,
+Administration,Listing Mileage/Expenses,2020,2500,2990.91
+Administration,Listing Mileage/Expenses,2021,3000,
+Administration,Listing Mileage/Expenses,2022,2500,
+Administration,Clerical Mileage,2020,0,153.6
+Administration,Clerical Mileage,2021,0,
+Administration,Clerical Mileage,2022,175,
+Administration,Clerk's /Listers Courses & Training,2020,300,446.25
+Administration,Clerk's /Listers Courses & Training,2021,100,
+Administration,Clerk's /Listers Courses & Training,2022,1000,
+Administration,Lister/ParcelMapping,2020,750,0.0
+Administration,Lister/ParcelMapping,2021,750,
+Administration,Lister/ParcelMapping,2022,0,
+Administration,Copier Lease,2020,2100,1795.4
+Administration,Copier Lease,2021,2100,
+Administration,Copier Lease,2022,2000,
+Administration,Computer Maintenance,2020,10000,14273.17
+Administration,Computer Maintenance,2021,14000,
+Administration,Computer Maintenance,2022,19000,
+Administration,Consultant Fees,2020,0,163.87
+Administration,Consultant Fees,2021,0,
+Administration,Consultant Fees,2022,0,
+Town Hall,Electricity,2020,2700,2881.05
+Town Hall,Electricity,2021,2800,
+Town Hall,Electricity,2022,3000,
+Town Hall,Heat,2020,2000,806.51
+Town Hall,Heat,2021,2000,
+Town Hall,Heat,2022,1500,
+Town Hall,Grounds,2020,2500,1190.0
+Town Hall,Grounds,2021,2500,
+Town Hall,Grounds,2022,1500,
+Town Hall,Building Repairs,2020,5000,5935.95
+Town Hall,Building Repairs,2021,5000,
+Town Hall,Building Repairs,2022,5000,
+Town Hall,Building Fund (*Moved to Gen Gov),2020,10000,10000.0
+Town Hall,Building Fund (*Moved to Gen Gov),2021,0,
+Town Hall,Building Fund (*Moved to Gen Gov),2022,0,
+Town Hall,Street Lights,2020,2200,1917.9
+Town Hall,Street Lights,2021,2000,
+Town Hall,Street Lights,2022,2000,
+Town Hall,Janitorial,2020,1500,1331.07
+Town Hall,Janitorial,2021,1500,
+Town Hall,Janitorial,2022,1500,
+Public Safety,Wages: Health Officer,2020,1040,0.0
+Public Safety,Wages: Health Officer,2021,1040,
+Public Safety,Wages: Health Officer,2022,520,
+Public Safety,Wages: Animal Control Officer,2020,1040,0.0
+Public Safety,Wages: Animal Control Officer,2021,1040,
+Public Safety,Wages: Animal Control Officer,2022,520,
+Public Safety,P/S : Payroll Tax (SS & MED),2020,159,0.0
+Public Safety,P/S : Payroll Tax (SS & MED),2021,159,
+Public Safety,P/S : Payroll Tax (SS & MED),2022,80,
+Public Safety,P/S: Workers Compensation,2020,94,0.0
+Public Safety,P/S: Workers Compensation,2021,94,
+Public Safety,P/S: Workers Compensation,2022,38,
+Public Safety,Courses/Seminars,2020,100,0.0
+Public Safety,Courses/Seminars,2021,100,
+Public Safety,Courses/Seminars,2022,0,
+Public Safety,Ambulance,2020,67871,67870.0
+Public Safety,Ambulance,2021,67871,
+Public Safety,Ambulance,2022,67871,
+Public Safety,Speed Enforcement,2020,7500,4253.73
+Public Safety,Speed Enforcement,2021,7500,
+Public Safety,Speed Enforcement,2022,7500,
+Public Safety,Dog Pound,2020,600,210.0
+Public Safety,Dog Pound,2021,600,
+Public Safety,Dog Pound,2022,300,
+Public Safety,Emergency Management,2020,3705,350.99
+Public Safety,Emergency Management,2021,1900,
+Public Safety,Emergency Management,2022,500,
+Fire Department,FD-Insurance: Property & Casualty,2020,7810,7834.9
+Fire Department,FD-Insurance: Property & Casualty,2021,8395,
+Fire Department,FD-Insurance: Property & Casualty,2022,6871,
+Fire Department,FD-Insurance: Workers Compensation,2020,1145,1174.69
+Fire Department,FD-Insurance: Workers Compensation,2021,1217,
+Fire Department,FD-Insurance: Workers Compensation,2022,1217,
+Fire Department,FD-Supplies,2020,200,485.12
+Fire Department,FD-Supplies,2021,200,
+Fire Department,FD-Supplies,2022,300,
+Fire Department,FD-Equipment Repair,2020,7000,9466.65
+Fire Department,FD-Equipment Repair,2021,7000,
+Fire Department,FD-Equipment Repair,2022,10000,
+Fire Department,FD-Equipment Purchase,2020,3000,6555.84
+Fire Department,FD-Equipment Purchase,2021,3000,
+Fire Department,FD-Equipment Purchase,2022,4200,
+Fire Department,FD-Telephone,2020,1100,1249.24
+Fire Department,FD-Telephone,2021,1100,
+Fire Department,FD-Telephone,2022,1560,
+Fire Department,FD-Fast Squad,2020,1000,346.22
+Fire Department,FD-Fast Squad,2021,1000,
+Fire Department,FD-Fast Squad,2022,1000,
+Fire Department,FD-Electricity,2020,1600,1802.91
+Fire Department,FD-Electricity,2021,2000,
+Fire Department,FD-Electricity,2022,2400,
+Fire Department,FD-Fuel - Heat,2020,4000,2401.77
+Fire Department,FD-Fuel - Heat,2021,4000,
+Fire Department,FD-Fuel - Heat,2022,4000,
+Fire Department,FD-Building Maintenance,2020,3000,2500.97
+Fire Department,FD-Building Maintenance,2021,3000,
+Fire Department,FD-Building Maintenance,2022,3000,
+Fire Department,FD-Radio Dispatch,2020,24405,25371.42
+Fire Department,FD-Radio Dispatch,2021,26224,
+Fire Department,FD-Radio Dispatch,2022,26630,
+Fire Department,FD-VSFA/Dues/Accounting/Training,2020,1000,965.0
+Fire Department,FD-VSFA/Dues/Accounting/Training,2021,1000,
+Fire Department,FD-VSFA/Dues/Accounting/Training,2022,1000,
+Fire Department,Courses & Seminars,2020,1000,360.0
+Fire Department,Courses & Seminars,2021,1000,
+Fire Department,Courses & Seminars,2022,1000,
+Fire Department,FD-Forest Fire Warden,2020,250,0.0
+Fire Department,FD-Forest Fire Warden,2021,250,
+Fire Department,FD-Forest Fire Warden,2022,250,
+Fire Department,FD-GAS & Diesel,2020,2000,178.7
+Fire Department,FD-GAS & Diesel,2021,2000,
+Fire Department,FD-GAS & Diesel,2022,1750,
+Fire Department,FD-Stipends,2020,3000,1895.0
+Fire Department,FD-Stipends,2021,3000,
+Fire Department,FD-Stipends,2022,3000,
+Fire Department,FD-Communication/Radio,2020,1200,0.0
+Fire Department,FD-Communication/Radio,2021,1200,
+Fire Department,FD-Communication/Radio,2022,1200,
+Fire Department,E911 Signs,2020,0,59.99
+Fire Department,E911 Signs,2021,0,
+Fire Department,E911 Signs,2022,0,
+Fire Department Debt Service,Fire Station Bond,2020,40000,40000.0
+Fire Department Debt Service,Fire Station Bond,2021,40000,
+Fire Department Debt Service,Fire Station Bond,2022,40000,
+Fire Department Debt Service,Fire Station Interest,2020,19844,18541.53
+Fire Department Debt Service,Fire Station Interest,2021,17487,
+Fire Department Debt Service,Fire Station Interest,2022,15833,
+Fire Department Debt Service,VTECH Freightliner Tanker - PRIN,2020,14594,14593.43
+Fire Department Debt Service,VTECH Freightliner Tanker - PRIN,2021,14594,
+Fire Department Debt Service,VTECH Freightliner Tanker - PRIN,2022,14594,
+Fire Department Debt Service,VTECH Freightliner Tanker - INT,2020,3056,3556.86
+Fire Department Debt Service,VTECH Freightliner Tanker - INT,2021,2629,
+Fire Department Debt Service,VTECH Freightliner Tanker - INT,2022,2187,
+Fire Department Debt Service,Equipment Note FD,2020,2000,2000.0
+Fire Department Debt Service,Equipment Note FD,2021,0,
+Fire Department Debt Service,Equipment Note FD,2022,0,
+Fire Department Debt Service,Equipment Note FD Interest,2020,57,54.64
+Fire Department Debt Service,Equipment Note FD Interest,2021,0,
+Fire Department Debt Service,Equipment Note FD Interest,2022,0,
+Winter Maintenance,Road Salt,2020,12800,9333.17
+Winter Maintenance,Road Salt,2021,13745,
+Winter Maintenance,Road Salt,2022,15280,
+Winter Maintenance,Winter Sand,2020,37500,41493.5
+Winter Maintenance,Winter Sand,2021,37500,
+Winter Maintenance,Winter Sand,2022,21000,
+Winter Maintenance,Trucking,2020,32000,33178.4
+Winter Maintenance,Trucking,2021,32000,
+Winter Maintenance,Trucking,2022,20400,
+Winter Maintenance,Weather Consulting,2020,0,0.0
+Winter Maintenance,Weather Consulting,2021,0,
+Winter Maintenance,Weather Consulting,2022,600,
+Summer Maintenance,Seed,2020,3000,3935.64
+Summer Maintenance,Seed,2021,3342,
+Summer Maintenance,Seed,2022,3342,
+Summer Maintenance,Hot Mix/Cold Patch,2020,1000,245.82
+Summer Maintenance,Hot Mix/Cold Patch,2021,1000,
+Summer Maintenance,Hot Mix/Cold Patch,2022,1000,
+Summer Maintenance,Stone Ditch Lining,2020,3000,14609.46
+Summer Maintenance,Stone Ditch Lining,2021,7000,
+Summer Maintenance,Stone Ditch Lining,2022,7812,
+Summer Maintenance,"Hay, Mulch, Netting",2020,5000,0.0
+Summer Maintenance,"Hay, Mulch, Netting",2021,7200,
+Summer Maintenance,"Hay, Mulch, Netting",2022,8400,
+Summer Maintenance,Road Gravel,2020,5000,9531.0
+Summer Maintenance,Road Gravel,2021,14046,
+Summer Maintenance,Road Gravel,2022,27171,
+Summer Maintenance,Roadside Mowing,2020,10000,49.1
+Summer Maintenance,Roadside Mowing,2021,18927,
+Summer Maintenance,Roadside Mowing,2022,14000,
+Summer Maintenance,Chloride,2020,14250,15700.46
+Summer Maintenance,Chloride,2021,16000,
+Summer Maintenance,Chloride,2022,21840,
+Summer Maintenance,Rental Equipment,2020,2500,3200.0
+Summer Maintenance,Rental Equipment,2021,1500,
+Summer Maintenance,Rental Equipment,2022,3000,
+Summer Maintenance,Tree Service,2020,2000,0.0
+Summer Maintenance,Tree Service,2021,1000,
+Summer Maintenance,Tree Service,2022,5000,
+Summer Maintenance,Green-Up,2020,500,851.71
+Summer Maintenance,Green-Up,2021,500,
+Summer Maintenance,Green-Up,2022,500,
+Summer Maintenance,Storm Water Discharge Fee,2020,1350,1350.0
+Summer Maintenance,Storm Water Discharge Fee,2021,1350,
+Summer Maintenance,Storm Water Discharge Fee,2022,1350,
+Summer Maintenance,Miscellaneous Summer Maintenance,2020,0,715.94
+Summer Maintenance,Miscellaneous Summer Maintenance,2021,0,
+Summer Maintenance,Miscellaneous Summer Maintenance,2022,0,
+Summer Maintenance,Unforseen Road Repairs,2020,0,920.0
+Summer Maintenance,Unforseen Road Repairs,2021,0,
+Summer Maintenance,Unforseen Road Repairs,2022,5000,
+Equipment Maintenance,Equipment Repairs & Vendors,2020,21500,90079.08
+Equipment Maintenance,Equipment Repairs & Vendors,2021,24000,
+Equipment Maintenance,Equipment Repairs & Vendors,2022,24000,
+Equipment Maintenance,Equipment Parts & Supplies,2020,15000,26683.0
+Equipment Maintenance,Equipment Parts & Supplies,2021,8500,
+Equipment Maintenance,Equipment Parts & Supplies,2022,8500,
+Equipment Maintenance,Plow & Sander Equipment,2020,8000,690.16
+Equipment Maintenance,Plow & Sander Equipment,2021,8000,
+Equipment Maintenance,Plow & Sander Equipment,2022,8000,
+Equipment Maintenance,Bulk Oil & DEF,2020,5000,3791.61
+Equipment Maintenance,Bulk Oil & DEF,2021,5000,
+Equipment Maintenance,Bulk Oil & DEF,2022,5000,
+Equipment Maintenance,Inspections,2020,400,318.2
+Equipment Maintenance,Inspections,2021,400,
+Equipment Maintenance,Inspections,2022,500,
+Equipment Maintenance,Tires,2020,9000,6147.5
+Equipment Maintenance,Tires,2021,8000,
+Equipment Maintenance,Tires,2022,9000,
+Specialized Services,Trucks,2020,0,0.0
+Specialized Services,Trucks,2021,24000,
+Specialized Services,Trucks,2022,0,
+Specialized Services,Excavator Rental,2020,0,0.0
+Specialized Services,Excavator Rental,2021,10000,
+Specialized Services,Excavator Rental,2022,0,
+Specialized Services,1 Month Wages,2020,0,0.0
+Specialized Services,1 Month Wages,2021,6000,
+Specialized Services,1 Month Wages,2022,0,
+Specialized Services,Sub Contractor,2020,0,0.0
+Specialized Services,Sub Contractor,2021,0,
+Specialized Services,Sub Contractor,2022,20000,
+Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2020,1382,3990.3
+Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2021,1800,
+Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2022,2000,
+Garage Maintenance,Waste Disposal,2020,1000,1823.47
+Garage Maintenance,Waste Disposal,2021,1650,
+Garage Maintenance,Waste Disposal,2022,1700,
+Garage Maintenance,Air Gas Services,2020,775,236.8
+Garage Maintenance,Air Gas Services,2021,775,
+Garage Maintenance,Air Gas Services,2022,775,
+Garage Maintenance,Vermont State UST Fee,2020,50,0.0
+Garage Maintenance,Vermont State UST Fee,2021,0,
+Garage Maintenance,Vermont State UST Fee,2022,0,
+Garage Maintenance,Fuel Tank Maintenance,2020,300,0.0
+Garage Maintenance,Fuel Tank Maintenance,2021,1000,
+Garage Maintenance,Fuel Tank Maintenance,2022,2500,
+Garage Maintenance,Garage Door Maintenance,2020,1000,95.98
+Garage Maintenance,Garage Door Maintenance,2021,500,
+Garage Maintenance,Garage Door Maintenance,2022,500,
+Garage Maintenance,Office Supplies & Misc,2020,500,826.97
+Garage Maintenance,Office Supplies & Misc,2021,500,
+Garage Maintenance,Office Supplies & Misc,2022,500,
+Garage Maintenance,Small Tool Purchase (moved to this sub group from below),2020,3500,153.5
+Garage Maintenance,Small Tool Purchase (moved to this sub group from below),2021,3500,
+Garage Maintenance,Small Tool Purchase (moved to this sub group from below),2022,3500,
+Garage Maintenance,Building Maintenance,2020,0,0
+Garage Maintenance,Building Maintenance,2021,0,
+Garage Maintenance,Building Maintenance,2022,0,
+Utilities,Electricty,2020,2500,2984.89
+Utilities,Electricty,2021,4000,
+Utilities,Electricty,2022,4000,
+Utilities,Heat,2020,6000,3549.7
+Utilities,Heat,2021,5000,
+Utilities,Heat,2022,5000,
+Utilities,Phone,2020,1500,556.58
+Utilities,Phone,2021,1000,
+Utilities,Phone,2022,1000,
+Gas & Diesel,Gas & Diesel,2020,43675,34897.09
+Gas & Diesel,Gas & Diesel,2021,55000,
+Gas & Diesel,Gas & Diesel,2022,0,
+Gas & Diesel,GAS,2020,0,0.0
+Gas & Diesel,GAS,2021,0,
+Gas & Diesel,GAS,2022,5500,
+Gas & Diesel,Diesel,2020,0,0.0
+Gas & Diesel,Diesel,2021,0,
+Gas & Diesel,Diesel,2022,49500,
+Wages & Benefits,Wages,2020,209853,199189.92
+Wages & Benefits,Wages,2021,216149,
+Wages & Benefits,Wages,2022,224193,
+Wages & Benefits,P/W : Payroll Tax (SS & MED),2020,16054,15730.63
+Wages & Benefits,P/W : Payroll Tax (SS & MED),2021,16535,
+Wages & Benefits,P/W : Payroll Tax (SS & MED),2022,17151,
+Wages & Benefits,Unemployment Taxes,2020,650,78.08
+Wages & Benefits,Unemployment Taxes,2021,519,
+Wages & Benefits,Unemployment Taxes,2022,519,
+Wages & Benefits,Retirement,2020,12067,11848.57
+Wages & Benefits,Retirement,2021,12969,
+Wages & Benefits,Retirement,2022,14012,
+Wages & Benefits,Life & ADD& Long Term Disability,2020,1825,1151.81
+Wages & Benefits,Life & ADD& Long Term Disability,2021,1547,
+Wages & Benefits,Life & ADD& Long Term Disability,2022,1547,
+Wages & Benefits,Health Insurance,2020,22021,24000.43
+Wages & Benefits,Health Insurance,2021,24927,
+Wages & Benefits,Health Insurance,2022,39051,
+Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2020,7400,8159.85
+Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2021,7548,
+Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2022,7548,
+Wages & Benefits,Property & Casualty Insurance,2020,11330,13315.33
+Wages & Benefits,Property & Casualty Insurance,2021,12200,
+Wages & Benefits,Property & Casualty Insurance,2022,13300,
+Wages & Benefits,Workers Comp Insurance,2020,22000,16154.0
+Wages & Benefits,Workers Comp Insurance,2021,19453,
+Wages & Benefits,Workers Comp Insurance,2022,16200,
+Wages & Benefits,Courses & Seminars,2020,300,0.0
+Wages & Benefits,Courses & Seminars,2021,300,
+Wages & Benefits,Courses & Seminars,2022,300,
+HWY/MISC,Culverts,2020,20000,10449.6
+HWY/MISC,Culverts,2021,15848,
+HWY/MISC,Culverts,2022,17788,
+HWY/MISC,Signs,2020,3500,3579.45
+HWY/MISC,Signs,2021,3500,
+HWY/MISC,Signs,2022,4000,
+HWY/MISC,Bridge Fund,2020,6000,6000.0
+HWY/MISC,Bridge Fund,2021,6000,
+HWY/MISC,Bridge Fund,2022,6000,
+HWY/MISC,Paving Fund,2020,30000,30000.0
+HWY/MISC,Paving Fund,2021,30000,
+HWY/MISC,Paving Fund,2022,30000,
+HWY/MISC,Construction & Paving,2020,20000,43065.86
+HWY/MISC,Construction & Paving,2021,0,
+HWY/MISC,Construction & Paving,2022,0,
+HWY/MISC,Small Equipment Purchase (Moved to Garage Maintenance),2020,0,0
+HWY/MISC,Small Equipment Purchase (Moved to Garage Maintenance),2021,0,
+HWY/MISC,Small Equipment Purchase (Moved to Garage Maintenance),2022,0,
+HWY/MISC,Equipment Purchase,2020,0,7434.57
+HWY/MISC,Equipment Purchase,2021,1500,
+HWY/MISC,Equipment Purchase,2022,1500,
+HWY/MISC,Grants: Town Match,2020,0,0.0
+HWY/MISC,Grants: Town Match,2021,0,
+HWY/MISC,Grants: Town Match,2022,0,
+HWY/MISC,Town Garage Building Fund,2020,5000,5000.0
+HWY/MISC,Town Garage Building Fund,2021,5000,
+HWY/MISC,Town Garage Building Fund,2022,5000,
+Construction,Gravel,2020,0.0,0.0
+Construction,Gravel,2021,6000,
+Construction,Gravel,2022,7000,
+Construction,Ditch Stone,2020,0.0,0.0
+Construction,Ditch Stone,2021,1600,
+Construction,Ditch Stone,2022,1600,
+Construction,Hydro Seeding,2020,0.0,0.0
+Construction,Hydro Seeding,2021,1550,
+Construction,Hydro Seeding,2022,1750,
+Construction,Ledge Removal,2020,0.0,0.0
+Construction,Ledge Removal,2021,6000,
+Construction,Ledge Removal,2022,6000,
+Construction,Erosion Matting,2020,0.0,0.0
+Construction,Erosion Matting,2021,600,
+Construction,Erosion Matting,2022,600,
+Construction,Mud Season Mitigation,2020,0.0,0.0
+Construction,Mud Season Mitigation,2021,7500,
+Construction,Mud Season Mitigation,2022,0,
+Public Works Debt Service,2019 Freightliner Dump,2020,21409,21408.57
+Public Works Debt Service,2019 Freightliner Dump,2021,21409,
+Public Works Debt Service,2019 Freightliner Dump,2022,21409,
+Public Works Debt Service,2019 Freightliner Dump-INT,2020,4857,4857.1
+Public Works Debt Service,2019 Freightliner Dump-INT,2021,4179,
+Public Works Debt Service,2019 Freightliner Dump-INT,2022,3475,
+Public Works Debt Service,2018 International Dump-PRIN,2020,20355,20354.8
+Public Works Debt Service,2018 International Dump-PRIN,2021,20355,
+Public Works Debt Service,2018 International Dump-PRIN,2022,20355,
+Public Works Debt Service,2018 International Dump-INT,2020,3197,3178.01
+Public Works Debt Service,2018 International Dump-INT,2021,2568,
+Public Works Debt Service,2018 International Dump-INT,2022,1921,

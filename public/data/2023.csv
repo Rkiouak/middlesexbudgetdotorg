@@ -1,0 +1,718 @@
+section,line_item,fiscal_year,budgeted,actual
+General Government,Wages: Selectboard,2023,4566,4101.01
+General Government,Wages: Selectboard,2024,3864,
+General Government,Wages: Selectboard,2025,4018,
+General Government,Wages: Selectboard Clerk,2023,28221,28617.14
+General Government,Wages: Selectboard Clerk,2024,29633,
+General Government,Wages: Selectboard Clerk,2025,30814,
+General Government,Wages: Payroll Tax(SS&MED&ACT76),2023,2508,2501.0
+General Government,Wages: Payroll Tax(SS&MED&ACT76),2024,2562,
+General Government,Wages: Payroll Tax(SS&MED&ACT76),2025,2818,
+General Government,Wages: Retirement,2023,1905,1858.4
+General Government,Wages: Retirement,2024,2000,
+General Government,Wages: Retirement,2025,2157,
+General Government,Insurance: Health,2023,9776,8876.51
+General Government,Insurance: Health,2024,8183,
+General Government,Insurance: Health,2025,6273,
+General Government,Insurance: Property & Casuality,2023,8538,5609.75
+General Government,Insurance: Property & Casuality,2024,8538,
+General Government,Insurance: Property & Casuality,2025,8538,
+General Government,Insurance: Workers Compensation,2023,130,-1204.75
+General Government,Insurance: Workers Compensation,2024,145,
+General Government,Insurance: Workers Compensation,2025,370,
+General Government,Insurance: Unemployment Comp,2023,116,0.0
+General Government,Insurance: Unemployment Comp,2024,116,
+General Government,Insurance: Unemployment Comp,2025,70,
+General Government,Advertising/Printing,2023,1000,422.1
+General Government,Advertising/Printing,2024,1000,
+General Government,Advertising/Printing,2025,1000,
+General Government,Selectboard Courses,2023,0,20.0
+General Government,Selectboard Courses,2024,0,
+General Government,Selectboard Courses,2025,0,
+General Government,Town Email,2023,1000,1090.18
+General Government,Town Email,2024,1350,
+General Government,Town Email,2025,1350,
+General Government,Town Property Maintenance,2023,1000,80.83
+General Government,Town Property Maintenance,2024,1000,
+General Government,Town Property Maintenance,2025,175,
+General Government,Welch Park,2023,500,618.32
+General Government,Welch Park,2024,1000,
+General Government,Welch Park,2025,0,
+General Government,Discretionary Fund,2023,4028,333.48
+General Government,Discretionary Fund,2024,4000,
+General Government,Discretionary Fund,2025,4000,
+General Government,Legal Fees,2023,3000,4527.5
+General Government,Legal Fees,2024,7500,
+General Government,Legal Fees,2025,5000,
+General Government,Town Report,2023,3000,2799.15
+General Government,Town Report,2024,4000,
+General Government,Town Report,2025,4000,
+General Government,VLCT Dues,2023,3224,3329.0
+General Government,VLCT Dues,2024,3443,
+General Government,VLCT Dues,2025,3500,
+General Government,County Tax,2023,19256,19256.0
+General Government,County Tax,2024,20573,
+General Government,County Tax,2025,20573,
+General Government,CV Solid Waste,2023,1724,1779.0
+General Government,CV Solid Waste,2024,1724,
+General Government,CV Solid Waste,2025,1800,
+General Government,CV Reg Planning Comm,2023,2366,2366.07
+General Government,CV Reg Planning Comm,2024,2366,
+General Government,CV Reg Planning Comm,2025,2366,
+General Government,Conservation Commission,2023,500,383.74
+General Government,Conservation Commission,2024,500,
+General Government,Conservation Commission,2025,500,
+General Government,Elections,2023,2000,3696.0
+General Government,Elections,2024,2500,
+General Government,Elections,2025,2000,
+General Government,Misc Expense,2023,500,0.0
+General Government,Misc Expense,2024,250,
+General Government,Misc Expense,2025,250,
+General Government,Grant Matches,2023,2000,2329.3
+General Government,Grant Matches,2024,2000,
+General Government,Grant Matches,2025,2500,
+General Government,Covid-19,2023,0,5295.74
+General Government,Covid-19,2024,0,
+General Government,Covid-19,2025,0,
+General Government,FY24 Flood Recovery Debt Service-Principal,2023,0,0.0
+General Government,FY24 Flood Recovery Debt Service-Principal,2024,0,
+General Government,FY24 Flood Recovery Debt Service-Principal,2025,0,
+General Government,FY24 Flood Recovery Debt Service-Interest,2023,0,0.0
+General Government,FY24 Flood Recovery Debt Service-Interest,2024,0,
+General Government,FY24 Flood Recovery Debt Service-Interest,2025,60000,
+General Government,Tax Abatements,2023,0,39.95
+General Government,Tax Abatements,2024,0,
+General Government,Tax Abatements,2025,7000,
+Administration,"Office: Wages (Clerk,Ass’t Clerk,Treas,Bookeeper)",2023,84914,84789.55
+Administration,"Office: Wages (Clerk,Ass’t Clerk,Treas,Bookeeper)",2024,90764,
+Administration,"Office: Wages (Clerk,Ass’t Clerk,Treas,Bookeeper)",2025,94396,
+Administration,Listers: Wages,2023,21216,10936.8
+Administration,Listers: Wages,2024,28357,
+Administration,Listers: Wages,2025,18750,
+Administration,Delinquent Tax Collector: Wages,2023,2912,0.0
+Administration,Delinquent Tax Collector: Wages,2024,2912,
+Administration,Delinquent Tax Collector: Wages,2025,2912,
+Administration,ADMIN: Payroll Tax (SS&MED&ACT76),2023,8342,7127.81
+Administration,ADMIN: Payroll Tax (SS&MED&ACT76),2024,9336,
+Administration,ADMIN: Payroll Tax (SS&MED&ACT76),2025,9389,
+Administration,ADMIN: Unemployment,2023,281,156.74
+Administration,ADMIN: Unemployment,2024,116,
+Administration,ADMIN: Unemployment,2025,175,
+Administration,ADMIN: Retirement,2023,5221,6256.98
+Administration,ADMIN: Retirement,2024,5482,
+Administration,ADMIN: Retirement,2025,5912,
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2023,840,683.94
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2024,840,
+Administration,ADMIN:Insurance: Life/LTD/AD&D,2025,816,
+Administration,ADMIN: Insurance: Health,2023,28560,27108.49
+Administration,ADMIN: Insurance: Health,2024,28804,
+Administration,ADMIN: Insurance: Health,2025,29276,
+Administration,ADMIN: Insurance: Workers Comp,2023,541,81.91
+Administration,ADMIN: Insurance: Workers Comp,2024,598,
+Administration,ADMIN: Insurance: Workers Comp,2025,1504,
+Administration,Office Supplies,2023,1500,3568.36
+Administration,Office Supplies,2024,1500,
+Administration,Office Supplies,2025,3600,
+Administration,Equipment Repair,2023,1000,0.0
+Administration,Equipment Repair,2024,1000,
+Administration,Equipment Repair,2025,1000,
+Administration,Equipment Purchase,2023,1000,0.0
+Administration,Equipment Purchase,2024,20000,
+Administration,Equipment Purchase,2025,10000,
+Administration,Lister Computer Upgrade &software,2023,0,0.0
+Administration,Lister Computer Upgrade &software,2024,0,
+Administration,Lister Computer Upgrade &software,2025,1000,
+Administration,Telephone,2023,5000,5005.74
+Administration,Telephone,2024,5000,
+Administration,Telephone,2025,5000,
+Administration,Postage,2023,3000,3279.9
+Administration,Postage,2024,3000,
+Administration,Postage,2025,3500,
+Administration,Auditing,2023,9000,10000.0
+Administration,Auditing,2024,10000,
+Administration,Auditing,2025,11000,
+Administration,Listing Mileage/Expenses,2023,1000,348.0
+Administration,Listing Mileage/Expenses,2024,1500,
+Administration,Listing Mileage/Expenses,2025,1000,
+Administration,Clerical Mileage,2023,200,23.43
+Administration,Clerical Mileage,2024,200,
+Administration,Clerical Mileage,2025,200,
+Administration,Clerk’s /Listers Courses & Training,2023,1000,132.0
+Administration,Clerk’s /Listers Courses & Training,2024,750,
+Administration,Clerk’s /Listers Courses & Training,2025,2000,
+Administration,Lister NEMRC Assessor Contract,2023,18000,2066.16
+Administration,Lister NEMRC Assessor Contract,2024,12000,
+Administration,Lister NEMRC Assessor Contract,2025,26500,
+Administration,Lister/ParcelMapping,2023,0,
+Administration,Lister/ParcelMapping,2024,250,
+Administration,Lister/ParcelMapping,2025,250,
+Administration,Copier Lease,2023,2000,1380.0
+Administration,Copier Lease,2024,1500,
+Administration,Copier Lease,2025,1500,
+Administration,Computer Maintenance,2023,22000,17931.57
+Administration,Computer Maintenance,2024,22000,
+Administration,Computer Maintenance,2025,40000,
+Administration,Consultant Fees,2023,0,0.0
+Administration,Consultant Fees,2024,0,
+Administration,Consultant Fees,2025,10500,
+Town Hall,Electricity,2023,3500,2645.38
+Town Hall,Electricity,2024,3500,
+Town Hall,Electricity,2025,3500,
+Town Hall,Heat,2023,2000,1629.29
+Town Hall,Heat,2024,3000,
+Town Hall,Heat,2025,3000,
+Town Hall,Grounds,2023,960,1111.59
+Town Hall,Grounds,2024,1080,
+Town Hall,Grounds,2025,1080,
+Town Hall,Building Repairs,2023,2000,1354.49
+Town Hall,Building Repairs,2024,3500,
+Town Hall,Building Repairs,2025,3500,
+Town Hall,Street Lights,2023,1000,2076.16
+Town Hall,Street Lights,2024,2000,
+Town Hall,Street Lights,2025,2200,
+Town Hall,Janitorial,2023,1500,1378.1
+Town Hall,Janitorial,2024,1500,
+Town Hall,Janitorial,2025,1500,
+Public Safety,Wages: Health Officer,2023,811,283.5
+Public Safety,Wages: Health Officer,2024,852,
+Public Safety,Wages: Health Officer,2025,886,
+Public Safety,Wages: Animal Control Officer,2023,676,0.0
+Public Safety,Wages: Animal Control Officer,2024,710,
+Public Safety,Wages: Animal Control Officer,2025,738,
+Public Safety,P/S : Payroll Tax (SS & MED &ACT76),2023,114,8.44
+Public Safety,P/S : Payroll Tax (SS & MED &ACT76),2024,119,
+Public Safety,P/S : Payroll Tax (SS & MED &ACT76),2025,131,
+Public Safety,P/S: Workers Compensation,2023,7,24.0
+Public Safety,P/S: Workers Compensation,2024,12,
+Public Safety,P/S: Workers Compensation,2025,103,
+Public Safety,Courses/Seminars,2023,0,0.0
+Public Safety,Courses/Seminars,2024,0,
+Public Safety,Courses/Seminars,2025,0,
+Public Safety,Ambulance,2023,72000,72702.0
+Public Safety,Ambulance,2024,75000,
+Public Safety,Ambulance,2025,75000,
+Public Safety,Speed Enforcement,2023,5000,2992.84
+Public Safety,Speed Enforcement,2024,2500,
+Public Safety,Speed Enforcement,2025,2500,
+Public Safety,Dog Pound,2023,300,260.0
+Public Safety,Dog Pound,2024,300,
+Public Safety,Dog Pound,2025,300,
+Public Safety,Emergency Management,2023,500,0.0
+Public Safety,Emergency Management,2024,500,
+Public Safety,Emergency Management,2025,500,
+Fire Department,FD-Insurance: Property & Casualty,2023,6713,5162.0
+Fire Department,FD-Insurance: Property & Casualty,2024,7500,
+Fire Department,FD-Insurance: Property & Casualty,2025,7500,
+Fire Department,FD-Insurance: Workers Compensation,2023,1217,912.75
+Fire Department,FD-Insurance: Workers Compensation,2024,1300,
+Fire Department,FD-Insurance: Workers Compensation,2025,1300,
+Fire Department,FD-Supplies,2023,400,500.11
+Fire Department,FD-Supplies,2024,600,
+Fire Department,FD-Supplies,2025,600,
+Fire Department,FD-Equipment Repair,2023,10000,6200.25
+Fire Department,FD-Equipment Repair,2024,9000,
+Fire Department,FD-Equipment Repair,2025,9000,
+Fire Department,FD-Equipment Purchase,2023,4200,4453.93
+Fire Department,FD-Equipment Purchase,2024,4200,
+Fire Department,FD-Equipment Purchase,2025,4200,
+Fire Department,FD-Telephone,2023,1560,1533.44
+Fire Department,FD-Telephone,2024,1560,
+Fire Department,FD-Telephone,2025,1560,
+Fire Department,FD-Fast Squad,2023,1000,90.0
+Fire Department,FD-Fast Squad,2024,1000,
+Fire Department,FD-Fast Squad,2025,1500,
+Fire Department,FD-Electricity,2023,2300,1976.79
+Fire Department,FD-Electricity,2024,2415,
+Fire Department,FD-Electricity,2025,2415,
+Fire Department,FD-Fuel - Heat,2023,4300,2910.88
+Fire Department,FD-Fuel - Heat,2024,4515,
+Fire Department,FD-Fuel - Heat,2025,4515,
+Fire Department,FD-Building Maintenance,2023,3000,4552.62
+Fire Department,FD-Building Maintenance,2024,4250,
+Fire Department,FD-Building Maintenance,2025,4250,
+Fire Department,FD-Radio Dispatch,2023,28394,28945.93
+Fire Department,FD-Radio Dispatch,2024,28394,
+Fire Department,FD-Radio Dispatch,2025,33696,
+Fire Department,FD-VSFA/Dues/Accounting/Training,2023,1875,100.0
+Fire Department,FD-VSFA/Dues/Accounting/Training,2024,1875,
+Fire Department,FD-VSFA/Dues/Accounting/Training,2025,1875,
+Fire Department,Courses & Seminars,2023,300,325.0
+Fire Department,Courses & Seminars,2024,300,
+Fire Department,Courses & Seminars,2025,300,
+Fire Department,FD-Forest Fire Warden,2023,250,0.0
+Fire Department,FD-Forest Fire Warden,2024,250,
+Fire Department,FD-Forest Fire Warden,2025,250,
+Fire Department,FD-GAS & Diesel,2023,1200,456.29
+Fire Department,FD-GAS & Diesel,2024,1500,
+Fire Department,FD-GAS & Diesel,2025,1500,
+Fire Department,FD-Stipends,2023,18000,11165.0
+Fire Department,FD-Stipends,2024,18000,
+Fire Department,FD-Stipends,2025,18000,
+Fire Department,FD-Communication/Radio,2023,1200,1855.0
+Fire Department,FD-Communication/Radio,2024,1200,
+Fire Department,FD-Communication/Radio,2025,1200,
+Fire Department,E911 Signs,2023,0,-20.0
+Fire Department,E911 Signs,2024,0,
+Fire Department,E911 Signs,2025,0,
+Fire Department,Fire Station Bond,2023,40000,40000.0
+Fire Department,Fire Station Bond,2024,40000,
+Fire Department,Fire Station Bond,2025,40000,
+Fire Department,Fire Station Interest,2023,15833,12488.55
+Fire Department,Fire Station Interest,2024,12356,
+Fire Department,Fire Station Interest,2025,10548,
+Fire Department,VTECH Freightliner Tanker - PRIN,2023,14594,14593.43
+Fire Department,VTECH Freightliner Tanker - PRIN,2024,14593,
+Fire Department,VTECH Freightliner Tanker - PRIN,2025,14593,
+Fire Department,VTECH Freightliner Tanker - INT,2023,1751,1943.51
+Fire Department,VTECH Freightliner Tanker - INT,2024,1313,
+Fire Department,VTECH Freightliner Tanker - INT,2025,876,
+Public Works - Winter Maintenance,Road Salt,2023,15280,24320.0
+Public Works - Winter Maintenance,Road Salt,2024,15840,
+Public Works - Winter Maintenance,Road Salt,2025,19800,
+Public Works - Winter Maintenance,Winter Sand,2023,21000,24332.96
+Public Works - Winter Maintenance,Winter Sand,2024,25500,
+Public Works - Winter Maintenance,Winter Sand,2025,25500,
+Public Works - Winter Maintenance,Trucking,2023,25000,17096.25
+Public Works - Winter Maintenance,Trucking,2024,20000,
+Public Works - Winter Maintenance,Trucking,2025,25000,
+Public Works - Winter Maintenance,Weather Consulting,2023,600,0.0
+Public Works - Winter Maintenance,Weather Consulting,2024,0,
+Public Works - Winter Maintenance,Weather Consulting,2025,0,
+Public Works - Winter Maintenance,Tire Chains,2023,0,15938.59
+Public Works - Winter Maintenance,Tire Chains,2024,10000,
+Public Works - Winter Maintenance,Tire Chains,2025,10500,
+Public Works - Summer Maintenance,Seed,2023,2000,0.0
+Public Works - Summer Maintenance,Seed,2024,2000,
+Public Works - Summer Maintenance,Seed,2025,2000,
+Public Works - Summer Maintenance,Hot Mix/Cold Patch,2023,1000,2243.74
+Public Works - Summer Maintenance,Hot Mix/Cold Patch,2024,1000,
+Public Works - Summer Maintenance,Hot Mix/Cold Patch,2025,1000,
+Public Works - Summer Maintenance,Stone Ditch Lining,2023,0,0.0
+Public Works - Summer Maintenance,Stone Ditch Lining,2024,0,
+Public Works - Summer Maintenance,Stone Ditch Lining,2025,0,
+Public Works - Summer Maintenance,"Hay, Mulch, Netting",2023,0,0.0
+Public Works - Summer Maintenance,"Hay, Mulch, Netting",2024,0,
+Public Works - Summer Maintenance,"Hay, Mulch, Netting",2025,0,
+Public Works - Summer Maintenance,Road Gravel,2023,40000,51979.29
+Public Works - Summer Maintenance,Road Gravel,2024,30000,
+Public Works - Summer Maintenance,Road Gravel,2025,40000,
+Public Works - Summer Maintenance,Roadside Mowing,2023,7000,11321.17
+Public Works - Summer Maintenance,Roadside Mowing,2024,7000,
+Public Works - Summer Maintenance,Roadside Mowing,2025,7000,
+Public Works - Summer Maintenance,Chloride,2023,23000,20944.66
+Public Works - Summer Maintenance,Chloride,2024,23000,
+Public Works - Summer Maintenance,Chloride,2025,23000,
+Public Works - Summer Maintenance,Rental Equipment,2023,3000,0.0
+Public Works - Summer Maintenance,Rental Equipment,2024,3000,
+Public Works - Summer Maintenance,Rental Equipment,2025,3000,
+Public Works - Summer Maintenance,Tree Service,2023,5000,0.0
+Public Works - Summer Maintenance,Tree Service,2024,5000,
+Public Works - Summer Maintenance,Tree Service,2025,5000,
+Public Works - Summer Maintenance,Green-Up,2023,500,975.68
+Public Works - Summer Maintenance,Green-Up,2024,500,
+Public Works - Summer Maintenance,Green-Up,2025,500,
+Public Works - Summer Maintenance,Storm Water Discharge Fee,2023,1590,1765.0
+Public Works - Summer Maintenance,Storm Water Discharge Fee,2024,1590,
+Public Works - Summer Maintenance,Storm Water Discharge Fee,2025,1590,
+Public Works - Summer Maintenance,Miscellaneous Summer Maintenance,2023,0,0.0
+Public Works - Summer Maintenance,Miscellaneous Summer Maintenance,2024,0,
+Public Works - Summer Maintenance,Miscellaneous Summer Maintenance,2025,0,
+Public Works - Summer Maintenance,Unforseen Road Repairs,2023,0,0.0
+Public Works - Summer Maintenance,Unforseen Road Repairs,2024,0,
+Public Works - Summer Maintenance,Unforseen Road Repairs,2025,0,
+Public Works - Summer Maintenance,Trucking,2023,0,1956.25
+Public Works - Summer Maintenance,Trucking,2024,0,
+Public Works - Summer Maintenance,Trucking,2025,0,
+Public Works - Equipment Maintenance,Equipment Repairs & Vendors,2023,38000,25653.93
+Public Works - Equipment Maintenance,Equipment Repairs & Vendors,2024,38000,
+Public Works - Equipment Maintenance,Equipment Repairs & Vendors,2025,38000,
+Public Works - Equipment Maintenance,Equipment Parts & Supplies,2023,20000,15023.74
+Public Works - Equipment Maintenance,Equipment Parts & Supplies,2024,20000,
+Public Works - Equipment Maintenance,Equipment Parts & Supplies,2025,20000,
+Public Works - Equipment Maintenance,Plow & Sander Equipment,2023,8000,8041.39
+Public Works - Equipment Maintenance,Plow & Sander Equipment,2024,8000,
+Public Works - Equipment Maintenance,Plow & Sander Equipment,2025,8000,
+Public Works - Equipment Maintenance,Bulk Oil & DEF,2023,5000,2495.51
+Public Works - Equipment Maintenance,Bulk Oil & DEF,2024,5200,
+Public Works - Equipment Maintenance,Bulk Oil & DEF,2025,5200,
+Public Works - Equipment Maintenance,Used Oil Recycling,2023,0,
+Public Works - Equipment Maintenance,Used Oil Recycling,2024,400,
+Public Works - Equipment Maintenance,Used Oil Recycling,2025,400,
+Public Works - Equipment Maintenance,Inspections,2023,750,488.4
+Public Works - Equipment Maintenance,Inspections,2024,750,
+Public Works - Equipment Maintenance,Inspections,2025,750,
+Public Works - Equipment Maintenance,Towing,2023,2500,4350.0
+Public Works - Equipment Maintenance,Towing,2024,2500,
+Public Works - Equipment Maintenance,Towing,2025,2500,
+Public Works - Equipment Maintenance,Tires,2023,9000,6946.68
+Public Works - Equipment Maintenance,Tires,2024,9000,
+Public Works - Equipment Maintenance,Tires,2025,9000,
+Public Works - Specialized Services,Sub Contractor,2023,20000,33154.0
+Public Works - Specialized Services,Sub Contractor,2024,30000,
+Public Works - Specialized Services,Sub Contractor,2025,30000,
+Public Works - Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2023,2000,2432.82
+Public Works - Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2024,2000,
+Public Works - Garage Maintenance,"Shop Supplies (Towels, Rags, etc)",2025,2000,
+Public Works - Garage Maintenance,Waste Disposal,2023,2000,2574.11
+Public Works - Garage Maintenance,Waste Disposal,2024,2000,
+Public Works - Garage Maintenance,Waste Disposal,2025,2000,
+Public Works - Garage Maintenance,Air Gas Services,2023,775,493.22
+Public Works - Garage Maintenance,Air Gas Services,2024,775,
+Public Works - Garage Maintenance,Air Gas Services,2025,775,
+Public Works - Garage Maintenance,Vermont State UST Fee,2023,0,0.0
+Public Works - Garage Maintenance,Vermont State UST Fee,2024,0,
+Public Works - Garage Maintenance,Vermont State UST Fee,2025,0,
+Public Works - Garage Maintenance,Fuel Tank Maintenance,2023,500,0.0
+Public Works - Garage Maintenance,Fuel Tank Maintenance,2024,500,
+Public Works - Garage Maintenance,Fuel Tank Maintenance,2025,500,
+Public Works - Garage Maintenance,Garage Door Maintenance,2023,500,1445.04
+Public Works - Garage Maintenance,Garage Door Maintenance,2024,500,
+Public Works - Garage Maintenance,Garage Door Maintenance,2025,500,
+Public Works - Garage Maintenance,Office Supplies & Misc,2023,500,239.97
+Public Works - Garage Maintenance,Office Supplies & Misc,2024,500,
+Public Works - Garage Maintenance,Office Supplies & Misc,2025,500,
+Public Works - Garage Maintenance,Small Tool Purchases,2023,1500,3733.6
+Public Works - Garage Maintenance,Small Tool Purchases,2024,1500,
+Public Works - Garage Maintenance,Small Tool Purchases,2025,1500,
+Public Works - Garage Maintenance,Building Maintenance,2023,0,
+Public Works - Garage Maintenance,Building Maintenance,2024,0,
+Public Works - Garage Maintenance,Building Maintenance,2025,0,
+Public Works - Utilities,Electricty,2023,4000,2278.27
+Public Works - Utilities,Electricty,2024,4000,
+Public Works - Utilities,Electricty,2025,4000,
+Public Works - Utilities,Heat,2023,6500,5193.26
+Public Works - Utilities,Heat,2024,6500,
+Public Works - Utilities,Heat,2025,6500,
+Public Works - Utilities,Phone,2023,1000,1291.06
+Public Works - Utilities,Phone,2024,1000,
+Public Works - Utilities,Phone,2025,1000,
+Public Works - Gas & Diesel,GAS,2023,5500,5683.07
+Public Works - Gas & Diesel,GAS,2024,6000,
+Public Works - Gas & Diesel,GAS,2025,6000,
+Public Works - Gas & Diesel,Diesel,2023,54500,59353.82
+Public Works - Gas & Diesel,Diesel,2024,60000,
+Public Works - Gas & Diesel,Diesel,2025,60000,
+Public Works - Wages & Benefits,Wages,2023,262980,230503.36
+Public Works - Wages & Benefits,Wages,2024,266554,
+Public Works - Wages & Benefits,Wages,2025,277226,
+Public Works - Wages & Benefits,P/W : Payroll Tax (SS & MED & ACT76),2023,20118,17600.88
+Public Works - Wages & Benefits,P/W : Payroll Tax (SS & MED & ACT76),2024,20391,
+Public Works - Wages & Benefits,P/W : Payroll Tax (SS & MED & ACT76),2025,22428,
+Public Works - Wages & Benefits,Unemployment Taxes,2023,465,304.26
+Public Works - Wages & Benefits,Unemployment Taxes,2024,465,
+Public Works - Wages & Benefits,Unemployment Taxes,2025,280,
+Public Works - Wages & Benefits,Retirement,2023,17751,14799.04
+Public Works - Wages & Benefits,Retirement,2024,17992,
+Public Works - Wages & Benefits,Retirement,2025,19406,
+Public Works - Wages & Benefits,Life & ADD& Long Term Disability,2023,1500,1316.41
+Public Works - Wages & Benefits,Life & ADD& Long Term Disability,2024,1500,
+Public Works - Wages & Benefits,Life & ADD& Long Term Disability,2025,1620,
+Public Works - Wages & Benefits,Health Insurance,2023,49945,30307.95
+Public Works - Wages & Benefits,Health Insurance,2024,45084,
+Public Works - Wages & Benefits,Health Insurance,2025,60148,
+Public Works - Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2023,5000,3964.49
+Public Works - Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2024,5000,
+Public Works - Wages & Benefits,"Uniforms, Safety Equip, DOT Compliance",2025,5000,
+Public Works - Wages & Benefits,Property & Casualty Insurance,2023,13300,8276.25
+Public Works - Wages & Benefits,Property & Casualty Insurance,2024,13300,
+Public Works - Wages & Benefits,Property & Casualty Insurance,2025,13300,
+Public Works - Wages & Benefits,Workers Comp Insurance,2023,19855,17946.12
+Public Works - Wages & Benefits,Workers Comp Insurance,2024,20231,
+Public Works - Wages & Benefits,Workers Comp Insurance,2025,19855,
+Public Works - Wages & Benefits,Mileage Reimbursement,2023,0,479.71
+Public Works - Wages & Benefits,Mileage Reimbursement,2024,0,
+Public Works - Wages & Benefits,Mileage Reimbursement,2025,500,
+Public Works - Wages & Benefits,Courses & Seminars,2023,300,3960.0
+Public Works - Wages & Benefits,Courses & Seminars,2024,300,
+Public Works - Wages & Benefits,Courses & Seminars,2025,300,
+Public Works - HWY/MISC,Culverts,2023,14000,1288.66
+Public Works - HWY/MISC,Culverts,2024,14000,
+Public Works - HWY/MISC,Culverts,2025,9000,
+Public Works - HWY/MISC,Signs,2023,4000,516.06
+Public Works - HWY/MISC,Signs,2024,4000,
+Public Works - HWY/MISC,Signs,2025,4000,
+Public Works - HWY/MISC,Construction & Paving,2023,0,14000.0
+Public Works - HWY/MISC,Construction & Paving,2024,0,
+Public Works - HWY/MISC,Construction & Paving,2025,0,
+Public Works - HWY/MISC,Guardrails,2023,5000,0.0
+Public Works - HWY/MISC,Guardrails,2024,5000,
+Public Works - HWY/MISC,Guardrails,2025,5000,
+Public Works - HWY/MISC,Small Equipment Purchase,2023,1500,2500.0
+Public Works - HWY/MISC,Small Equipment Purchase,2024,1500,
+Public Works - HWY/MISC,Small Equipment Purchase,2025,1500,
+Public Works - HWY/MISC,Grants: Town Match,2023,0,0.0
+Public Works - HWY/MISC,Grants: Town Match,2024,0,
+Public Works - HWY/MISC,Grants: Town Match,2025,0,
+Public Works - Construction,Gravel,2023,10000,0.0
+Public Works - Construction,Gravel,2024,10000,
+Public Works - Construction,Gravel,2025,10000,
+Public Works - Construction,Ditch Stone,2023,5000,4721.5
+Public Works - Construction,Ditch Stone,2024,10000,
+Public Works - Construction,Ditch Stone,2025,10000,
+Public Works - Construction,Hydro Seeding,2023,5000,2034.5
+Public Works - Construction,Hydro Seeding,2024,5000,
+Public Works - Construction,Hydro Seeding,2025,5000,
+Public Works - Construction,Ledge Removal,2023,6000,0.0
+Public Works - Construction,Ledge Removal,2024,6000,
+Public Works - Construction,Ledge Removal,2025,6000,
+Public Works - Construction,Erosion Matting,2023,600,0.0
+Public Works - Construction,Erosion Matting,2024,600,
+Public Works - Construction,Erosion Matting,2025,600,
+Public Works - Construction,Mud Season Mitigation,2023,0,0.0
+Public Works - Construction,Mud Season Mitigation,2024,37500,
+Public Works - Construction,Mud Season Mitigation,2025,37500,
+Public Works Debt Service,2023 Kenworth Dump,2023,0,0.0
+Public Works Debt Service,2023 Kenworth Dump,2024,40000,
+Public Works Debt Service,2023 Kenworth Dump,2025,40000,
+Public Works Debt Service,2023 Kenworth Dump - INT,2023,0,0.0
+Public Works Debt Service,2023 Kenworth Dump - INT,2024,5580,
+Public Works Debt Service,2023 Kenworth Dump - INT,2025,3889,
+Public Works Debt Service,2021 John Deere Grader,2023,18700,18700.0
+Public Works Debt Service,2021 John Deere Grader,2024,18700,
+Public Works Debt Service,2021 John Deere Grader,2025,18700,
+Public Works Debt Service,2022 John Deere Grader-INT,2023,6872,6872.24
+Public Works Debt Service,2022 John Deere Grader-INT,2024,6414,
+Public Works Debt Service,2022 John Deere Grader-INT,2025,5964,
+Public Works Debt Service,2019 Freightliner Dump,2023,21409,21408.57
+Public Works Debt Service,2019 Freightliner Dump,2024,21409,
+Public Works Debt Service,2019 Freightliner Dump,2025,21409,
+Public Works Debt Service,2019 Freightliner Dump-INT,2023,2783,2739.27
+Public Works Debt Service,2019 Freightliner Dump-INT,2024,2087,
+Public Works Debt Service,2019 Freightliner Dump-INT,2025,1393,
+Public Works Debt Service,2018 International Dump-PRIN,2023,20355,20354.8
+Public Works Debt Service,2018 International Dump-PRIN,2024,20355,
+Public Works Debt Service,2018 International Dump-PRIN,2025,0,
+Public Works Debt Service,2018 International Dump-INT,2023,1282,1252.49
+Public Works Debt Service,2018 International Dump-INT,2024,641,
+Public Works Debt Service,2018 International Dump-INT,2025,0,
+Cemetery,Labor,2023,6900,4250.0
+Cemetery,Labor,2024,6900,
+Cemetery,Labor,2025,7500,
+Cemetery,Materials,2023,,0.0
+Cemetery,Materials,2024,,
+Cemetery,Materials,2025,0,
+Cemetery,Repair to Cemetery,2023,0,460.0
+Cemetery,Repair to Cemetery,2024,0,
+Cemetery,Repair to Cemetery,2025,0,
+Recreation,Wages: Recreation,2023,6500,5276.25
+Recreation,Wages: Recreation,2024,6825,
+Recreation,Wages: Recreation,2025,7098,
+Recreation,REC: Payroll Tax,2023,497,395.67
+Recreation,REC: Payroll Tax,2024,522,
+Recreation,REC: Payroll Tax,2025,574,
+Recreation,REC:Workers Comp Insurance,2023,296,282.22
+Recreation,REC:Workers Comp Insurance,2024,263,
+Recreation,REC:Workers Comp Insurance,2025,527,
+Recreation,"Dues, Conferences, Travel",2023,100,0.0
+Recreation,"Dues, Conferences, Travel",2024,0,
+Recreation,"Dues, Conferences, Travel",2025,0,
+Recreation,Wrightsville Beach Dues,2023,2750,2668.5
+Recreation,Wrightsville Beach Dues,2024,4520,
+Recreation,Wrightsville Beach Dues,2025,4520,
+Recreation,"Town BOR- mowing, brush hog, aerating",2023,4720,3563.94
+Recreation,"Town BOR- mowing, brush hog, aerating",2024,5250,
+Recreation,"Town BOR- mowing, brush hog, aerating",2025,5250,
+Recreation,"Recreation Supplies (seed, soil, fertilizer)",2023,500,44.2
+Recreation,"Recreation Supplies (seed, soil, fertilizer)",2024,0,
+Recreation,"Recreation Supplies (seed, soil, fertilizer)",2025,0,
+Recreation,Portalet Rental Recreation field,2023,900,1961.0
+Recreation,Portalet Rental Recreation field,2024,1000,
+Recreation,Portalet Rental Recreation field,2025,1000,
+Recreation,Learn to Swim Program,2023,600,0.0
+Recreation,Learn to Swim Program,2024,0,
+Recreation,Learn to Swim Program,2025,700,
+Recreation,Recreation Equipment (nets/hardware),2023,0,0.0
+Recreation,Recreation Equipment (nets/hardware),2024,0,
+Recreation,Recreation Equipment (nets/hardware),2025,0,
+Recreation,Ice Rink,2023,500,0.0
+Recreation,Ice Rink,2024,500,
+Recreation,Ice Rink,2025,500,
+Recreation,Walter Kelly Park-Mowing & Portalet,2023,3120,2835.11
+Recreation,Walter Kelly Park-Mowing & Portalet,2024,3110,
+Recreation,Walter Kelly Park-Mowing & Portalet,2025,2510,
+Recreation,Facility Maintenance,2023,500,0.0
+Recreation,Facility Maintenance,2024,1850,
+Recreation,Facility Maintenance,2025,1680,
+Recreation,Band Stand,2023,0,0.0
+Recreation,Band Stand,2024,1500,
+Recreation,Band Stand,2025,0,
+Zoning/DRB,Wages: Zoning,2023,8486,6460.66
+Zoning/DRB,Wages: Zoning,2024,8911,
+Zoning/DRB,Wages: Zoning,2025,9238,
+Zoning/DRB,Zoning: Payroll Tax,2023,649,504.39
+Zoning/DRB,Zoning: Payroll Tax,2024,682,
+Zoning/DRB,Zoning: Payroll Tax,2025,747,
+Zoning/DRB,Zoning: Workers Compensation,2023,39,0.0
+Zoning/DRB,Zoning: Workers Compensation,2024,43,
+Zoning/DRB,Zoning: Workers Compensation,2025,111,
+Zoning/DRB,Mileage/expenses,2023,150,345.2
+Zoning/DRB,Mileage/expenses,2024,250,
+Zoning/DRB,Mileage/expenses,2025,250,
+Zoning/DRB,Advertising,2023,400,0.0
+Zoning/DRB,Advertising,2024,400,
+Zoning/DRB,Advertising,2025,400,
+Zoning/DRB,Zoning: Legal/enforcement,2023,3000,112.5
+Zoning/DRB,Zoning: Legal/enforcement,2024,3000,
+Zoning/DRB,Zoning: Legal/enforcement,2025,3000,
+Zoning/DRB,Postage,2023,0,0.0
+Zoning/DRB,Postage,2024,300,
+Zoning/DRB,Postage,2025,300,
+Zoning/DRB,Courses/Seminars,2023,250,28.0
+Zoning/DRB,Courses/Seminars,2024,250,
+Zoning/DRB,Courses/Seminars,2025,250,
+Planning Commission,Advertising,2023,1000,210.47
+Planning Commission,Advertising,2024,750,
+Planning Commission,Advertising,2025,0,
+Planning Commission,Mail Drop/Postage,2023,1000,0.0
+Planning Commission,Mail Drop/Postage,2024,800,
+Planning Commission,Mail Drop/Postage,2025,800,
+Planning Commission,Printing & Copying,2023,1000,0.0
+Planning Commission,Printing & Copying,2024,150,
+Planning Commission,Printing & Copying,2025,150,
+Planning Commission,Consultation,2023,3500,1772.89
+Planning Commission,Consultation,2024,3500,
+Planning Commission,Consultation,2025,3500,
+Planning Commission,PC Legal,2023,0,0.0
+Planning Commission,PC Legal,2024,0,
+Planning Commission,PC Legal,2025,0,
+Planning Commission,Future Grant Match,2023,2000,0.0
+Planning Commission,Future Grant Match,2024,2000,
+Planning Commission,Future Grant Match,2025,0,
+Planning Commission,NRPA-Natural Res Mapping,2023,0,2197.38
+Planning Commission,NRPA-Natural Res Mapping,2024,0,
+Planning Commission,NRPA-Natural Res Mapping,2025,0,
+CIP Funding (Capital Improvement Planning),Town Hall Building Fund,2023,10000,10000.0
+CIP Funding (Capital Improvement Planning),Town Hall Building Fund,2024,10000,
+CIP Funding (Capital Improvement Planning),Town Hall Building Fund,2025,30000,
+CIP Funding (Capital Improvement Planning),Equipment/Computer purchases & upgrades,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Equipment/Computer purchases & upgrades,2024,0,
+CIP Funding (Capital Improvement Planning),Equipment/Computer purchases & upgrades,2025,0,
+CIP Funding (Capital Improvement Planning),Asset-Equipment Fund,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Asset-Equipment Fund,2024,0,
+CIP Funding (Capital Improvement Planning),Asset-Equipment Fund,2025,50000,
+CIP Funding (Capital Improvement Planning),Highway Garage & Accessory Building Fund,2023,5000,5000.0
+CIP Funding (Capital Improvement Planning),Highway Garage & Accessory Building Fund,2024,5000,
+CIP Funding (Capital Improvement Planning),Highway Garage & Accessory Building Fund,2025,5000,
+CIP Funding (Capital Improvement Planning),Heavy Equipment & Vehicle Upgrades/Purchases,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Heavy Equipment & Vehicle Upgrades/Purchases,2024,0,
+CIP Funding (Capital Improvement Planning),Heavy Equipment & Vehicle Upgrades/Purchases,2025,0,
+CIP Funding (Capital Improvement Planning),Bridge Fund,2023,6000,6000.0
+CIP Funding (Capital Improvement Planning),Bridge Fund,2024,6000,
+CIP Funding (Capital Improvement Planning),Bridge Fund,2025,6000,
+CIP Funding (Capital Improvement Planning),Paving & Construction Fund,2023,20000,20000.0
+CIP Funding (Capital Improvement Planning),Paving & Construction Fund,2024,30000,
+CIP Funding (Capital Improvement Planning),Paving & Construction Fund,2025,30000,
+CIP Funding (Capital Improvement Planning),FD-Building Fund,2023,0,0.0
+CIP Funding (Capital Improvement Planning),FD-Building Fund,2024,0,
+CIP Funding (Capital Improvement Planning),FD-Building Fund,2025,0,
+CIP Funding (Capital Improvement Planning),Equipment Upgrades/Purchases,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Equipment Upgrades/Purchases,2024,0,
+CIP Funding (Capital Improvement Planning),Equipment Upgrades/Purchases,2025,0,
+CIP Funding (Capital Improvement Planning),Vehicle Purchases,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Vehicle Purchases,2024,0,
+CIP Funding (Capital Improvement Planning),Vehicle Purchases,2025,0,
+CIP Funding (Capital Improvement Planning),Radio Dispatch upgrade,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Radio Dispatch upgrade,2024,0,
+CIP Funding (Capital Improvement Planning),Radio Dispatch upgrade,2025,0,
+CIP Funding (Capital Improvement Planning),Structures & Grounds Upgrades,2023,0,0.0
+CIP Funding (Capital Improvement Planning),Structures & Grounds Upgrades,2024,0,
+CIP Funding (Capital Improvement Planning),Structures & Grounds Upgrades,2025,0,
+CIP Funding (Capital Improvement Planning),Tennis Court Rehab,2023,5000,5000.0
+CIP Funding (Capital Improvement Planning),Tennis Court Rehab,2024,5000,
+CIP Funding (Capital Improvement Planning),Tennis Court Rehab,2025,5000,
+Special Articles,Middlesex Conservation Fund,2023,5000,5000.0
+Special Articles,Middlesex Conservation Fund,2024,5000,
+Special Articles,Middlesex Conservation Fund,2025,2500,
+Special Articles,CV Council on Aging,2023,250,250.0
+Special Articles,CV Council on Aging,2024,250,
+Special Articles,CV Council on Aging,2025,850,
+Special Articles,CV Home Health & Hospice,2023,4050,4050.0
+Special Articles,CV Home Health & Hospice,2024,4500,
+Special Articles,CV Home Health & Hospice,2025,4500,
+Special Articles,Middlesex Community Conn.,2023,3000,3000.0
+Special Articles,Middlesex Community Conn.,2024,0,
+Special Articles,Middlesex Community Conn.,2025,0,
+Special Articles,Youth First Mentoring,2023,1500,1500.0
+Special Articles,Youth First Mentoring,2024,1500,
+Special Articles,Youth First Mentoring,2025,1500,
+Special Articles,Kellogg-Hubbard Library,2023,32022,32022.0
+Special Articles,Kellogg-Hubbard Library,2024,32022,
+Special Articles,Kellogg-Hubbard Library,2025,35580,
+Special Articles,Montpelier Senior Center,2023,7000,7000.0
+Special Articles,Montpelier Senior Center,2024,0,
+Special Articles,Montpelier Senior Center,2025,4000,
+Special Articles,North Branch Nature Center,2023,2000,2000.0
+Special Articles,North Branch Nature Center,2024,2500,
+Special Articles,North Branch Nature Center,2025,2500,
+Special Articles,Waterbury Area Senior Center,2023,7500,7500.0
+Special Articles,Waterbury Area Senior Center,2024,10000,
+Special Articles,Waterbury Area Senior Center,2025,10000,
+Special Articles,Town Hall Design Plan,2023,0,0.0
+Special Articles,Town Hall Design Plan,2024,0,
+Special Articles,Town Hall Design Plan,2025,65000,
+Special Articles - By Request: Under $251,American Red Cross,2023,250,250.0
+Special Articles - By Request: Under $251,American Red Cross,2024,250,
+Special Articles - By Request: Under $251,American Red Cross,2025,250,
+Special Articles - By Request: Under $251,Big Heavy World,2023,250,250.0
+Special Articles - By Request: Under $251,Big Heavy World,2024,250,
+Special Articles - By Request: Under $251,Big Heavy World,2025,0,
+Special Articles - By Request: Under $251,CV Adult Basic Education,2023,250,250.0
+Special Articles - By Request: Under $251,CV Adult Basic Education,2024,250,
+Special Articles - By Request: Under $251,CV Adult Basic Education,2025,250,
+Special Articles - By Request: Under $251,CV Economic Development,2023,600,600.0
+Special Articles - By Request: Under $251,CV Economic Development,2024,0,
+Special Articles - By Request: Under $251,CV Economic Development,2025,250,
+Special Articles - By Request: Under $251,The Childrens Room,2023,0,0.0
+Special Articles - By Request: Under $251,The Childrens Room,2024,250,
+Special Articles - By Request: Under $251,The Childrens Room,2025,250,
+Special Articles - By Request: Under $251,Circle,2023,199,199.0
+Special Articles - By Request: Under $251,Circle,2024,199,
+Special Articles - By Request: Under $251,Circle,2025,199,
+Special Articles - By Request: Under $251,Community Harvest of Central Vermont,2023,250,250.0
+Special Articles - By Request: Under $251,Community Harvest of Central Vermont,2024,250,
+Special Articles - By Request: Under $251,Community Harvest of Central Vermont,2025,250,
+Special Articles - By Request: Under $251,Family Center of Washington County,2023,250,250.0
+Special Articles - By Request: Under $251,Family Center of Washington County,2024,250,
+Special Articles - By Request: Under $251,Family Center of Washington County,2025,250,
+Special Articles - By Request: Under $251,Good Beginnings,2023,250,250.0
+Special Articles - By Request: Under $251,Good Beginnings,2024,250,
+Special Articles - By Request: Under $251,Good Beginnings,2025,0,
+Special Articles - By Request: Under $251,Good Samaitian Haven,2023,250,250.0
+Special Articles - By Request: Under $251,Good Samaitian Haven,2024,250,
+Special Articles - By Request: Under $251,Good Samaitian Haven,2025,250,
+Special Articles - By Request: Under $251,Green Mtn Transit,2023,249,249.0
+Special Articles - By Request: Under $251,Green Mtn Transit,2024,250,
+Special Articles - By Request: Under $251,Green Mtn Transit,2025,249,
+Special Articles - By Request: Under $251,Green Up Vermont,2023,100,100.0
+Special Articles - By Request: Under $251,Green Up Vermont,2024,100,
+Special Articles - By Request: Under $251,Green Up Vermont,2025,100,
+Special Articles - By Request: Under $251,Montpelier Veteran’s Council,2023,250,250.0
+Special Articles - By Request: Under $251,Montpelier Veteran’s Council,2024,250,
+Special Articles - By Request: Under $251,Montpelier Veteran’s Council,2025,250,
+Special Articles - By Request: Under $251,Our House of Central Vermont,2023,250,250.0
+Special Articles - By Request: Under $251,Our House of Central Vermont,2024,250,
+Special Articles - By Request: Under $251,Our House of Central Vermont,2025,250,
+Special Articles - By Request: Under $251,Peoples Health & Wellness,2023,250,250.0
+Special Articles - By Request: Under $251,Peoples Health & Wellness,2024,250,
+Special Articles - By Request: Under $251,Peoples Health & Wellness,2025,0,
+Special Articles - By Request: Under $251,MOSAIC Sexual Assault Crisis Team,2023,250,250.0
+Special Articles - By Request: Under $251,MOSAIC Sexual Assault Crisis Team,2024,250,
+Special Articles - By Request: Under $251,MOSAIC Sexual Assault Crisis Team,2025,250,
+Special Articles - By Request: Under $251,VT Assoc for the Blind,2023,249,249.0
+Special Articles - By Request: Under $251,VT Assoc for the Blind,2024,249,
+Special Articles - By Request: Under $251,VT Assoc for the Blind,2025,249,
+Special Articles - By Request: Under $251,VT Center for Independent Living,2023,195,195.0
+Special Articles - By Request: Under $251,VT Center for Independent Living,2024,195,
+Special Articles - By Request: Under $251,VT Center for Independent Living,2025,195,
+Special Articles - By Request: Under $251,Vermont Family Network,2023,250,250.0
+Special Articles - By Request: Under $251,Vermont Family Network,2024,250,
+Special Articles - By Request: Under $251,Vermont Family Network,2025,250,
+Special Articles - By Request: Under $251,VT Rural Fire Prot Task Force,2023,100,100.0
+Special Articles - By Request: Under $251,VT Rural Fire Prot Task Force,2024,250,
+Special Articles - By Request: Under $251,VT Rural Fire Prot Task Force,2025,0,
+Special Articles - By Request: Under $251,Washington County Diversion,2023,250,250.0
+Special Articles - By Request: Under $251,Washington County Diversion,2024,250,
+Special Articles - By Request: Under $251,Washington County Diversion,2025,250,
+Special Articles - By Request: Under $251,ELEVATE (Washington County Youth Service),2023,175,175.0
+Special Articles - By Request: Under $251,ELEVATE (Washington County Youth Service),2024,175,
+Special Articles - By Request: Under $251,ELEVATE (Washington County Youth Service),2025,250,

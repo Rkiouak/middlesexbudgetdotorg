@@ -1,0 +1,409 @@
+section,line_item,fiscal_year,budgeted,actual
+General Government,Selectboard Salary,2011,3150,3150
+General Government,Selectboard Salary,2012,3150,0
+General Government,Selectboard Salary,2013,3150,
+General Government,Selectboard Clerk,2011,18000,17984
+General Government,Selectboard Clerk,2012,18270,10317
+General Government,Selectboard Clerk,2013,18544,
+General Government,Advertising/Printing,2011,1500,1667
+General Government,Advertising/Printing,2012,1500,1381
+General Government,Advertising/Printing,2013,1700,
+General Government,Discretionary Fund,2011,5000,4368
+General Government,Discretionary Fund,2012,9000,3993
+General Government,Discretionary Fund,2013,9000,
+General Government,Legal Fees,2011,5000,348
+General Government,Legal Fees,2012,3000,1756
+General Government,Legal Fees,2013,3000,
+General Government,Town Report,2011,4000,3660
+General Government,Town Report,2012,4000,0
+General Government,Town Report,2013,3200,
+General Government,VLCT Dues,2011,2478,2478
+General Government,VLCT Dues,2012,2532,2562
+General Government,VLCT Dues,2013,2577,
+General Government,County Tax,2011,15477,15477
+General Government,County Tax,2012,12783,12783
+General Government,County Tax,2013,14347,
+General Government,CV Solid Waste,2011,5800,3631
+General Government,CV Solid Waste,2012,3744,3738
+General Government,CV Solid Waste,2013,3800,
+General Government,CV Reg Planning Comm,2011,1968,1968
+General Government,CV Reg Planning Comm,2012,1968,1968
+General Government,CV Reg Planning Comm,2013,1818,
+General Government,Conservation Commission,2011,1000,186
+General Government,Conservation Commission,2012,1000,89
+General Government,Conservation Commission,2013,1000,
+General Government,Tree Warden,2011,500,0
+General Government,Tree Warden,2012,100,0
+General Government,Tree Warden,2013,100,
+General Government,Elections,2011,2300,873
+General Government,Elections,2012,1000,0
+General Government,Elections,2013,1000,
+General Government,School Payoff,2011,2170174,2125436
+General Government,School Payoff,2012,2265340,1132670
+General Government,School Payoff,2013,2265340,
+Town Insurances,Workers Comp,2011,12000,10100
+Town Insurances,Workers Comp,2012,9314,7937
+Town Insurances,Workers Comp,2013,8000,
+Town Insurances,Unemployment Comp,2011,1889,2192
+Town Insurances,Unemployment Comp,2012,2492,1799
+Town Insurances,Unemployment Comp,2013,1957,
+Town Insurances,Property & Casualty,2011,19253,17919
+Town Insurances,Property & Casualty,2012,18000,14201
+Town Insurances,Property & Casualty,2013,16000,
+Employee Benefits,Social Security,2011,15164,16060
+Employee Benefits,Social Security,2012,14800,8528
+Employee Benefits,Social Security,2013,15906,
+Employee Benefits,Medicare,2011,3547,3756
+Employee Benefits,Medicare,2012,3500,1994
+Employee Benefits,Medicare,2013,3720,
+Employee Benefits,Retirement,2011,10764,10935
+Employee Benefits,Retirement,2012,10741,6272
+Employee Benefits,Retirement,2013,11222,
+Employee Benefits,Life Insurance,2011,300,992
+Employee Benefits,Life Insurance,2012,832,866
+Employee Benefits,Life Insurance,2013,860,
+Employee Benefits,Health Insurance,2011,25567,21375
+Employee Benefits,Health Insurance,2012,36742,16315
+Employee Benefits,Health Insurance,2013,33000,
+Employee Benefits,Long Term Disability,2011,0,0
+Employee Benefits,Long Term Disability,2012,939,0
+Employee Benefits,Long Term Disability,2013,950,
+Administration,Clerk Salary,2011,37000,37015
+Administration,Clerk Salary,2012,37555,21890
+Administration,Clerk Salary,2013,38119,
+Administration,Office Staff Salary,2011,12754,12910
+Administration,Office Staff Salary,2012,13000,7352
+Administration,Office Staff Salary,2013,13578,
+Administration,Lister Wages,2011,7500,7266
+Administration,Lister Wages,2012,5000,956
+Administration,Lister Wages,2013,5000,
+Administration,Clerical Mileage,2011,400,105
+Administration,Clerical Mileage,2012,400,0
+Administration,Clerical Mileage,2013,250,
+Administration,Office Supplies,2011,2000,2212
+Administration,Office Supplies,2012,2000,1276
+Administration,Office Supplies,2013,2300,
+Administration,Equipment Repair,2011,250,1263
+Administration,Equipment Repair,2012,250,0
+Administration,Equipment Repair,2013,250,
+Administration,Equipment Purchase,2011,2000,1157
+Administration,Equipment Purchase,2012,1500,2963
+Administration,Equipment Purchase,2013,2500,
+Administration,Telephone,2011,2500,3165
+Administration,Telephone,2012,4000,2030
+Administration,Telephone,2013,3300,
+Administration,Postage,2011,1800,3152
+Administration,Postage,2012,1800,1085
+Administration,Postage,2013,2000,
+Administration,Auditing,2011,3100,3250
+Administration,Auditing,2012,3200,3375
+Administration,Auditing,2013,3300,
+Administration,Listing Mileage/Expenses,2011,2200,3321
+Administration,Listing Mileage/Expenses,2012,2200,380
+Administration,Listing Mileage/Expenses,2013,2200,
+Administration,Clerk's Office Seminars,2011,750,95
+Administration,Clerk's Office Seminars,2012,750,576
+Administration,Clerk's Office Seminars,2013,500,
+Administration,Listing Mapping,2011,500,500
+Administration,Listing Mapping,2012,2000,1668
+Administration,Listing Mapping,2013,500,
+Administration,Copier Lease,2011,2030,2168
+Administration,Copier Lease,2012,2030,1254
+Administration,Copier Lease,2013,2030,
+Administration,Computer Maintenance,2011,0,0
+Administration,Computer Maintenance,2012,2400,3079
+Administration,Computer Maintenance,2013,2450,
+Town Hall,Electricity,2011,1500,1760
+Town Hall,Electricity,2012,1800,985
+Town Hall,Electricity,2013,1900,
+Town Hall,Heat,2011,4000,3702
+Town Hall,Heat,2012,4000,1831
+Town Hall,Heat,2013,4000,
+Town Hall,Grounds,2011,2000,1120
+Town Hall,Grounds,2012,2000,279
+Town Hall,Grounds,2013,1500,
+Town Hall,Building Repairs,2011,6000,7719
+Town Hall,Building Repairs,2012,5000,1120
+Town Hall,Building Repairs,2013,5000,
+Public Safety,Constable,2011,1500,918
+Public Safety,Constable,2012,1500,7
+Public Safety,Constable,2013,1500,
+Public Safety,Health Officer,2011,500,0
+Public Safety,Health Officer,2012,500,0
+Public Safety,Health Officer,2013,500,
+Public Safety,Courses/Seminars,2011,100,0
+Public Safety,Courses/Seminars,2012,100,0
+Public Safety,Courses/Seminars,2013,100,
+Public Safety,Ambulance,2011,49034,49034
+Public Safety,Ambulance,2012,51974,51974
+Public Safety,Ambulance,2013,53851,
+Public Safety,Speed Enforcement,2011,1000,445
+Public Safety,Speed Enforcement,2012,5000,908
+Public Safety,Speed Enforcement,2013,5000,
+Public Safety,Dog Pound,2011,700,700
+Public Safety,Dog Pound,2012,700,800
+Public Safety,Dog Pound,2013,800,
+Fire Department,Supplies,2011,300,32
+Fire Department,Supplies,2012,300,121
+Fire Department,Supplies,2013,200,
+Fire Department,Equipment Repair,2011,3000,1901
+Fire Department,Equipment Repair,2012,3000,4320
+Fire Department,Equipment Repair,2013,3000,
+Fire Department,Equipment Purchase,2011,3400,4976
+Fire Department,Equipment Purchase,2012,5900,2637
+Fire Department,Equipment Purchase,2013,5000,
+Fire Department,Telephone,2011,1200,885
+Fire Department,Telephone,2012,1200,528
+Fire Department,Telephone,2013,1000,
+Fire Department,Fast Squad Supplies,2011,1500,866
+Fire Department,Fast Squad Supplies,2012,1200,17
+Fire Department,Fast Squad Supplies,2013,1000,
+Fire Department,Electricity,2011,1000,1057
+Fire Department,Electricity,2012,1000,676
+Fire Department,Electricity,2013,1200,
+Fire Department,Fuel - Heat,2011,5000,5462
+Fire Department,Fuel - Heat,2012,5500,752
+Fire Department,Fuel - Heat,2013,5500,
+Fire Department,Building Maintenance,2011,500,2313
+Fire Department,Building Maintenance,2012,900,1650
+Fire Department,Building Maintenance,2013,1100,
+Fire Department,Radio Dispatch,2011,9000,8995
+Fire Department,Radio Dispatch,2012,9000,247
+Fire Department,Radio Dispatch,2013,9500,
+Fire Department,VFFA Dues/Legal Fees,2011,1600,1115
+Fire Department,VFFA Dues/Legal Fees,2012,1200,425
+Fire Department,VFFA Dues/Legal Fees,2013,1000,
+Fire Department,Forest Fire Warden,2011,250,0
+Fire Department,Forest Fire Warden,2012,250,0
+Fire Department,Forest Fire Warden,2013,250,
+Fire Department,Administrative Assistant,2011,0,0
+Fire Department,Administrative Assistant,2012,0,0
+Fire Department,Administrative Assistant,2013,5000,
+Fire Department,GAS,2011,1500,593
+Fire Department,GAS,2012,1000,472
+Fire Department,GAS,2013,1000,
+Fire Department,Stipends,2011,0,0
+Fire Department,Stipends,2012,0,0
+Fire Department,Stipends,2013,2000,
+Fire Department,Grant Reimbursement,2011,0,0
+Fire Department,Grant Reimbursement,2012,0,407
+Fire Department,Grant Reimbursement,2013,0,
+Public Works,Salaries,2011,157294,163703
+Public Works,Salaries,2012,163000,93129
+Public Works,Salaries,2013,168000,
+Public Works,Winter Maintenance,2011,45000,18593
+Public Works,Winter Maintenance,2012,45000,43835
+Public Works,Winter Maintenance,2013,45000,
+Public Works,Summer Maintenance,2011,30000,30539
+Public Works,Summer Maintenance,2012,30000,34002
+Public Works,Summer Maintenance,2013,27000,
+Public Works,Emergency Road Repairs,2011,0,19137
+Public Works,Emergency Road Repairs,2012,0,13281
+Public Works,Emergency Road Repairs,2013,0,
+Public Works,Equipment Maintenance,2011,40000,36579
+Public Works,Equipment Maintenance,2012,40000,37114
+Public Works,Equipment Maintenance,2013,40000,
+Public Works,Courses/Seminars,2011,400,30
+Public Works,Courses/Seminars,2012,0,60
+Public Works,Courses/Seminars,2013,300,
+Public Works,Utilities,2011,3000,2583
+Public Works,Utilities,2012,3000,1330
+Public Works,Utilities,2013,3000,
+Public Works,Plant Maintenance,2011,12000,4924
+Public Works,Plant Maintenance,2012,10000,4610
+Public Works,Plant Maintenance,2013,10000,
+Public Works,Street Lights,2011,2000,1934
+Public Works,Street Lights,2012,2000,1269
+Public Works,Street Lights,2013,2000,
+Public Works,Gas/Diesel/Oil,2011,50000,66160
+Public Works,Gas/Diesel/Oil,2012,50000,41946
+Public Works,Gas/Diesel/Oil,2013,66000,
+Public Works,Culverts & Bridges,2011,6000,5600
+Public Works,Culverts & Bridges,2012,6000,-6477
+Public Works,Culverts & Bridges,2013,4000,
+Public Works,Signs,2011,750,-23
+Public Works,Signs,2012,750,232
+Public Works,Signs,2013,3000,
+Public Works,Bridge Fund,2011,1250,1250
+Public Works,Bridge Fund,2012,1000,0
+Public Works,Bridge Fund,2013,2000,
+Public Works,Paving Fund,2011,16000,16000
+Public Works,Paving Fund,2012,16000,0
+Public Works,Paving Fund,2013,12000,
+Public Works,Construction & Paving,2011,100208,110433
+Public Works,Construction & Paving,2012,91900,39146
+Public Works,Construction & Paving,2013,90000,
+Public Works,Equipment Purchase,2011,0,0
+Public Works,Equipment Purchase,2012,0,0
+Public Works,Equipment Purchase,2013,2000,
+Public Works,Enhancement Grant Match,2011,0,271
+Public Works,Enhancement Grant Match,2012,3000,1990
+Public Works,Enhancement Grant Match,2013,0,
+Cemetery,Labor,2011,4240,5940
+Cemetery,Labor,2012,4240,3900
+Cemetery,Labor,2013,4240,
+Cemetery,Materials,2011,1000,25
+Cemetery,Materials,2012,1000,0
+Cemetery,Materials,2013,1000,
+Cemetery,Repair to Cemetery,2011,1000,0
+Cemetery,Repair to Cemetery,2012,1000,0
+Cemetery,Repair to Cemetery,2013,1000,
+Recreation,Wrightsville Beach,2011,905,904
+Recreation,Wrightsville Beach,2012,904,904
+Recreation,Wrightsville Beach,2013,904,
+Recreation,Town Bch,2011,2650,2650
+Recreation,Town Bch,2012,2750,0
+Recreation,Town Bch,2013,3000,
+Recreation,Learn to Swim,2011,1200,1238
+Recreation,Learn to Swim,2012,1200,0
+Recreation,Learn to Swim,2013,1250,
+Recreation,Bandstand Mowing,2011,0,0
+Recreation,Bandstand Mowing,2012,0,0
+Recreation,Bandstand Mowing,2013,500,
+Debt Service,1997 Grader,2011,0,0
+Debt Service,1997 Grader,2012,0,0
+Debt Service,1997 Grader,2013,27480,
+Debt Service,Grader Interest,2011,0,0
+Debt Service,Grader Interest,2012,0,0
+Debt Service,Grader Interest,2013,563,
+Debt Service,2010 International Dump,2011,20040,20040
+Debt Service,2010 International Dump,2012,20400,20040
+Debt Service,2010 International Dump,2013,20400,
+Debt Service,2010 Int Dump Interest,2011,3156,3121
+Debt Service,2010 Int Dump Interest,2012,2666,2690
+Debt Service,2010 Int Dump Interest,2013,2254,
+Debt Service,2004 Fire Truck,2011,15000,15000
+Debt Service,2004 Fire Truck,2012,15000,15000
+Debt Service,2004 Fire Truck,2013,15000,
+Debt Service,2004 Fire Truck Interest,2011,2378,2582
+Debt Service,2004 Fire Truck Interest,2012,1474,1157
+Debt Service,2004 Fire Truck Interest,2013,1474,
+Debt Service,2006 Dump Truck,2011,19892,19892
+Debt Service,2006 Dump Truck,2012,19893,19893
+Debt Service,2006 Dump Truck,2013,0,
+Debt Service,Interest,2011,995,993
+Debt Service,Interest,2012,378,488
+Debt Service,Interest,2013,0,
+Debt Service,2007 Backhoe,2011,13600,13600
+Debt Service,2007 Backhoe,2012,13600,0
+Debt Service,2007 Backhoe,2013,0,
+Debt Service,Backhoe Interest,2011,1204,651
+Debt Service,Backhoe Interest,2012,556,0
+Debt Service,Backhoe Interest,2013,0,
+Debt Service,2009 One Ton Truck,2011,11000,10979
+Debt Service,2009 One Ton Truck,2012,11000,0
+Debt Service,2009 One Ton Truck,2013,11000,
+Debt Service,2009 One Ton Interest,2011,1592,1117
+Debt Service,2009 One Ton Interest,2012,834,0
+Debt Service,2009 One Ton Interest,2013,741,
+Debt Service,Fire Station Bond,2011,45000,45000
+Debt Service,Fire Station Bond,2012,45000,45000
+Debt Service,Fire Station Bond,2013,45000,
+Debt Service,Fire Station Interest,2011,29237,29237
+Debt Service,Fire Station Interest,2012,28543,14462
+Debt Service,Fire Station Interest,2013,28479,
+Zoning/Brd of Adjustment,Zoning Wages,2011,3400,1215
+Zoning/Brd of Adjustment,Zoning Wages,2012,3400,1684
+Zoning/Brd of Adjustment,Zoning Wages,2013,3000,
+Zoning/Brd of Adjustment,Mileage,2011,300,0
+Zoning/Brd of Adjustment,Mileage,2012,0,0
+Zoning/Brd of Adjustment,Mileage,2013,0,
+Zoning/Brd of Adjustment,Advertising,2011,300,93
+Zoning/Brd of Adjustment,Advertising,2012,300,48
+Zoning/Brd of Adjustment,Advertising,2013,300,
+Zoning/Brd of Adjustment,Courses/Seminars,2011,75,0
+Zoning/Brd of Adjustment,Courses/Seminars,2012,75,0
+Zoning/Brd of Adjustment,Courses/Seminars,2013,75,
+Planning Commission,Advertising,2011,500,475
+Planning Commission,Advertising,2012,600,0
+Planning Commission,Advertising,2013,500,
+Planning Commission,Mapping,2011,300,0
+Planning Commission,Mapping,2012,200,0
+Planning Commission,Mapping,2013,0,
+Planning Commission,Mail Drop/Postage,2011,600,83
+Planning Commission,Mail Drop/Postage,2012,600,0
+Planning Commission,Mail Drop/Postage,2013,500,
+Planning Commission,Printing & Copying,2011,600,50
+Planning Commission,Printing & Copying,2012,600,55
+Planning Commission,Printing & Copying,2013,500,
+Planning Commission,Consulation,2011,0,0
+Planning Commission,Consulation,2012,0,0
+Planning Commission,Consulation,2013,1000,
+Special Articles,Battered Women,2011,199,199
+Special Articles,Battered Women,2012,199,199
+Special Articles,Battered Women,2013,0,
+Special Articles,CV Community Action,2011,199,199
+Special Articles,CV Community Action,2012,199,199
+Special Articles,CV Community Action,2013,0,
+Special Articles,CV Community Land Trust,2011,199,199
+Special Articles,CV Community Land Trust,2012,199,199
+Special Articles,CV Community Land Trust,2013,0,
+Special Articles,CV Council on Aging,2011,199,199
+Special Articles,CV Council on Aging,2012,199,199
+Special Articles,CV Council on Aging,2013,0,
+Special Articles,CV Economic Development,2011,500,500
+Special Articles,CV Economic Development,2012,0,0
+Special Articles,CV Economic Development,2013,0,
+Special Articles,CV Home Health & Hospice,2011,2000,2000
+Special Articles,CV Home Health & Hospice,2012,2000,2000
+Special Articles,CV Home Health & Hospice,2013,0,
+Special Articles,Family Center of Vermont,2011,199,199
+Special Articles,Family Center of Vermont,2012,199,199
+Special Articles,Family Center of Vermont,2013,0,
+Special Articles,Green Mt. Transit,2011,200,200
+Special Articles,Green Mt. Transit,2012,953,953
+Special Articles,Green Mt. Transit,2013,0,
+Special Articles,Kellogg-Hubbard Library,2011,25543,25543
+Special Articles,Kellogg-Hubbard Library,2012,25543,0
+Special Articles,Kellogg-Hubbard Library,2013,0,
+Special Articles,Maple Leaf Farm,2011,200,200
+Special Articles,Maple Leaf Farm,2012,200,200
+Special Articles,Maple Leaf Farm,2013,0,
+Special Articles,Middlesex Community Conn.,2011,3000,3000
+Special Articles,Middlesex Community Conn.,2012,3000,3000
+Special Articles,Middlesex Community Conn.,2013,0,
+Special Articles,Middlesex Conservation Co,2011,0,0
+Special Articles,Middlesex Conservation Co,2012,5000,0
+Special Articles,Middlesex Conservation Co,2013,0,
+Special Articles,Montpelier Senior Center,2011,199,199
+Special Articles,Montpelier Senior Center,2012,199,199
+Special Articles,Montpelier Senior Center,2013,0,
+Special Articles,Montpelier Veteran's Council,2011,199,199
+Special Articles,Montpelier Veteran's Council,2012,200,200
+Special Articles,Montpelier Veteran's Council,2013,0,
+Special Articles,No.Vt.Resource & Development,2011,75,75
+Special Articles,No.Vt.Resource & Development,2012,75,75
+Special Articles,No.Vt.Resource & Development,2013,0,
+Special Articles,North Branch Nature Center,2011,1000,1000
+Special Articles,North Branch Nature Center,2012,1000,1000
+Special Articles,North Branch Nature Center,2013,0,
+Special Articles,Peoples Health & Wellness,2011,199,199
+Special Articles,Peoples Health & Wellness,2012,200,200
+Special Articles,Peoples Health & Wellness,2013,0,
+Special Articles,RSVP,2011,500,500
+Special Articles,RSVP,2012,750,750
+Special Articles,RSVP,2013,0,
+Special Articles,Sexual Assault Crisis Team,2011,195,195
+Special Articles,Sexual Assault Crisis Team,2012,195,195
+Special Articles,Sexual Assault Crisis Team,2013,0,
+Special Articles,U32 Project Graduation,2011,200,200
+Special Articles,U32 Project Graduation,2012,200,200
+Special Articles,U32 Project Graduation,2013,0,
+Special Articles,Vermont Cares,2011,199,199
+Special Articles,Vermont Cares,2012,199,199
+Special Articles,Vermont Cares,2013,0,
+Special Articles,Vt. Assoc. for the Blind,2011,190,190
+Special Articles,Vt. Assoc. for the Blind,2012,195,195
+Special Articles,Vt. Assoc. for the Blind,2013,0,
+Special Articles,Vt. Center for Indepen. Living,2011,195,195
+Special Articles,Vt. Center for Indepen. Living,2012,195,195
+Special Articles,Vt. Center for Indepen. Living,2013,0,
+Special Articles,Vt. Green Up,2011,100,100
+Special Articles,Vt. Green Up,2012,100,100
+Special Articles,Vt. Green Up,2013,0,
+Special Articles,Washington Cty. Youth Service,2011,175,175
+Special Articles,Washington Cty. Youth Service,2012,175,175
+Special Articles,Washington Cty. Youth Service,2013,0,
+Special Articles,Waterbury Area Senior Center,2011,0,0
+Special Articles,Waterbury Area Senior Center,2012,7500,7500
+Special Articles,Waterbury Area Senior Center,2013,0,
