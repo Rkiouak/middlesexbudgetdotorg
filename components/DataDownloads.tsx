@@ -9,6 +9,7 @@ const YEARS = [
 const TOC_SECTIONS = [
   { label: "Overview", href: "#overview" },
   { label: "Budget vs. Inflation", href: "#budget-growth-vs-inflation", indent: true },
+  { label: "Why CPI Understates Costs", href: "#why-cpi-doesnt-tell-the-whole-story", indent: true },
   { label: "Three Budget Eras", href: "#three-budget-eras", indent: true },
   { label: "Primary Cost Drivers", href: "#primary-cost-drivers", indent: true },
   { label: "What the Data Shows", href: "#what-the-data-shows", indent: true },

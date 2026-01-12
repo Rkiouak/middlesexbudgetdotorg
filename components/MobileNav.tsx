@@ -16,6 +16,7 @@ interface MobileNavProps {
 const TOC_SECTIONS = [
   { label: "Overview", href: "#overview" },
   { label: "Budget vs. Inflation", href: "#budget-growth-vs-inflation" },
+  { label: "Why CPI Understates Costs", href: "#why-cpi-doesnt-tell-the-whole-story" },
   { label: "Three Budget Eras", href: "#three-budget-eras" },
   { label: "Primary Cost Drivers", href: "#primary-cost-drivers" },
   { label: "What the Data Shows", href: "#what-the-data-shows" },
