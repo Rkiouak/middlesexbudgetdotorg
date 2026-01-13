@@ -64,11 +64,11 @@ const inflationData = [
 ];
 
 const lineColors = {
-  budget: "#1e4d2b",    // Dark green - Middlesex budget
-  cpiU: "#6b7280",      // Gray - CPI-U
-  eci: "#0ea5e9",       // Sky blue - ECI
-  nhcci: "#ea580c",     // Orange - Highway costs
-  materials: "#8b5cf6", // Purple - Materials
+  budget: "#1e4d2b",    // Dark green - Middlesex budget (PRIMARY)
+  cpiU: "#9ca3af",      // Light gray - CPI-U
+  eci: "#7dd3fc",       // Light sky blue - ECI
+  nhcci: "#fdba74",     // Light orange - Highway costs
+  materials: "#c4b5fd", // Light purple - Materials
 };
 
 interface CustomTooltipProps {
@@ -99,91 +99,94 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
 
 export default function InflationComparisonChart() {
   return (
-    <section className="py-6 px-4 border-b-2 border-gray-200 bg-white" aria-labelledby="inflation-chart-heading">
-      <div className="max-w-4xl mx-auto">
-        <h2 id="inflation-chart-heading" className="text-lg font-semibold text-gray-800 mb-1">
-          Budget Growth vs. Inflation Indices (2020-2025)
-        </h2>
-        <p className="text-sm text-gray-600 mb-4">
-          Middlesex budget increases compared to CPI-U, government wages (ECI), highway construction (NHCCI), and road materials
-        </p>
+    <div className="not-prose">
+      <div className="h-72 md:h-80 bg-gray-50 rounded-lg p-4" role="img" aria-label="Line chart comparing budget growth to various inflation indices">
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart
+            data={inflationData}
+            margin={{ top: 10, right: 10, left: -10, bottom: 5 }}
+          >
+            <XAxis
+              dataKey="year"
+              tick={{ fontSize: 11, fill: '#4b5563' }}
+              axisLine={{ stroke: '#e5e7eb' }}
+              tickLine={false}
+            />
+            <YAxis
+              tickFormatter={(value) => `${value}%`}
+              tick={{ fontSize: 11, fill: '#6b7280' }}
+              axisLine={false}
+              tickLine={false}
+              domain={[-5, 30]}
+            />
+            <Tooltip content={<CustomTooltip />} />
+            <Legend
+              wrapperStyle={{ fontSize: '12px', paddingTop: '15px' }}
+              iconType="plainline"
+              formatter={(value) => (
+                <span style={{
+                  color: value === "Middlesex Budget" ? '#1e4d2b' : '#6b7280',
+                  fontWeight: value === "Middlesex Budget" ? 600 : 400
+                }}>
+                  {value}
+                </span>
+              )}
+            />
+            <ReferenceLine y={0} stroke="#e5e7eb" strokeDasharray="3 3" />
 
-        <div className="h-72 md:h-80" role="img" aria-label="Line chart comparing budget growth to various inflation indices">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart
-              data={inflationData}
-              margin={{ top: 10, right: 10, left: -10, bottom: 5 }}
-            >
-              <XAxis
-                dataKey="year"
-                tick={{ fontSize: 11, fill: '#4b5563' }}
-                axisLine={{ stroke: '#e5e7eb' }}
-                tickLine={false}
-              />
-              <YAxis
-                tickFormatter={(value) => `${value}%`}
-                tick={{ fontSize: 11, fill: '#6b7280' }}
-                axisLine={false}
-                tickLine={false}
-                domain={[-5, 30]}
-              />
-              <Tooltip content={<CustomTooltip />} />
-              <Legend
-                wrapperStyle={{ fontSize: '11px', paddingTop: '10px' }}
-                iconType="line"
-              />
-              <ReferenceLine y={0} stroke="#e5e7eb" strokeDasharray="3 3" />
-
-              <Line
-                type="monotone"
-                dataKey="budget"
-                name="Middlesex Budget"
-                stroke={lineColors.budget}
-                strokeWidth={3}
-                dot={{ fill: lineColors.budget, strokeWidth: 0, r: 4 }}
-                activeDot={{ r: 6 }}
-              />
-              <Line
-                type="monotone"
-                dataKey="cpiU"
-                name="CPI-U"
-                stroke={lineColors.cpiU}
-                strokeWidth={2}
-                dot={{ fill: lineColors.cpiU, strokeWidth: 0, r: 3 }}
-                strokeDasharray="5 5"
-              />
-              <Line
-                type="monotone"
-                dataKey="eci"
-                name="ECI (Gov. Wages)"
-                stroke={lineColors.eci}
-                strokeWidth={2}
-                dot={{ fill: lineColors.eci, strokeWidth: 0, r: 3 }}
-              />
-              <Line
-                type="monotone"
-                dataKey="nhcci"
-                name="Highway Costs"
-                stroke={lineColors.nhcci}
-                strokeWidth={2}
-                dot={{ fill: lineColors.nhcci, strokeWidth: 0, r: 3 }}
-              />
-              <Line
-                type="monotone"
-                dataKey="materials"
-                name="Materials"
-                stroke={lineColors.materials}
-                strokeWidth={2}
-                dot={{ fill: lineColors.materials, strokeWidth: 0, r: 3 }}
-              />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
-
-        <p className="text-xs text-gray-500 mt-3">
-          Sources: Town Reports, BLS CPI-U Northeast, BLS Employment Cost Index, FHWA NHCCI, BLS PPI Construction Materials. 2025 values are estimates.
-        </p>
+            {/* Middlesex Budget - PRIMARY LINE */}
+            <Line
+              type="monotone"
+              dataKey="budget"
+              name="Middlesex Budget"
+              stroke={lineColors.budget}
+              strokeWidth={4}
+              dot={{ fill: lineColors.budget, strokeWidth: 2, stroke: '#fff', r: 5 }}
+              activeDot={{ r: 8, strokeWidth: 2, stroke: '#fff' }}
+            />
+            {/* Secondary lines - all dashed/dotted, thinner, less prominent */}
+            <Line
+              type="monotone"
+              dataKey="cpiU"
+              name="CPI-U"
+              stroke={lineColors.cpiU}
+              strokeWidth={1.5}
+              dot={{ fill: lineColors.cpiU, strokeWidth: 0, r: 2 }}
+              strokeDasharray="6 4"
+            />
+            <Line
+              type="monotone"
+              dataKey="eci"
+              name="ECI (Gov. Wages)"
+              stroke={lineColors.eci}
+              strokeWidth={1.5}
+              dot={{ fill: lineColors.eci, strokeWidth: 0, r: 2 }}
+              strokeDasharray="6 4"
+            />
+            <Line
+              type="monotone"
+              dataKey="nhcci"
+              name="Highway Costs"
+              stroke={lineColors.nhcci}
+              strokeWidth={1.5}
+              dot={{ fill: lineColors.nhcci, strokeWidth: 0, r: 2 }}
+              strokeDasharray="6 4"
+            />
+            <Line
+              type="monotone"
+              dataKey="materials"
+              name="Materials"
+              stroke={lineColors.materials}
+              strokeWidth={1.5}
+              dot={{ fill: lineColors.materials, strokeWidth: 0, r: 2 }}
+              strokeDasharray="6 4"
+            />
+          </LineChart>
+        </ResponsiveContainer>
       </div>
-    </section>
+      <p className="text-xs text-gray-500 mt-2">
+        Sources: Town Reports, BLS CPI-U Northeast, BLS Employment Cost Index, FHWA NHCCI, BLS PPI Construction Materials. 2025 values are estimates.
+      </p>
+    </div>
   );
 }
