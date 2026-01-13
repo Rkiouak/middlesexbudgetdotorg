@@ -25,27 +25,27 @@
 
 The Consumer Price Index (CPI-U) measures general household goods—groceries, gas, rent. But a municipal budget is dominated by **wages, benefits, and construction materials**, which have their own inflation rates:
 
-| Year | CPI-U (General Goods) | ECI (Gov. Wages & Benefits) | Construction Costs | Materials (Roads/Infra) |
-|------|----------------------|----------------------------|-------------------|------------------------|
-| 2025 | ~2.7% | 3.5% | 2.5% | 2.6% |
-| 2024 | 3.4% | 4.8% | 3.2% | 3.2% |
-| 2023 | 3.3% | 4.6% | 2.7% | 5.6% |
-| 2022 | 7.1% | 3.8% | 9.3% | 15.8% |
-| 2021 | 4.0% | 2.6% | 7.5% | 13.4% |
-| 2020 | 1.3% | 2.7% | 1.9% | 2.5% |
-| 2019 | 1.6% | 2.9% | 1.9% | 1.5% |
-| 2018 | 2.3% | 2.7% | 2.9% | 3.0% |
-| 2017 | 1.9% | 2.4% | 3.3% | 2.8% |
-| 2016 | 1.3% | 2.4% | 3.4% | 1.3% |
-| 2015 | -0.2% | 2.3% | 2.2% | -1.5% |
-| 2014 | 1.3% | 2.1% | 2.7% | 1.3% |
-| 2013 | 1.5% | 1.8% | 3.3% | 1.8% |
-| 2012 | 1.8% | 1.6% | 2.7% | 1.5% |
-| 2011 | 3.2% | 1.6% | 3.1% | 5.2% |
+| Year | CPI-U (General Goods) | ECI (Gov. Wages & Benefits) | Highway Costs (NHCCI) | Materials (Roads/Infra) |
+|------|----------------------|----------------------------|----------------------|------------------------|
+| 2025 | ~2.7% | 3.5% | ~4% (est) | 2.6% |
+| 2024 | 3.4% | 4.8% | 12.2% | 3.2% |
+| 2023 | 3.3% | 4.6% | 25.2% | 5.6% |
+| 2022 | 7.1% | 3.8% | 20.0% | 15.8% |
+| 2021 | 4.0% | 2.6% | -3.0% | 13.4% |
+| 2020 | 1.3% | 2.7% | 6.5% | 2.5% |
+| 2019 | 1.6% | 2.9% | 10.8% | 1.5% |
+| 2018 | 2.3% | 2.7% | 3.1% | 3.0% |
+| 2017 | 1.9% | 2.4% | -0.6% | 2.8% |
+| 2016 | 1.3% | 2.4% | -5.2% | 1.3% |
+| 2015 | -0.2% | 2.3% | 5.5% | -1.5% |
+| 2014 | 1.3% | 2.1% | 2.5% | 1.3% |
+| 2013 | 1.5% | 1.8% | -2.5% | 1.8% |
+| 2012 | 1.8% | 1.6% | 11.6% | 1.5% |
+| 2011 | 3.2% | 1.6% | 1.4% | 5.2% |
 
-*Sources: BLS CPI-U Northeast, BLS Employment Cost Index (State/Local), ENR Construction Cost Index, BLS PPI for Construction Materials.*
+*Sources: BLS CPI-U Northeast, BLS Employment Cost Index (State/Local), FHWA National Highway Construction Cost Index (NHCCI), BLS PPI for Construction Materials.*
 
-**Key insight:** When road materials spiked 15.8% (2022) and construction costs rose 9.3%, CPI was only 7.1%. The town's costs—predominantly highway labor, health insurance, and gravel—track closer to ECI and PPI than to the consumer inflation rate. Comparing the town budget to CPI understates the real inflationary pressure on municipal operations.
+**Key insight:** When highway construction costs spiked 20% (2022) and road materials rose 15.8%, CPI was only 7.1%. In 2023, highway costs rose another 25% while CPI was just 3.3%. The town's costs—predominantly highway labor, health insurance, and gravel—track closer to NHCCI and PPI than to the consumer inflation rate. Comparing the town budget to CPI understates the real inflationary pressure on municipal operations.
 
 ---
 
