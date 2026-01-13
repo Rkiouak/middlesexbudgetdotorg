@@ -36,7 +36,7 @@ export default function Home() {
                 Budget Transparency Portal
               </h1>
               <p className="text-sm text-gray-700 mt-1">
-                Fiscal Year 2011 - 2024 Budget Data and Analysis
+                Fiscal Year 2011 - 2026 Budget Data and Analysis
               </p>
             </div>
           </div>

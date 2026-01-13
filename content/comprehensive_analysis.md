@@ -1,4 +1,4 @@
-# Middlesex Town Budget Analysis: FY2011 - FY2024
+# Middlesex Town Budget Analysis: FY2011 - FY2026
 
 ---
 
@@ -109,8 +109,8 @@ The Consumer Price Index (CPI-U) measures general household goods—groceries, g
 
 ## Key Takeaways
 
-- **Total growth (FY2012→FY2024):** $1.07M → $1.66M (+55%, ~3.6%/year)
-- **Biggest driver:** Public Works (+91%)—wages, benefits, equipment debt, and materials
+- **Total growth (FY2012→FY2026 proposed):** $1.07M → $1.89M (+77%, ~4.3%/year)
+- **Biggest driver:** Public Works (+76% from FY2020)—wages, benefits, equipment debt, and materials
 - **Biggest shock:** 2023 floods caused $2.6M in unbudgeted emergency spending
 - **Structural shift:** Town moved from reactive spending to planned Capital Improvement reserves
 
@@ -118,12 +118,12 @@ The Consumer Price Index (CPI-U) measures general household goods—groceries, g
 
 # Budget Growth by Department
 
-| Department | FY2012 | FY2024 | Change | Growth |
-|------------|--------|--------|--------|--------|
-| Public Works | $491,650 | $943,160 | +$451,510 | +91% |
-| Administration | $90,523 | $245,910 | +$155,387 | +171% |
-| Fire Department | $46,112 | $156,122 | +$110,010 | +238% |
-| Ambulance | $52,000 | $75,000 | +$23,000 | +44% |
+| Department | FY2012 | FY2026 (Proposed) | Change | Growth |
+|------------|--------|-------------------|--------|--------|
+| Public Works | $491,650 | $1,089,726 | +$598,076 | +122% |
+| Administration | $90,523 | $329,245 | +$238,722 | +264% |
+| Fire Department | $46,112 | $169,129 | +$123,017 | +267% |
+| Public Safety | $52,000 | $117,971 | +$65,971 | +127% |
 | Capital Planning | Ad-hoc | $56,000 | — | New |
 
 ## What's Driving Costs?

@@ -11,7 +11,8 @@ import {
   ReferenceLine,
 } from "recharts";
 
-// Data from comprehensive_analysis.md tables (2020-2025)
+// Data from comprehensive_analysis.md tables (2020-2026)
+// 2025 and 2026 values are estimates
 const inflationData = [
   {
     year: "2020",
@@ -61,6 +62,14 @@ const inflationData = [
     nhcci: 4.0,      // estimated
     materials: 2.6,
   },
+  {
+    year: "2026",
+    budget: 9.83,    // FY2026 budget increase (proposed)
+    cpiU: null,      // not yet available
+    eci: null,       // not yet available
+    nhcci: null,     // not yet available
+    materials: null, // not yet available
+  },
 ];
 
 const lineColors = {
@@ -85,10 +94,10 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white border border-gray-200 shadow-lg rounded px-3 py-2 text-sm">
-        <p className="font-semibold text-gray-800 mb-1">{label}</p>
+        <p className="font-semibold text-gray-800 mb-1">{label}{label === "2026" ? " (Proposed)" : ""}</p>
         {payload.map((entry, index) => (
           <p key={index} style={{ color: entry.color }} className="text-xs">
-            {entry.name}: {entry.value > 0 ? "+" : ""}{entry.value.toFixed(1)}%
+            {entry.name}: {entry.value !== null ? `${entry.value > 0 ? "+" : ""}${entry.value.toFixed(1)}%` : "N/A"}
           </p>
         ))}
       </div>
@@ -185,7 +194,7 @@ export default function InflationComparisonChart() {
         </ResponsiveContainer>
       </div>
       <p className="text-xs text-gray-500 mt-2">
-        Sources: Town Reports, BLS CPI-U Northeast, BLS Employment Cost Index, FHWA NHCCI, BLS PPI Construction Materials. 2025 values are estimates.
+        Sources: Town Reports, BLS CPI-U Northeast, BLS Employment Cost Index, FHWA NHCCI, BLS PPI Construction Materials. 2025 inflation values are estimates. FY2026 budget is proposed; 2026 inflation indices not yet available.
       </p>
     </div>
   );
