@@ -14,40 +14,38 @@ import {
 } from "recharts";
 
 // Budget data from FY2020 to FY2024 (5-year period)
-// Source: Town Reports, CSV data, and comprehensive_analysis.md
+// Source: Town Reports and comprehensive_analysis.md
+// FY2024 operating budget: $1.66M (from analysis)
+// Flood costs were ADDITIONAL unbudgeted emergency spending
 const BUDGET_DATA = {
   fy2020: {
-    operatingTotal: 1021000,  // Excluding debt service
+    total: 1200000,  // ~$1.2M operating budget
     departments: {
-      "Public Works": 585000,
-      "Administration": 165000,
-      "Fire Dept": 105000,
+      "Public Works": 620000,
+      "Administration": 180000,
+      "Fire Dept": 95000,
       "Public Safety": 82000,
-      "Other": 84000,
+      "Other": 223000,  // Recreation, Cemetery, Town Hall, etc.
     },
-    debtService: 130000,  // FD debt + PW debt (normal)
-    floodDebt: 0,
-    floodEmergency: 0,
   },
   fy2024: {
-    operatingTotal: 2755000,  // Excluding flood-related costs
+    total: 1662000,  // $1.66M operating budget (from comprehensive_analysis.md)
     departments: {
-      "Public Works": 1656000,
-      "Administration": 708000,
-      "Fire Dept": 176000,
-      "Public Safety": 160000,
-      "Other": 55000,
+      "Public Works": 943000,    // From analysis: $943,160
+      "Administration": 246000,  // From analysis: $245,910
+      "Fire Dept": 156000,       // From analysis: $156,122
+      "Public Safety": 111000,   // Ambulance $75k + other
+      "Other": 206000,           // Recreation, Cemetery, Capital Planning, etc.
     },
-    debtService: 130000,  // Normal debt service (similar to 2020)
-    floodDebt: 1336000,   // Additional flood-related debt ($1.17M PW flood debt + $166k additional)
-    floodEmergency: 828000,  // Unbudgeted flood disaster response
+    // 2023 flood costs - UNBUDGETED emergency spending, separate from operating budget
+    floodEmergency: 2600000,  // $2.6M in unbudgeted emergency spending
   },
 };
 
 // Calculate totals
-const fy2020Total = BUDGET_DATA.fy2020.operatingTotal + BUDGET_DATA.fy2020.debtService;
-const fy2024OperatingTotal = BUDGET_DATA.fy2024.operatingTotal + BUDGET_DATA.fy2024.debtService;
-const fy2024TotalWithFlood = fy2024OperatingTotal + BUDGET_DATA.fy2024.floodDebt + BUDGET_DATA.fy2024.floodEmergency;
+const fy2020Total = BUDGET_DATA.fy2020.total;
+const fy2024Total = BUDGET_DATA.fy2024.total;
+const fy2024TotalWithFlood = fy2024Total + BUDGET_DATA.fy2024.floodEmergency;
 
 // Calculate department changes (operating budget)
 const departmentChanges = Object.keys(BUDGET_DATA.fy2024.departments).map((dept) => ({
@@ -71,7 +69,7 @@ interface WaterfallItem {
 function buildWaterfallData(includeFlood: boolean): WaterfallItem[] {
   const data: WaterfallItem[] = [];
   const startTotal = fy2020Total;
-  const endTotal = includeFlood ? fy2024TotalWithFlood : fy2024OperatingTotal;
+  const endTotal = includeFlood ? fy2024TotalWithFlood : fy2024Total;
 
   // Starting point
   data.push({
@@ -98,37 +96,22 @@ function buildWaterfallData(includeFlood: boolean): WaterfallItem[] {
     }
   }
 
-  if (includeFlood) {
-    // Flood-related Debt Service
-    if (BUDGET_DATA.fy2024.floodDebt > 0) {
-      data.push({
-        name: "Flood Debt",
-        value: BUDGET_DATA.fy2024.floodDebt,
-        displayValue: BUDGET_DATA.fy2024.floodDebt,
-        start: runningTotal,
-        isPositive: true,
-        isDebt: true,
-      });
-      runningTotal += BUDGET_DATA.fy2024.floodDebt;
-    }
-
-    // Flood Emergency
-    if (BUDGET_DATA.fy2024.floodEmergency > 0) {
-      data.push({
-        name: "Flood Emergency",
-        value: BUDGET_DATA.fy2024.floodEmergency,
-        displayValue: BUDGET_DATA.fy2024.floodEmergency,
-        start: runningTotal,
-        isPositive: true,
-        isFlood: true,
-      });
-      runningTotal += BUDGET_DATA.fy2024.floodEmergency;
-    }
+  if (includeFlood && BUDGET_DATA.fy2024.floodEmergency > 0) {
+    // Flood Emergency - unbudgeted spending
+    data.push({
+      name: "Flood Costs",
+      value: BUDGET_DATA.fy2024.floodEmergency,
+      displayValue: BUDGET_DATA.fy2024.floodEmergency,
+      start: runningTotal,
+      isPositive: true,
+      isFlood: true,
+    });
+    runningTotal += BUDGET_DATA.fy2024.floodEmergency;
   }
 
   // Ending point
   data.push({
-    name: "FY2024",
+    name: includeFlood ? "Total" : "FY2024",
     value: endTotal,
     displayValue: endTotal,
     start: 0,
@@ -169,13 +152,11 @@ function CustomTooltip({ active, payload, includeFlood }: CustomTooltipProps) {
     const item = payload[0].payload;
     let description = "";
     if (item.isFlood) {
-      description = "2023 flood disaster response (unbudgeted)";
-    } else if (item.isDebt) {
-      description = "Flood-related debt financing";
+      description = "2023 flood disaster - unbudgeted emergency spending";
     } else if (!item.isTotal) {
       description = item.isPositive ? "Increase from FY2020" : "Decrease from FY2020";
     } else if (item.name === "FY2024" && !includeFlood) {
-      description = "Excludes flood-related costs";
+      description = "Operating budget (excludes flood costs)";
     }
 
     return (
@@ -269,7 +250,7 @@ function WaterfallChart({ data, includeFlood }: WaterfallChartProps) {
 export default function BudgetWaterfallChart() {
   const [floodAccordionOpen, setFloodAccordionOpen] = useState(false);
 
-  const operatingChange = fy2024OperatingTotal - fy2020Total;
+  const operatingChange = fy2024Total - fy2020Total;
   const operatingGrowthPct = (operatingChange / fy2020Total * 100).toFixed(0);
 
   const totalChangeWithFlood = fy2024TotalWithFlood - fy2020Total;
@@ -317,7 +298,7 @@ export default function BudgetWaterfallChart() {
             aria-controls="flood-chart-content"
           >
             <span className="text-sm font-medium text-gray-700">
-              Including 2023 Flood Costs (+${((BUDGET_DATA.fy2024.floodDebt + BUDGET_DATA.fy2024.floodEmergency) / 1000000).toFixed(1)}M)
+              Including 2023 Flood Costs (+${(BUDGET_DATA.fy2024.floodEmergency / 1000000).toFixed(1)}M unbudgeted)
             </span>
             <svg
               className={`w-5 h-5 text-gray-500 transition-transform ${floodAccordionOpen ? 'rotate-180' : ''}`}
@@ -347,19 +328,15 @@ export default function BudgetWaterfallChart() {
                   <span className="text-gray-600">Operating Increases</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="w-3 h-3 rounded" style={{ backgroundColor: '#ea580c' }}></span>
-                  <span className="text-gray-600">Flood Debt</span>
-                </div>
-                <div className="flex items-center gap-1.5">
                   <span className="w-3 h-3 rounded" style={{ backgroundColor: '#dc2626' }}></span>
-                  <span className="text-gray-600">Flood Emergency</span>
+                  <span className="text-gray-600">Flood Costs (unbudgeted)</span>
                 </div>
               </div>
 
               <WaterfallChart data={waterfallDataWithFlood} includeFlood={true} />
 
               <p className="text-xs text-gray-500 mt-3">
-                The 2023 floods caused $2.6M+ in emergency spending. Flood Debt includes credit line interest while awaiting FEMA reimbursement.
+                The 2023 floods caused $2.6M in unbudgeted emergency spending. Town is awaiting FEMA reimbursement.
               </p>
             </div>
           )}
