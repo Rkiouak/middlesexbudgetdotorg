@@ -3,6 +3,7 @@ import { join } from "path";
 import Hero from "@/components/Hero";
 import CommunityPosts from "@/components/CommunityPosts";
 import BudgetWaterfallChart from "@/components/BudgetWaterfallChart";
+import InflationComparisonChart from "@/components/InflationComparisonChart";
 import BudgetAnalysis from "@/components/BudgetAnalysis";
 import DataDownloads from "@/components/DataDownloads";
 import MobileNav from "@/components/MobileNav";
@@ -42,6 +43,7 @@ export default function Home() {
           </div>
           <CommunityPosts />
           <BudgetWaterfallChart />
+          <InflationComparisonChart />
           <BudgetAnalysis content={analysisContent} />
         </main>
       </div>
