@@ -11,6 +11,7 @@ const TOC_SECTIONS = [
   { label: "Historical Analysis", href: "#historical-analysis" },
   { label: "Overview", href: "#overview", indent: true },
   { label: "Budget vs. Inflation", href: "#budget-growth-vs-inflation", indent: true },
+  { label: "Resident Income Growth", href: "#resident-income-growth", indent: true },
   { label: "Three Budget Eras", href: "#three-budget-eras", indent: true },
   { label: "Key Takeaways", href: "#key-takeaways", indent: true },
   { label: "Growth by Department", href: "#budget-growth-by-department", indent: true },

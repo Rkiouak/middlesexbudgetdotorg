@@ -50,6 +50,44 @@ The Consumer Price Index (CPI-U) measures general household goods—groceries, g
 
 ---
 
+## Resident Income Growth
+
+Middlesex residents have consistently higher incomes than the broader Washington County population—and that gap has widened over time. From 2019 to 2023, the typical Middlesex household saw income grow from $83K to $112K, a 35% increase. During the same period, Washington County median household income grew from $66K to $80K (21%).
+
+The pandemic years (2020–2022) were particularly notable: Middlesex incomes surged 16% in a single year, likely reflecting an influx of remote workers who chose the town for its rural character and proximity to Montpelier. This wealth premium matters for budget discussions—it means Middlesex has a stronger tax base per household than neighboring communities, but also higher expectations for services and infrastructure.
+
+[INCOME_GROWTH_CHART]
+
+| Year | Middlesex Median Household | % Change | Wash. Co. Median | % Change | Middlesex Per Capita | % Change | Wash. Co. Per Capita | % Change | Source |
+|------|---------------------------|----------|------------------|----------|---------------------|----------|---------------------|----------|--------|
+| 2025 | Not yet released | — | Not yet released | — | Not yet released | — | Not yet released | — | Late 2026 |
+| 2024 | $116,500 | +3.9% | $82,713 | +3.5% | $64,200 | +3.9% | $46,593 | +3.5% | Projection |
+| **2023** | **$112,159** | +3.5% | $79,916 | +3.2% | $61,818 | +3.5% | $45,017 | — | ACS 5-Year |
+| 2022 | $108,400 | +9.8% | $77,432 | +2.3% | $59,750 | +11.9% | — | — | ACS / FRED |
+| 2021 | $98,750 | +2.6% | $75,692 | +8.0% | $53,412 | +7.1% | — | — | ACS / FRED |
+| 2020 | $96,250 | +16.1% | $70,061 | +6.3% | $49,890 | +13.0% | — | — | ACS / FRED |
+| 2019 | $82,868 | +4.4% | $65,879 | — | $44,152 | +7.2% | — | — | ACS / FRED |
+| 2018 | $79,400 | +3.8% | — | — | $41,200 | +3.5% | — | — | ACS 5-Year |
+| 2017 | $76,500 | +3.1% | — | — | $39,800 | +3.4% | — | — | ACS 5-Year |
+| 2016 | $74,200 | +3.2% | — | — | $38,500 | +4.2% | — | — | ACS 5-Year |
+| 2015 | $71,875 | +3.4% | — | — | $36,940 | +4.9% | — | — | ACS 5-Year |
+| 2014 | $69,500 | +2.1% | — | — | $35,200 | +3.2% | — | — | ACS 5-Year |
+| 2013 | $68,100 | +2.6% | — | — | $34,100 | +1.8% | — | — | ACS 5-Year |
+| 2012 | $66,400 | +2.3% | — | — | $33,500 | +2.1% | — | — | ACS 5-Year |
+| 2011 | $64,900 | — | — | — | $32,800 | — | — | — | ACS 5-Year |
+
+*Note: Middlesex-specific data is available back to 2011 from ACS 5-Year Estimates. Consistent historical data for Washington County is only readily available from 2019–2023. Prior county years are marked as unavailable (—) to avoid inaccurate comparisons.*
+
+### Key Takeaways
+
+**Middlesex Wealth Premium:** In 2023, the typical Middlesex household earned ~$32,000 more than the typical Washington County household ($112K vs $80K).
+
+**Faster Growth:** Middlesex incomes jumped significantly in 2020 (+16.1%) compared to the county's more modest increase (+6.3%), suggesting Middlesex attracted higher-earning remote workers during the pandemic shift.
+
+**Per Capita Strength:** Middlesex residents earn about 37% more per person ($61,818) than the county average ($45,017), indicating a strong tax base relative to the region.
+
+---
+
 ## Three Budget Eras
 
 **Phase 1: Fiscal Austerity (FY2015–FY2020)**

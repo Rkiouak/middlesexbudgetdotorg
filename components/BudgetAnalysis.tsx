@@ -2,6 +2,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import React, { ReactNode } from "react";
 import InflationComparisonChart from "./InflationComparisonChart";
+import IncomeGrowthChart from "./IncomeGrowthChart";
 
 interface BudgetAnalysisProps {
   content: string;
@@ -95,12 +96,30 @@ export default function BudgetAnalysis({ content }: BudgetAnalysisProps) {
           <InflationComparisonChart />
         </div>
 
-        {/* Rest of content (tables and analysis) */}
-        <article className={proseClasses}>
-          <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-            {afterChart}
-          </ReactMarkdown>
-        </article>
+        {/* Rest of content (tables and analysis) - with income chart insertion */}
+        {afterChart.includes("[INCOME_GROWTH_CHART]") ? (
+          <>
+            <article className={proseClasses}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                {afterChart.split("[INCOME_GROWTH_CHART]")[0]}
+              </ReactMarkdown>
+            </article>
+            <div className="my-6 -mx-4 sm:mx-0">
+              <IncomeGrowthChart />
+            </div>
+            <article className={proseClasses}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                {afterChart.split("[INCOME_GROWTH_CHART]")[1]}
+              </ReactMarkdown>
+            </article>
+          </>
+        ) : (
+          <article className={proseClasses}>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+              {afterChart}
+            </ReactMarkdown>
+          </article>
+        )}
       </div>
     </section>
   );
