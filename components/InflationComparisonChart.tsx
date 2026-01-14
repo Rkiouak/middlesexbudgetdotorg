@@ -64,7 +64,15 @@ const inflationData = [
   },
   {
     year: "2026",
-    budget: 9.83,    // FY2026 budget increase (proposed)
+    budget: 9.83,    // FY2026 budget increase
+    cpiU: null,      // not yet available
+    eci: null,       // not yet available
+    nhcci: null,     // not yet available
+    materials: null, // not yet available
+  },
+  {
+    year: "2027",
+    budget: 13.16,   // FY2027 budget increase (proposed)
     cpiU: null,      // not yet available
     eci: null,       // not yet available
     nhcci: null,     // not yet available
@@ -94,7 +102,7 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white border border-gray-200 shadow-lg rounded px-3 py-2 text-sm">
-        <p className="font-semibold text-gray-800 mb-1">{label}{label === "2026" ? " (Proposed)" : ""}</p>
+        <p className="font-semibold text-gray-800 mb-1">{label}{label === "2027" ? " (Proposed)" : ""}</p>
         {payload.map((entry, index) => (
           <p key={index} style={{ color: entry.color }} className="text-xs">
             {entry.name}: {entry.value !== null ? `${entry.value > 0 ? "+" : ""}${entry.value.toFixed(1)}%` : "N/A"}
@@ -194,7 +202,7 @@ export default function InflationComparisonChart() {
         </ResponsiveContainer>
       </div>
       <p className="text-xs text-gray-500 mt-2">
-        Sources: Town Reports, BLS CPI-U Northeast, BLS Employment Cost Index, FHWA NHCCI, BLS PPI Construction Materials. 2025 inflation values are estimates. FY2026 budget is proposed; 2026 inflation indices not yet available.
+        Sources: Town Reports, BLS CPI-U Northeast, BLS Employment Cost Index, FHWA NHCCI, BLS PPI Construction Materials. 2025 inflation values are estimates. FY2027 budget is proposed; 2026-2027 inflation indices not yet available.
       </p>
     </div>
   );
