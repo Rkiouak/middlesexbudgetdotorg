@@ -3,6 +3,8 @@ import { join } from "path";
 import Hero from "@/components/Hero";
 import CommunityPosts from "@/components/CommunityPosts";
 import BudgetWaterfallChart from "@/components/BudgetWaterfallChart";
+import BudgetOptionsComparison from "@/components/BudgetOptionsComparison";
+import ProposedBudgetWaterfall from "@/components/ProposedBudgetWaterfall";
 import BudgetAnalysis from "@/components/BudgetAnalysis";
 import DataDownloads from "@/components/DataDownloads";
 import MobileNav from "@/components/MobileNav";
@@ -33,22 +35,51 @@ export default function Home() {
           <div className="py-6 px-4 border-b-2 border-gray-200">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-xl md:text-2xl text-gray-800 font-semibold">
-                Budget Transparency Portal
+                A Resident&apos;s Guide to Middlesex Budgets
               </h1>
               <p className="text-sm text-gray-700 mt-1">
-                Fiscal Year 2011 - 2026 Budget Data and Analysis
+                Fiscal Year 2011 - 2027 Budget Data and Analysis
               </p>
             </div>
           </div>
           <CommunityPosts />
+
+          {/* Proposed FY2027 Budget Section */}
+          <section id="proposed-fy2027-budget" className="py-6 px-4 border-b-2 border-gray-200 bg-gray-50">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-xl md:text-2xl text-gray-800 font-semibold">
+                Proposed FY2027 Budget
+              </h2>
+              <p className="text-sm text-gray-600 mt-1">
+                Pre-Town Meeting provisional budget under consideration by the Select Board
+              </p>
+            </div>
+          </section>
+          <ProposedBudgetWaterfall />
+          <BudgetOptionsComparison />
+
+          {/* Historical Analysis Section */}
+          <section id="historical-analysis" className="py-6 px-4 border-b-2 border-gray-200 bg-gray-50">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-xl md:text-2xl text-gray-800 font-semibold">
+                Historical Budget Analysis
+              </h2>
+              <p className="text-sm text-gray-600 mt-1">
+                16 years of Town Reports: FY2011 - FY2026
+              </p>
+            </div>
+          </section>
           <BudgetWaterfallChart />
           <BudgetAnalysis content={analysisContent} />
         </main>
       </div>
       <footer className="py-6 px-4 bg-[#1e4d2b] text-white text-center text-sm" role="contentinfo">
-        <p>Town of Middlesex, Vermont</p>
+        <p>A Resident&apos;s Guide to Middlesex Budgets</p>
         <p className="mt-1 text-white/90">
-          Created by Matt Rkiouak with input from the Middlesex Budget Committee and other volunteers
+          Site created by Matt Rkiouak, 2025/2026 Budget Committee Member. Content from town reports, Middlesex Town employees, Select Board &amp; volunteers.
+        </p>
+        <p className="mt-2 text-white/70 text-xs">
+          &copy; 2025 Matt Rkiouak. Content may not be sold or misrepresented.
         </p>
       </footer>
       <MobileNav />

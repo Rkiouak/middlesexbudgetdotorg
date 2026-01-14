@@ -122,9 +122,12 @@ export default async function PostPage({ params }: PostPageProps) {
       </div>
 
       <footer className="py-6 px-4 bg-[#1e4d2b] text-white text-center text-sm" role="contentinfo">
-        <p>Town of Middlesex, Vermont</p>
+        <p>A Resident&apos;s Guide to Middlesex Budgets</p>
         <p className="mt-1 text-white/90">
-          Created by Matt Rkiouak with input from the Middlesex Budget Committee and other volunteers
+          Site created by Matt Rkiouak, 2025/2026 Budget Committee Member. Content from town reports, Middlesex Town employees, Select Board &amp; volunteers.
+        </p>
+        <p className="mt-2 text-white/70 text-xs">
+          &copy; 2025 Matt Rkiouak. Content may not be sold or misrepresented.
         </p>
       </footer>
       <MobileNav showToc={false} />

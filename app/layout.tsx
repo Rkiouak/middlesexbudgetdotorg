@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Middlesex Budget Portal | Town of Middlesex, Vermont",
+  title: "A Resident's Guide to Middlesex Budgets | Town of Middlesex, Vermont",
   description:
-    "Budget transparency portal for the Town of Middlesex, Vermont. View budget analysis and download fiscal year data from 2011-2026.",
+    "A resident's guide to understanding Middlesex, Vermont town budgets. View budget analysis and download fiscal year data from 2011-2027.",
 };
 
 export default function RootLayout({
