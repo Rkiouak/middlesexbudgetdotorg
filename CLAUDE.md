@@ -1,17 +1,18 @@
-# Middlesex Budget Transparency Portal
+# A Resident's Guide to Middlesex Budgets
 
 ## Project Overview
 
-A Next.js website providing budget transparency for the Town of Middlesex, Vermont. Displays historical budget data (FY2011-2024), analysis, and community posts about town finances.
+A Next.js website providing budget transparency for the Town of Middlesex, Vermont. Displays historical budget data (FY2011-FY2027), interactive charts, analysis, and community posts about town finances.
 
 **Live URL:** https://middlesexbudget.org
 
 ## Tech Stack
 
-- **Framework:** Next.js 16 (App Router) with TypeScript
+- **Framework:** Next.js 15 (App Router) with TypeScript
 - **Styling:** Tailwind CSS
+- **Charts:** Recharts (waterfall, line charts)
 - **Markdown:** react-markdown with remark-gfm
-- **Deployment:** Google Cloud Run
+- **Deployment:** Google Cloud Run with Cloud Build CI/CD
 - **CDN/LB:** Google Cloud Global Load Balancer
 
 ## Project Structure
@@ -23,18 +24,23 @@ website/
 │   ├── layout.tsx            # Root layout with GA4 tracking (G-N1Y8ZH0VQT)
 │   └── posts/[id]/page.tsx   # Individual post pages
 ├── components/
-│   ├── Hero.tsx              # Header with town seal image
-│   ├── DataDownloads.tsx     # Sidebar: TOC, posts links, CSV downloads
-│   ├── BudgetAnalysis.tsx    # Renders markdown analysis with anchor IDs
-│   ├── CommunityPosts.tsx    # Post listing on main page
-│   └── PostCard.tsx          # Individual post preview card
+│   ├── Hero.tsx                    # Header with town branding
+│   ├── DataDownloads.tsx           # Sidebar: TOC, posts links, CSV downloads
+│   ├── BudgetAnalysis.tsx          # Renders markdown analysis with anchor IDs
+│   ├── ProposedBudgetWaterfall.tsx # FY2026→FY2027 comparison chart
+│   ├── BudgetOptionsComparison.tsx # Town Admin vs Office Expansion chart
+│   ├── BudgetWaterfallChart.tsx    # Historical waterfall chart
+│   ├── InflationComparisonChart.tsx # Budget vs inflation indices chart
+│   ├── IncomeGrowthChart.tsx       # Resident income trends chart
+│   ├── CommunityPosts.tsx          # Post listing on main page
+│   └── PostCard.tsx                # Individual post preview card
 ├── content/
 │   └── comprehensive_analysis.md  # Main budget analysis content
 ├── lib/
 │   └── data.ts               # Posts and authors data
 ├── public/
-│   ├── data/*.csv            # Budget CSV files (2011-2024)
-│   └── middlesex-header.png  # Town seal/header image
+│   ├── data/*.csv            # Budget CSV files (FY2011-FY2027)
+│   └── middlesex-header.png  # Town header image
 ├── Dockerfile                # Multi-stage build for Cloud Run
 ├── Makefile                  # Build and deploy automation
 └── next.config.ts            # Standalone output for containerization
@@ -88,10 +94,11 @@ make clean-revisions # Remove old revisions
 ```
 
 ### Makefile Targets
+- `push`: Push commits to origin/main (triggers CI/CD)
 - `build`: Runs `gcloud builds submit` to build and push container
 - `deploy`: Deploys to Cloud Run with `--max-instances 1`
 - `clean-revisions`: Removes non-serving revisions
-- `all`: Runs build → deploy → clean-revisions
+- `all`: Pushes to main (CI/CD handles build and deploy)
 
 ## Content Updates
 

@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# A Resident's Guide to Middlesex Budgets
 
-## Getting Started
+A Next.js website providing budget transparency for the Town of Middlesex, Vermont. Displays 16 years of historical budget data (FY2011-FY2027), interactive charts, analysis, and community posts about town finances.
 
-First, run the development server:
+**Live site:** https://middlesexbudget.org
+
+## Features
+
+- **FY2027 Proposed Budget Analysis** - Waterfall charts comparing budget options (Town Administrator vs Office Expansion)
+- **Historical Budget Data** - Downloadable CSV files for FY2011-FY2027
+- **Interactive Charts** - Budget vs inflation comparisons, income growth trends, department breakdowns
+- **Resident Income Analysis** - Middlesex vs Washington County income comparisons
+- **Community Posts** - Budget-related discussions and explanations
+- **Town Report PDFs** - Direct links to official town reports
+
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router) with TypeScript
+- **Styling:** Tailwind CSS
+- **Charts:** Recharts
+- **Markdown:** react-markdown with remark-gfm
+- **Deployment:** Google Cloud Run with Cloud Build CI/CD
+
+## Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site runs at http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+website/
+├── app/
+│   ├── page.tsx                    # Main page
+│   ├── layout.tsx                  # Root layout with analytics
+│   └── posts/[id]/page.tsx         # Individual post pages
+├── components/
+│   ├── Hero.tsx                    # Header with town branding
+│   ├── DataDownloads.tsx           # Sidebar navigation
+│   ├── BudgetAnalysis.tsx          # Markdown analysis renderer
+│   ├── ProposedBudgetWaterfall.tsx # FY2026→FY2027 comparison
+│   ├── BudgetOptionsComparison.tsx # Town Admin vs Office Expansion
+│   ├── BudgetWaterfallChart.tsx    # Historical waterfall chart
+│   ├── InflationComparisonChart.tsx # Budget vs inflation indices
+│   └── IncomeGrowthChart.tsx       # Resident income trends
+├── content/
+│   └── comprehensive_analysis.md   # Main analysis content
+├── lib/
+│   └── data.ts                     # Posts and authors data
+├── public/
+│   └── data/*.csv                  # Budget CSV files
+├── Dockerfile                      # Multi-stage build
+└── Makefile                        # Deploy automation
+```
 
-## Learn More
+## Content Updates
 
-To learn more about Next.js, take a look at the following resources:
+**Budget Analysis:** Edit `content/comprehensive_analysis.md`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Community Posts:** Edit `lib/data.ts` - add to `posts` array:
+```typescript
+{
+  id: "post-slug",
+  authorId: "author-id",
+  title: "Post Title",
+  type: "Discussion",
+  date: "2026-01-15",
+  content: "Markdown content...",
+  link: "https://optional-external-link.com"
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**CSV Data:** Add files to `public/data/` and update `YEARS` array in `components/DataDownloads.tsx`
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pushing to `main` triggers automatic deployment via Cloud Build.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# Push changes to deploy
+make all
+```
+
+Manual deployment commands:
+```bash
+make build          # Build container via Cloud Build
+make deploy         # Deploy to Cloud Run
+make clean-revisions # Remove old revisions
+```
+
+## Data Sources
+
+- **Budget Data:** Town of Middlesex Annual Reports (FY2011-FY2026)
+- **FY2027 Proposed:** Select Board working documents
+- **Income Data:** U.S. Census Bureau ACS 5-Year Estimates, FRED
+- **Inflation Indices:** BLS CPI-U, ECI, PPI; FHWA NHCCI
+
+## License
+
+Content by Matt Rkiouak, 2025/2026 Budget Committee Member.
+
+Content may not be sold or misrepresented.
