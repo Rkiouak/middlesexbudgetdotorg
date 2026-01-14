@@ -324,6 +324,32 @@ export default function BudgetOptionsComparison() {
           </p>
         </div>
       </section>
+
+      {/* Poem section */}
+      <section className="py-6 px-4 border-b border-gray-200">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-sm text-gray-700 mb-4">
+            Before the Select Board discussion of the two budget options at their special meeting, Chair Liz Scharf read this poem by Robert Frost:
+          </p>
+          <blockquote className="border-l-4 border-[#1e4d2b] pl-4 py-2 bg-gray-50 rounded-r">
+            <p className="text-sm text-gray-800 italic font-serif leading-relaxed">
+              When a friend calls to me from the road<br />
+              And slows his horse to a meaning walk,<br />
+              I don&apos;t stand still and look around<br />
+              On all the hills I haven&apos;t hoed,<br />
+              And shout from where I am, What is it?<br />
+              No, not as there is a time to talk.<br />
+              I thrust my hoe in the mellow ground,<br />
+              Blade-end up and five feet tall,<br />
+              And plod: I go up to the stone wall<br />
+              For a friendly visit.
+            </p>
+            <footer className="mt-2 text-sm text-gray-600">
+              — Robert Frost, &quot;A Time to Talk&quot;
+            </footer>
+          </blockquote>
+        </div>
+      </section>
     </>
   );
 }
