@@ -110,6 +110,11 @@ make clean-revisions # Remove old revisions
 
 ## License
 
-Content by Matt Rkiouak, 2025/2026 Budget Committee Member.
+**Code:** [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE)
 
-Content may not be sold or misrepresented.
+This means you can freely use, modify, and distribute the code, but:
+- You must keep it open source (no closed-source derivatives)
+- You must provide attribution
+- If you run a modified version as a network service, you must release your source code
+
+**Content:** Created by Matt Rkiouak, 2025/2026 Budget Committee Member. Content may not be sold or misrepresented.
