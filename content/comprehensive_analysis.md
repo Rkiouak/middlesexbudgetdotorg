@@ -1,4 +1,4 @@
-# Middlesex Town Budget Analysis: FY2011 - FY2026
+# Middlesex Town Budget Analysis: FY2011 - FY2027
 
 ---
 
@@ -18,6 +18,7 @@
 | FY 2024 | 10.24% | 4.1% | New Capital Plan starts |
 | FY 2025 | 11.36% | 3.0% (est) | Flood recovery debt |
 | FY 2026 | 9.83% | 2.7% (est) | Flood debt continues |
+| FY 2027 | 13.16% | — | Town Administrator, health insurance upgrade, sand/trucking normalization |
 
 *CPI-U annual averages from Bureau of Labor Statistics.
 
@@ -61,10 +62,11 @@ The Consumer Price Index (CPI-U) measures general household goods—groceries, g
 - Acknowledged: Severe weather required capital road reconstruction, not patching
 - Wages adjusted: Fire stipends increased 500%, part-time floor set at $20/hr
 
-**Phase 3: Crisis & Inflation (FY2023–FY2026)**
-- July 2023 and July 2024 floods caused millions in road damage
+**Phase 3: Crisis & Inflation (FY2023–FY2027)**
+- July 2023 and July 2024 floods caused $5.3M+ in road damage
 - Town paying $60k+ interest on credit lines while awaiting FEMA reimbursement
 - State mandates added: town-wide reappraisal, website accessibility, IT modernization
+- FY2027: Town Administrator position proposed to provide town project oversight, flood recovery support, Select Board assistance, and grant management
 
 ---
 
@@ -103,54 +105,33 @@ The Consumer Price Index (CPI-U) measures general household goods—groceries, g
 
 **2021 (Breakpoint):** Budget jumped 11.45% while inflation was only 1.2%—correcting years of deferred spending
 
-**2023–Present:** Budget increases of 9-11% despite inflation falling to 2-3%—driven by flood debt, state mandates, and new capital reserves, not general price increases
+**2023–2026:** Budget increases of 9-11% despite inflation falling to 2-3%—driven by flood debt, state mandates, and new capital reserves
+
+**2027 (Proposed):** 13.16% increase reflects new Town Administrator position, health insurance upgrade to MVP Gold plan, and sand/trucking costs returning to normal after years of savings from the town's sand pit
 
 ---
 
 ## Key Takeaways
 
-- **Total growth (FY2012→FY2026 proposed):** $1.07M → $1.89M (+77%, ~4.3%/year)
-- **Biggest driver:** Public Works (+76% from FY2020)—wages, benefits, equipment debt, and materials
-- **Biggest shock:** 2023 floods caused $2.6M in unbudgeted emergency spending
+- **Total growth (FY2012→FY2027 proposed):** $1.07M → $2.17M (+103%, ~5.0%/year)
+- **FY2027 drivers:** Town Administrator position ($91K net), health insurance plan upgrade, sand/trucking return to normal after years of sand pit savings
+- **Biggest shock:** 2023-2024 floods caused $5.3M+ in unbudgeted emergency spending; FEMA reimbursement still pending
 - **Structural shift:** Town moved from reactive spending to planned Capital Improvement reserves
 
 ---
 
 # Budget Growth by Department
 
-| Department | FY2012 | FY2026 (Proposed) | Change | Growth |
-|------------|--------|-------------------|--------|--------|
-| Public Works | $491,650 | $1,089,726 | +$598,076 | +122% |
-| Administration | $90,523 | $329,245 | +$238,722 | +264% |
-| Fire Department | $46,112 | $169,129 | +$123,017 | +267% |
-| Public Safety | $52,000 | $117,971 | +$65,971 | +127% |
-| Capital Planning | Ad-hoc | $56,000 | — | New |
+| Department | FY2012 | FY2026 | FY2027 (Proposed) | FY12→FY27 Growth |
+|------------|--------|--------|-------------------|------------------|
+| Public Works | $491,650 | $1,089,726 | $1,167,077 | +137% |
+| Administration | $90,523 | $329,245 | $389,312 | +330% |
+| Fire Department | $46,112 | $169,129 | $154,163 | +234% |
+| Public Safety | $52,000 | $117,971 | $117,924 | +127% |
+| Town Admin | — | — | $91,000 | New position |
+| Capital Planning | Ad-hoc | $101,000 | $126,000 | Formalized |
 
-## What's Driving Costs?
-
-**Public Works (Highway)**
-- Wages & benefits: $163k → $390k (health insurance, retirement)
-- Winter maintenance: salt, sand, trucking costs volatile
-- Equipment debt: graders, dump trucks, excavators on rotating loans
-
-**Administration**
-- IT/Computer: $0 → $22,000 (cybersecurity, records digitization)
-- Health insurance and wages for Clerk/Treasurer roles
-
-**Fire Department**
-- Dispatch fees tripled: $9k → $28k
-- New volunteer stipends: $18,000 (can't rely on unpaid labor)
-- Fire Station bond still being paid down
-
----
-
-# Flat or Declining Budgets
-
-| Department | Range | Notes |
-|------------|-------|-------|
-| Cemetery | $4,240 - $7,500 | Maintenance only |
-| Recreation | Under $5,000 (until recently) | Now ~$25k for Wrightsville Beach |
-| Selectboard | $3,150 → $3,864 | Barely moved in 14 years |
+*Note: Public Works FY2027 normalized (flood debt allocated to General Government for consistent comparison). Fire Department decrease from FY2026 reflects tanker loan payoff.*
 
 ---
 
@@ -177,9 +158,13 @@ The Consumer Price Index (CPI-U) measures general household goods—groceries, g
 
 **3. 2023 Flood Disaster**
 - Budgeted: ~$828,000
-- Actual: ~$3,410,000
-- Emergency line items: "Highway - Emergency Flood 2023" ($1.9M)
+- Actual: ~$2,179,000
 - Covered by reserves and expected FEMA reimbursement
+
+**4. 2024 Flood Disaster**
+- Actual: ~$3,157,000
+- Combined 2023-2024 flood costs: $5.3M+
+- FEMA reimbursement still pending as of January 2026
 
 ---
 
