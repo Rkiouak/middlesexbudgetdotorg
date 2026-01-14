@@ -33,10 +33,10 @@ const BUDGET_DATA = {
     total: 2168000,  // ~$2.17M operating budget (proposed)
     departments: {
       "Public Works": 1167000,   // Normalized (flood debt in Gen Gov)
-      "Administration": 389000,  // +18% (health insurance increases)
+      "Administration": 429000,  // Clerk/Treasurer split to 2 FT roles + health insurance increases
       "Fire Dept": 154000,       // -9% (tanker loan paid off)
       "Public Safety": 118000,   // From CSV: $117,924
-      "Town Admin": 91000,       // NEW: $108K gross - $17K absorbed roles
+      "Town Admin": 51000,       // NET: $108K gross - $57K absorbed roles
       "Other": 249000,           // Gen Gov + Town Hall + Cemetery + Recreation
     },
     // 2023-2024 flood costs - UNBUDGETED emergency spending, separate from operating budget
@@ -161,7 +161,7 @@ function CustomTooltip({ active, payload, includeFlood }: CustomTooltipProps) {
     if (item.isFlood) {
       description = "2023-2024 flood disasters - unbudgeted emergency spending";
     } else if (item.isNew) {
-      description = "New position in FY2027";
+      description = "Town Admin NET: $108K gross - $57K absorbed roles";
     } else if (!item.isTotal) {
       description = item.isPositive ? "Increase from FY2020" : "Decrease from FY2020";
     } else if (item.name === "FY2027" && !includeFlood) {

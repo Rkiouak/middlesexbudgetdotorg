@@ -15,7 +15,7 @@ import {
 // Budget data: FY2026 (current) vs FY2027 (proposed)
 // FY2026 from existing data (approved budget)
 // FY2027 from provisional_2025.csv with flood debt normalized to General Government
-// Town Administrator: NET cost = $108K gross - $17K absorbed roles (Minute Taker, FEMA)
+// Town Administrator: NET cost = $108K gross - $57K absorbed roles (Minute Taker $7.5K, FEMA $9K, Town Clerk Asst $40K)
 const BUDGET_DATA = {
   fy2026: {
     total: 1926000,  // Operating budget from 2024.csv
@@ -32,10 +32,10 @@ const BUDGET_DATA = {
     total: 2168000,  // Operating budget (proposed)
     departments: {
       "Public Works": 1167000,   // Normalized (flood debt moved to Gen Gov)
-      "Administration": 389000,  // +18% (health insurance increases)
+      "Administration": 429000,  // Clerk/Treasurer split to 2 FT roles + health insurance increases
       "Fire Dept": 154000,       // -9% (tanker loan paid off)
       "Public Safety": 118000,   // Flat
-      "Town Admin": 91000,       // NET: $108K gross - $17K absorbed roles
+      "Town Admin": 51000,       // NET: $108K gross - $57K absorbed roles
       "Other": 249000,           // Gen Gov + Town Hall + Cemetery + Rec
     },
   },
@@ -138,13 +138,13 @@ function CustomTooltip({ active, payload }: CustomTooltipProps) {
     const item = payload[0].payload;
     let description = "";
     if (item.name === "Town Admin") {
-      description = "Town Administrator position (net of prior part-time roles consolidated)";
+      description = "Town Administrator NET: $108K gross minus $57K absorbed roles (Minute Taker, FEMA, full-time Town Clerk Asst)";
     } else if (item.name === "Other") {
       description = "General Government, Town Hall, Cemetery, Recreation";
     } else if (item.name === "Public Works") {
       description = "Highway operations, equipment debt, materials (flood debt normalized)";
     } else if (item.name === "Administration") {
-      description = "Clerk/Treasurer, Listers, health insurance increases";
+      description = "Clerk and Treasurer split to two FT positions (previously combined), plus health insurance increases";
     } else if (item.name === "Fire Dept") {
       description = "Operations + debt service (tanker loan paid off in FY2026)";
     } else if (!item.isTotal) {
@@ -191,13 +191,13 @@ export default function ProposedBudgetWaterfall() {
             <strong>Public Works</strong> shows increases in winter sand (+$35K) and trucking (+$40K). These reflect a return to normal budgeting after the Road Crew saved the town roughly $150-200K over the past 4-5 years by extracting sand from a pre-existing Middlesex sand pit—savings that are no longer available. Legal fees rose from $7.5K to $30K for ongoing flood recovery matters, and auditing doubled to $30K due to the complexity of flood-related finances.
           </p>
           <p className="text-sm text-gray-700 mb-3">
-            <strong>Health insurance</strong> costs increased after the Select Board voted in November to switch from the high-deductible plan ($6,000 individual / $12,000 family deductibles) to an MVP Gold plan with lower deductibles. The decision followed a presentation from town employees and discussion of the financial burden the high-deductible plan placed on staff. Dental and vision coverage were also added for the first time. Vermont small group premiums continue rising—MVP plans increased 2.5% and Blue Cross 4.4% for 2026.
+            <strong>Administration</strong> reflects two changes: the previously combined Clerk/Treasurer role is now split into two full-time positions, and health insurance costs increased after the Select Board voted in November to switch from the high-deductible plan ($6,000 individual / $12,000 family deductibles) to an MVP Gold plan with lower deductibles. The decision followed a presentation from town employees and discussion of the financial burden the high-deductible plan placed on staff. Dental and vision coverage were also added for the first time. Vermont small group premiums continue rising—MVP plans increased 2.5% and Blue Cross 4.4% for 2026.
           </p>
           <p className="text-sm text-gray-700 mb-3">
             These increases are partially offset by <strong>debt payoffs</strong>: the Fire Department tanker loan (-$15K) and Highway&apos;s Freightliner dump truck (-$22K) are both paid off this year, providing some relief.
           </p>
           <p className="text-sm text-gray-700">
-            The Select Board considered two approaches to address the town&apos;s growing administrative workload: either increase hours for existing employees and find ways to fund additional work from Select Board members, or hire a new <strong>Town Administrator</strong>. The Town Administrator option adds $91K net to the budget—a $73K salary plus $35K in benefits, offset by consolidating existing part-time roles (Selectboard Minute Taker, FEMA coordinator, and full-time Town Clerk Assistant). As shown in the waterfall chart below, the Town Administrator is only about $6K more than the alternative &quot;Office Expansion&quot; approach, while providing dedicated professional capacity for grant writing, municipal compliance, and flood recovery coordination.
+            The Select Board considered two approaches to address the town&apos;s growing administrative workload: either increase hours for existing employees and find ways to fund additional work from Select Board members, or hire a new <strong>Town Administrator</strong>. The Town Administrator option adds $51K net to the budget—a $73K salary plus $35K in benefits ($108K gross), offset by $57K in consolidated roles (Selectboard Minute Taker $7.5K, FEMA coordinator $9K, and full-time Town Clerk Assistant ~$40K). As shown in the waterfall chart below, the Town Administrator is only about $6K more than the alternative &quot;Office Expansion&quot; approach, while providing dedicated professional capacity for grant writing, municipal compliance, and flood recovery coordination.
           </p>
         </div>
       </section>

@@ -229,7 +229,7 @@ export default function BudgetOptionsComparison() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-lg font-semibold text-gray-800 mb-3">Comparing the Two Budget Options</h2>
           <p className="text-sm text-gray-700 mb-3">
-            The Select Board evaluated two approaches to address Middlesex&apos;s growing administrative needs. The <strong>Office Expansion</strong> option would increase existing Clerk&apos;s office hours (+$47K), add a part-time Town Admin ($14.5K), and hire a FEMA Project Manager ($20K)—relying on current staff to take on additional responsibilities. The <strong>Town Administrator</strong> option would hire a dedicated full-time position ($73K salary + $35K benefits), consolidating several part-time roles into one professional who can provide focused attention to the town&apos;s needs.
+            The Select Board evaluated two approaches to address Middlesex&apos;s growing administrative needs. The <strong>Office Expansion</strong> option would increase existing Clerk&apos;s office hours (+$47K), add a part-time Town Admin ($14.5K), and hire a FEMA Project Manager ($20K)—relying on current staff to take on additional responsibilities. The <strong>Town Administrator</strong> option would hire a dedicated full-time position ($73K salary + $35K benefits = $108K gross), but absorbs $57K in existing roles: the full-time Assistant Town Clerk (~$40K), Selectboard Minute Taker ($7.5K), and FEMA coordinator ($9K)—resulting in a net cost of ~$51K.
           </p>
 
           <h3 className="text-base font-semibold text-gray-800 mb-2">Why Town Administrator is the Better Investment</h3>
