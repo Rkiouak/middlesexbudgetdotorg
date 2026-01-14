@@ -7,18 +7,15 @@ const YEARS = [
 ];
 
 const TOC_SECTIONS = [
-  { label: "Overview", href: "#overview" },
+  { label: "Proposed FY2027 Budget", href: "#proposed-fy2027-budget" },
+  { label: "Historical Analysis", href: "#historical-analysis" },
+  { label: "Overview", href: "#overview", indent: true },
   { label: "Budget vs. Inflation", href: "#budget-growth-vs-inflation", indent: true },
-  { label: "Why CPI Understates Costs", href: "#why-cpi-doesnt-tell-the-whole-story", indent: true },
   { label: "Three Budget Eras", href: "#three-budget-eras", indent: true },
-  { label: "Primary Cost Drivers", href: "#primary-cost-drivers", indent: true },
-  { label: "What the Data Shows", href: "#what-the-data-shows", indent: true },
   { label: "Key Takeaways", href: "#key-takeaways", indent: true },
-  { label: "Growth by Department", href: "#budget-growth-by-department" },
-  { label: "Flat or Declining", href: "#flat-or-declining-budgets" },
-  { label: "Notable Changes", href: "#notable-changes" },
-  { label: "Major Events", href: "#major-events" },
-  { label: "Year-over-Year", href: "#year-over-year-volatility" },
+  { label: "Growth by Department", href: "#budget-growth-by-department", indent: true },
+  { label: "Notable Changes", href: "#notable-changes", indent: true },
+  { label: "Major Events", href: "#major-events", indent: true },
 ];
 
 interface DataDownloadsProps {
@@ -99,6 +96,14 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
       </h2>
 
       <nav aria-label="Budget data downloads" className="flex flex-col gap-0.5">
+        <a
+          href="/data/provisional_2025.csv"
+          download
+          className="px-2 py-1 text-amber-700 text-xs hover:text-amber-900 hover:bg-amber-50 rounded transition-colors font-medium"
+        >
+          FY 2027 (Proposed)
+          <span className="sr-only">(CSV download)</span>
+        </a>
         {YEARS.map((year) => (
           <a
             key={`csv-${year}`}
