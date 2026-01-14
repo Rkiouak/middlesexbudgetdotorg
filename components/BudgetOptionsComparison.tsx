@@ -14,10 +14,11 @@ import {
 
 // Budget comparison: TEST B (Office Expansion) as base, TEST A (Town Admin) as additional
 // Using TEST B department totals with flood debt normalized to General Government
+// All totals include CIP (Capital Improvement Program)
 const BUDGET_DATA = {
   fy2026: {
     totalTownBudget: 2027000,  // Total Town Budget FY2026 (with CIP)
-    operatingBudget: 1926000,
+    operatingBudget: 2027000,  // Using total town budget for waterfall consistency
     departments: {
       "Public Works": 1090000,
       "Administration": 329000,   // Base admin (excluding staffing decision)
@@ -26,11 +27,12 @@ const BUDGET_DATA = {
       "Office Expansion": 0,      // TEST B staffing approach
       "Town Admin": 0,            // TEST A additional
       "Other": 220000,
+      "CIP": 101000,              // Capital Improvement Program
     },
   },
   fy2027_testB: {
     totalTownBudget: 2288000,  // TEST B Total Town Budget (from sheet)
-    operatingBudget: 2162000,
+    operatingBudget: 2288000,  // Using total town budget for waterfall consistency
     departments: {
       "Public Works": 1167000,    // Normalized (flood debt to Gen Gov)
       "Administration": 330000,   // Base admin (Listers + base office costs)
@@ -39,11 +41,12 @@ const BUDGET_DATA = {
       "Office Expansion": 100000, // Increased staff hours + part-time TA + FEMA PM
       "Town Admin": 0,            // Not in TEST B
       "Other": 293000,            // Gen Gov normalized + Town Hall + Cemetery + Rec
+      "CIP": 126000,              // Capital Improvement Program
     },
   },
   fy2027_testA: {
     totalTownBudget: 2294000,  // TEST A Total Town Budget (from sheet)
-    operatingBudget: 2168000,
+    operatingBudget: 2294000,  // Using total town budget for waterfall consistency
     townAdminNet: 91000,  // Town Admin NET cost ($108K - $17K absorbed)
   },
 };

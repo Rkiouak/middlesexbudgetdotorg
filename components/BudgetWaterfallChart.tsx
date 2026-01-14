@@ -15,11 +15,11 @@ import {
 
 // Budget data from FY2020 to FY2027 (7-year period)
 // Source: Town Reports and FY2027 Proposed Budget
-// FY2027 operating budget: ~$2.17M (proposed)
+// FY2027 Total Town Budget: ~$2.29M (proposed, includes CIP)
 // Flood costs were ADDITIONAL unbudgeted emergency spending in 2023-2024
 const BUDGET_DATA = {
   fy2020: {
-    total: 1200000,  // ~$1.2M operating budget
+    total: 1200000,  // ~$1.2M budget (CIP-like funds embedded in departments back then)
     departments: {
       "Public Works": 620000,
       "Administration": 180000,
@@ -27,10 +27,11 @@ const BUDGET_DATA = {
       "Public Safety": 82000,
       "Town Admin": 0,    // NEW in FY2027
       "Other": 223000,    // Recreation, Cemetery, Town Hall, etc.
+      "CIP": 0,           // CIP formalized later; similar funds were in departments
     },
   },
   fy2027: {
-    total: 2168000,  // ~$2.17M operating budget (proposed)
+    total: 2294000,  // ~$2.29M Total Town Budget (proposed, includes CIP)
     departments: {
       "Public Works": 1167000,   // Normalized (flood debt in Gen Gov)
       "Administration": 429000,  // Clerk/Treasurer split to 2 FT roles + health insurance increases
@@ -38,6 +39,7 @@ const BUDGET_DATA = {
       "Public Safety": 118000,   // From CSV: $117,924
       "Town Admin": 51000,       // NET: $108K gross - $57K absorbed roles
       "Other": 249000,           // Gen Gov + Town Hall + Cemetery + Recreation
+      "CIP": 126000,             // Capital Improvement Program
     },
     // 2023-2024 flood costs - UNBUDGETED emergency spending, separate from operating budget
     floodEmergency: 5300000,  // $5.3M in unbudgeted emergency spending
@@ -274,7 +276,7 @@ export default function BudgetWaterfallChart() {
           Budget Growth: FY2020 → FY2027 (Proposed)
         </h2>
         <p className="text-sm text-gray-600 mb-2">
-          Proposed operating budget change: +${(operatingChange / 1000000).toFixed(1)}M ({operatingGrowthPct}% growth)
+          Proposed budget change: +${(operatingChange / 1000000).toFixed(1)}M ({operatingGrowthPct}% growth)
         </p>
 
         {/* Legend for operating chart */}

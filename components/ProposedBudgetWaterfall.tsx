@@ -18,7 +18,7 @@ import {
 // Town Administrator: NET cost = $108K gross - $57K absorbed roles (Minute Taker $7.5K, FEMA $9K, Town Clerk Asst $40K)
 const BUDGET_DATA = {
   fy2026: {
-    total: 1926000,  // Operating budget from 2024.csv
+    total: 2027000,  // Total Town Budget from 2024.csv (includes CIP)
     departments: {
       "Public Works": 1090000,   // Highway operations + debt
       "Administration": 329000,  // Admin + Listers
@@ -26,10 +26,11 @@ const BUDGET_DATA = {
       "Public Safety": 118000,   // Ambulance, health officer, etc.
       "Town Admin": 0,           // NEW POSITION in FY2027
       "Other": 220000,           // Gen Gov + Town Hall + Cemetery + Recreation
+      "CIP": 101000,             // Capital Improvement Program
     },
   },
   fy2027: {
-    total: 2168000,  // Operating budget (proposed)
+    total: 2294000,  // Total Town Budget (proposed, ~$2,293,703 rounded)
     departments: {
       "Public Works": 1167000,   // Normalized (flood debt moved to Gen Gov)
       "Administration": 429000,  // Clerk/Treasurer split to 2 FT roles + health insurance increases
@@ -37,6 +38,7 @@ const BUDGET_DATA = {
       "Public Safety": 118000,   // Flat
       "Town Admin": 51000,       // NET: $108K gross - $57K absorbed roles
       "Other": 249000,           // Gen Gov + Town Hall + Cemetery + Rec
+      "CIP": 126000,             // Capital Improvement Program
     },
   },
 };
@@ -147,6 +149,8 @@ function CustomTooltip({ active, payload }: CustomTooltipProps) {
       description = "Clerk and Treasurer split to two FT positions (previously combined), plus health insurance increases";
     } else if (item.name === "Fire Dept") {
       description = "Operations + debt service (tanker loan paid off in FY2026)";
+    } else if (item.name === "CIP") {
+      description = "Capital Improvement Program: Town Hall Building Fund, Asset-Equipment Fund, Reappraisal Fund";
     } else if (!item.isTotal) {
       description = item.isPositive ? "Increase from FY2026" : "Decrease from FY2026";
     }
@@ -214,7 +218,7 @@ export default function ProposedBudgetWaterfall() {
             </h3>
           </div>
           <p className="text-sm text-gray-600 mb-4">
-            <span className="italic">13.16% increase</span> · Pre-Town Meeting vote
+            <span className="italic">{growthPct}% increase</span> · Pre-Town Meeting vote
           </p>
 
           {/* Legend */}
