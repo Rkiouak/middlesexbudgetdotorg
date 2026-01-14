@@ -80,6 +80,15 @@ export default function Home() {
         </p>
         <p className="mt-2 text-white/70 text-xs">
           &copy; 2025 Matt Rkiouak. Content may not be sold or misrepresented.
+          {" · "}
+          <a
+            href="https://github.com/Rkiouak/middlesexbudgetdotorg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white/90"
+          >
+            View source on GitHub
+          </a>
         </p>
       </footer>
       <MobileNav />
