@@ -39,7 +39,7 @@ website/
 ├── lib/
 │   └── data.ts               # Posts and authors data
 ├── public/
-│   ├── data/*.csv            # Budget CSV files (FY2011-FY2027)
+│   ├── data/*.csv            # Budget CSV files (fy2013.csv-fy2027.csv, named by proposed FY)
 │   └── middlesex-header.png  # Town header image
 ├── Dockerfile                # Multi-stage build for Cloud Run
 ├── Makefile                  # Build and deploy automation
@@ -110,7 +110,7 @@ make clean-revisions # Remove old revisions
 - `title`, `type`, `date`, `content`
 - `link`: Optional external link (e.g., Front Porch Forum)
 
-**CSV Data:** Add files to `public/data/` and update YEARS array in `DataDownloads.tsx`
+**CSV Data:** Files in `public/data/` are named by proposed fiscal year (`fy2026.csv` contains FY2026 proposed budget from the 2024 Town Report). Update `FISCAL_YEARS` array in `DataDownloads.tsx` when adding new files.
 
 ## Design Notes
 

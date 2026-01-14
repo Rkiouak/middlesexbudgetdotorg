@@ -13,12 +13,12 @@ import {
 } from "recharts";
 
 // Budget data: FY2026 (current) vs FY2027 (proposed)
-// FY2026 from existing data (approved budget)
-// FY2027 from provisional_2025.csv with flood debt normalized to General Government
+// FY2026 from fy2026.csv (approved budget)
+// FY2027 from fy2027.csv with flood debt normalized to General Government
 // Town Administrator: NET cost = $108K gross - $57K absorbed roles (Minute Taker $7.5K, FEMA $9K, Town Clerk Asst $40K)
 const BUDGET_DATA = {
   fy2026: {
-    total: 2027000,  // Total Town Budget from 2024.csv (includes CIP)
+    total: 2027000,  // Total Town Budget from fy2026.csv (includes CIP)
     departments: {
       "Public Works": 1090000,   // Highway operations + debt
       "Administration": 329000,  // Admin + Listers

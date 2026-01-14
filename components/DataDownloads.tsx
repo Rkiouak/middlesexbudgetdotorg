@@ -1,9 +1,17 @@
 import Link from "next/link";
 import { posts } from "@/lib/data";
 
-const YEARS = [
+// Town Report PDFs are named by report year (when published)
+const REPORT_YEARS = [
   2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012,
   2011,
+];
+
+// CSV files are named by proposed fiscal year (report year + 2)
+// FY2027 is shown separately with provisional styling
+const FISCAL_YEARS = [
+  2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014,
+  2013,
 ];
 
 const TOC_SECTIONS = [
@@ -78,7 +86,7 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
       </h2>
 
       <nav aria-label="Town report PDFs" className="flex flex-col gap-0.5 mb-6">
-        {YEARS.map((year) => (
+        {REPORT_YEARS.map((year) => (
           <a
             key={`report-${year}`}
             href={`https://storage.googleapis.com/middlesex-budget-org/reports/${year}.pdf`}
@@ -86,7 +94,7 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
             rel="noopener noreferrer"
             className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
           >
-            FY {year} <span aria-hidden="true">↗</span>
+            {year} Report <span aria-hidden="true">↗</span>
             <span className="sr-only">(PDF, opens in new tab)</span>
           </a>
         ))}
@@ -98,21 +106,21 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
 
       <nav aria-label="Budget data downloads" className="flex flex-col gap-0.5">
         <a
-          href="/data/provisional_2025.csv"
+          href="/data/fy2027.csv"
           download
           className="px-2 py-1 text-amber-700 text-xs hover:text-amber-900 hover:bg-amber-50 rounded transition-colors font-medium"
         >
-          FY 2027 (Proposed)
+          FY2027 (Proposed)
           <span className="sr-only">(CSV download)</span>
         </a>
-        {YEARS.map((year) => (
+        {FISCAL_YEARS.map((year) => (
           <a
             key={`csv-${year}`}
-            href={`/data/${year}.csv`}
+            href={`/data/fy${year}.csv`}
             download
             className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
           >
-            FY {year}
+            FY{year}
             <span className="sr-only">(CSV download)</span>
           </a>
         ))}
