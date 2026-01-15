@@ -15,7 +15,8 @@ import {
 
 // Budget data from FY2020 to FY2027 (7-year period)
 // Source: Town Reports and FY2027 Proposed Budget
-// FY2027 Total Town Budget: ~$2.29M (proposed, includes CIP)
+// FY2027 Total Town Budget: ~$2.26M (proposed, includes CIP)
+// Town Administrator: NET cost = $117K gross - $84K absorbed (Minute Taker $7.5K, FEMA $9K, Asst Clerk wages $37K + healthcare $31K)
 // Flood costs were ADDITIONAL unbudgeted emergency spending in 2023-2024
 const BUDGET_DATA = {
   fy2020: {
@@ -31,14 +32,14 @@ const BUDGET_DATA = {
     },
   },
   fy2027: {
-    total: 2294000,  // ~$2.29M Total Town Budget (proposed, includes CIP)
+    total: 2262000,  // ~$2.26M Total Town Budget (proposed, includes CIP)
     departments: {
       "Public Works": 1167000,   // Normalized (flood debt in Gen Gov)
-      "Administration": 429000,  // Clerk/Treasurer split to 2 FT roles + health insurance increases
+      "Administration": 426000,  // Actual $358K + $68K absorbed by Town Admin (Asst Clerk wages + healthcare)
       "Fire Dept": 154000,       // -9% (tanker loan paid off)
       "Public Safety": 118000,   // From CSV: $117,924
-      "Town Admin": 51000,       // NET: $108K gross - $57K absorbed roles
-      "Other": 249000,           // Gen Gov + Town Hall + Cemetery + Recreation
+      "Town Admin": 33000,       // NET ONLY: $117K gross - $84K absorbed
+      "Other": 238000,           // Actual $222K + $16K absorbed (Minute Taker + FEMA)
       "CIP": 126000,             // Capital Improvement Program
     },
     // 2023-2024 flood costs - UNBUDGETED emergency spending, separate from operating budget
@@ -163,7 +164,7 @@ function CustomTooltip({ active, payload, includeFlood }: CustomTooltipProps) {
     if (item.isFlood) {
       description = "2023-2024 flood disasters - unbudgeted emergency spending";
     } else if (item.isNew) {
-      description = "Town Admin NET: $108K gross - $57K absorbed roles";
+      description = "Town Admin NET: $117K gross - $84K absorbed costs";
     } else if (!item.isTotal) {
       description = item.isPositive ? "Increase from FY2020" : "Decrease from FY2020";
     } else if (item.name === "FY2027" && !includeFlood) {

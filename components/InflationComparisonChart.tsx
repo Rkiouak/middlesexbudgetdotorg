@@ -72,7 +72,7 @@ const inflationData = [
   },
   {
     year: "2027",
-    budget: 13.16,   // FY2027 budget increase (proposed)
+    budget: 11.59,   // FY2027 budget increase (proposed) - ($2,261,978 - $2,026,928) / $2,026,928
     cpiU: null,      // not yet available
     eci: null,       // not yet available
     nhcci: null,     // not yet available

@@ -15,6 +15,7 @@ import {
 // Budget comparison: TEST B (Office Expansion) as base, TEST A (Town Admin) as additional
 // Using TEST B department totals with flood debt normalized to General Government
 // All totals include CIP (Capital Improvement Program)
+// Updated to match FY26.27 Comparative Budget (Final).xlsx
 const BUDGET_DATA = {
   fy2026: {
     totalTownBudget: 2027000,  // Total Town Budget FY2026 (with CIP)
@@ -31,8 +32,8 @@ const BUDGET_DATA = {
     },
   },
   fy2027_testB: {
-    totalTownBudget: 2288000,  // TEST B Total Town Budget (from sheet)
-    operatingBudget: 2288000,  // Using total town budget for waterfall consistency
+    totalTownBudget: 2229000,  // TEST B Total Town Budget (Office Expansion option)
+    operatingBudget: 2229000,  // Using total town budget for waterfall consistency
     departments: {
       "Public Works": 1167000,    // Normalized (flood debt to Gen Gov)
       "Administration": 330000,   // Base admin (Listers + base office costs)
@@ -40,14 +41,14 @@ const BUDGET_DATA = {
       "Public Safety": 118000,
       "Office Expansion": 100000, // Increased staff hours + part-time TA + FEMA PM
       "Town Admin": 0,            // Not in TEST B
-      "Other": 293000,            // Gen Gov normalized + Town Hall + Cemetery + Rec
+      "Other": 234000,            // Gen Gov normalized + Town Hall + Cemetery + Rec
       "CIP": 126000,              // Capital Improvement Program
     },
   },
   fy2027_testA: {
-    totalTownBudget: 2294000,  // TEST A Total Town Budget (from sheet)
-    operatingBudget: 2294000,  // Using total town budget for waterfall consistency
-    townAdminNet: 91000,  // Town Admin NET cost ($108K - $17K absorbed)
+    totalTownBudget: 2262000,  // TEST A Total Town Budget (final, $2,261,978)
+    operatingBudget: 2262000,  // Using total town budget for waterfall consistency
+    townAdminNet: 33000,  // Town Admin NET cost ($117K gross - $84K absorbed)
   },
 };
 
@@ -232,7 +233,7 @@ export default function BudgetOptionsComparison() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-lg font-semibold text-gray-800 mb-3">Comparing the Two Budget Options</h2>
           <p className="text-sm text-gray-700 mb-3">
-            The Select Board evaluated two approaches to address Middlesex&apos;s growing administrative needs. The <strong>Office Expansion</strong> option would increase existing Clerk&apos;s office hours (+$47K), add a part-time Town Admin ($14.5K), and hire a FEMA Project Manager ($20K)—relying on current staff to take on additional responsibilities. The <strong>Town Administrator</strong> option would hire a dedicated full-time position ($73K salary + $35K benefits = $108K gross), but absorbs $57K in existing roles: the full-time Assistant Town Clerk (~$40K), Selectboard Minute Taker ($7.5K), and FEMA coordinator ($9K)—resulting in a net cost of ~$51K.
+            The Select Board evaluated two approaches to address Middlesex&apos;s growing administrative needs. The <strong>Office Expansion</strong> option would increase existing Clerk&apos;s office hours (+$47K), add a part-time Town Admin ($14.5K), and hire a FEMA Project Manager ($20K)—relying on current staff to take on additional responsibilities. The <strong>Town Administrator</strong> option would hire a dedicated full-time position ($72.8K salary + $44K benefits = ~$117K gross), but absorbs ~$84K in existing costs: the Assistant Town Clerk position (~$37K wages + ~$34K benefits including transferred healthcare), Selectboard Minute Taker ($7.5K), and FEMA coordinator ($9K)—resulting in a net cost of ~$33K.
           </p>
 
           <h3 className="text-base font-semibold text-gray-800 mb-2">Why Town Administrator is the Better Investment</h3>

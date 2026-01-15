@@ -14,8 +14,9 @@ import {
 
 // Budget data: FY2026 (current) vs FY2027 (proposed)
 // FY2026 from fy2026.csv (approved budget)
-// FY2027 from fy2027.csv with flood debt normalized to General Government
-// Town Administrator: NET cost = $108K gross - $57K absorbed roles (Minute Taker $7.5K, FEMA $9K, Town Clerk Asst $40K)
+// FY2027 from FY26.27 Comparative Budget (Final).xlsx with flood debt normalized to General Government
+// Town Administrator: NET cost = $117K gross - $84K absorbed (Minute Taker $7.5K, FEMA $9K, Asst Clerk wages $37K + healthcare $31K)
+// Absorbed costs remain in their original categories (Administration, Other) to show counterfactual
 const BUDGET_DATA = {
   fy2026: {
     total: 2027000,  // Total Town Budget from fy2026.csv (includes CIP)
@@ -30,14 +31,14 @@ const BUDGET_DATA = {
     },
   },
   fy2027: {
-    total: 2294000,  // Total Town Budget (proposed, ~$2,293,703 rounded)
+    total: 2262000,  // Total Town Budget (proposed, $2,261,978 from final CSV)
     departments: {
       "Public Works": 1167000,   // Normalized (flood debt moved to Gen Gov)
-      "Administration": 429000,  // Clerk/Treasurer split to 2 FT roles + health insurance increases
+      "Administration": 426000,  // Actual $358K + $68K absorbed by Town Admin (Asst Clerk wages + healthcare)
       "Fire Dept": 154000,       // -9% (tanker loan paid off)
       "Public Safety": 118000,   // Flat
-      "Town Admin": 51000,       // NET: $108K gross - $57K absorbed roles
-      "Other": 249000,           // Gen Gov + Town Hall + Cemetery + Rec
+      "Town Admin": 33000,       // NET ONLY: $117K gross - $84K absorbed
+      "Other": 238000,           // Actual $222K + $16K absorbed (Minute Taker + FEMA)
       "CIP": 126000,             // Capital Improvement Program
     },
   },
@@ -140,13 +141,13 @@ function CustomTooltip({ active, payload }: CustomTooltipProps) {
     const item = payload[0].payload;
     let description = "";
     if (item.name === "Town Admin") {
-      description = "Town Administrator NET: $108K gross minus $57K absorbed roles (Minute Taker, FEMA, full-time Town Clerk Asst)";
+      description = "Town Admin NET: $117K gross - $84K absorbed. Absorbed costs shown in Administration and Other categories.";
     } else if (item.name === "Other") {
-      description = "General Government, Town Hall, Cemetery, Recreation";
+      description = "Gen Gov, Town Hall, Cemetery, Recreation. Includes $16K absorbed by Town Admin (Minute Taker + FEMA).";
     } else if (item.name === "Public Works") {
       description = "Highway operations, equipment debt, materials (flood debt normalized)";
     } else if (item.name === "Administration") {
-      description = "Clerk and Treasurer split to two FT positions (previously combined), plus health insurance increases";
+      description = "Includes $68K absorbed by Town Admin (Asst Clerk wages + healthcare). Actual FY2027 budget: $358K.";
     } else if (item.name === "Fire Dept") {
       description = "Operations + debt service (tanker loan paid off in FY2026)";
     } else if (item.name === "CIP") {
@@ -201,7 +202,43 @@ export default function ProposedBudgetWaterfall() {
             These increases are partially offset by <strong>debt payoffs</strong>: the Fire Department tanker loan (-$15K) and Highway&apos;s Freightliner dump truck (-$22K) are both paid off this year, providing some relief.
           </p>
           <p className="text-sm text-gray-700">
-            The Select Board considered two approaches to address the town&apos;s growing administrative workload: either increase hours for existing employees and find ways to fund additional work from Select Board members, or hire a new <strong>Town Administrator</strong>. The Town Administrator option adds $51K net to the budget—a $73K salary plus $35K in benefits ($108K gross), offset by $57K in consolidated roles (Selectboard Minute Taker $7.5K, FEMA coordinator $9K, and full-time Town Clerk Assistant ~$40K). As shown in the waterfall chart below, the Town Administrator is only about $6K more than the alternative &quot;Office Expansion&quot; approach, while providing dedicated professional capacity for grant writing, municipal compliance, and flood recovery coordination.
+            The Select Board considered two approaches to address the town&apos;s growing administrative workload: either increase hours for existing employees and find ways to fund additional work from Select Board members, or hire a new <strong>Town Administrator</strong>. The Town Administrator has a gross cost of ~$117K (salary + benefits), but the net budget impact is only ~$33K due to ~$84K in absorbed costs from eliminated positions and transferred healthcare. The waterfall chart below shows the Town Admin at this net cost, while the absorbed costs remain visible in their original categories (Administration and Other).
+          </p>
+
+          <h3 className="text-base font-semibold text-gray-800 mt-6 mb-3">Town Administrator Cost Breakdown</h3>
+          <p className="text-sm text-gray-700 mb-4">
+            The Town Administrator position has a gross cost of ~$117K, but the net budget impact is ~$33K due to absorbed costs from eliminated positions and transferred healthcare.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-4">
+            <div>
+              <h4 className="text-sm font-semibold text-gray-700 mb-2">Gross Cost (~$117K)</h4>
+              <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside">
+                <li>Salary: $72,800</li>
+                <li>Payroll Tax (SS&amp;MED): $6,173</li>
+                <li>Retirement: $5,460</li>
+                <li>Health (2-person MVP Gold): $30,697</li>
+                <li>Dental: $924</li>
+                <li>Vision: $104</li>
+                <li>Life/LTD/AD&amp;D: $444</li>
+                <li>Childcare (Act76): $336</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="text-sm font-semibold text-gray-700 mb-2">Absorbed Costs (~$84K)</h4>
+              <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside">
+                <li>Minute Taker wages: $7,500</li>
+                <li>FEMA coordinator wages: $9,085</li>
+                <li>Asst Town Clerk wages: ~$33,400</li>
+                <li>Asst Town Clerk retirement: ~$3,400</li>
+                <li>Asst Town Clerk healthcare: ~$30,697 (transferred)</li>
+              </ul>
+            </div>
+          </div>
+
+          <p className="text-sm text-gray-700">
+            <strong>Net Cost: ~$33K</strong> — The Assistant Town Clerk&apos;s 2-person healthcare premium is &quot;transferred&quot; to the Town Administrator rather than being a new expense. The budget separately adds a new 2-person premium for the upgraded full-time Town Clerk position (from single to 2-person coverage).
           </p>
         </div>
       </section>

@@ -27,4 +27,7 @@ clean-revisions:
 		--format="value(name)" --filter="status.conditions.status:False" | \
 		xargs -r -I {} gcloud run revisions delete {} --region=$(REGION) --project=$(PROJECT) --quiet
 
-all: build deploy clean-revisions
+push:
+	git push origin main
+
+all: push
