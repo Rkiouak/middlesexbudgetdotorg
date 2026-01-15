@@ -16,6 +16,8 @@ const FISCAL_YEARS = [
 
 const TOC_SECTIONS = [
   { label: "Proposed FY2027 Budget", href: "#proposed-fy2027-budget" },
+  { label: "Town Admin Breakdown", href: "#town-admin-breakdown", indent: true },
+  { label: "Comparing Options", href: "#comparing-budget-options", indent: true },
   { label: "Historical Analysis", href: "#historical-analysis" },
   { label: "Overview", href: "#overview", indent: true },
   { label: "Budget vs. Inflation", href: "#budget-growth-vs-inflation", indent: true },

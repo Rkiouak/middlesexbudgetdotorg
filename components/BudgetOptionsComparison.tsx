@@ -231,7 +231,7 @@ export default function BudgetOptionsComparison() {
       {/* Options explanation - outside amber section */}
       <section className="py-6 px-4 border-b border-gray-200">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-lg font-semibold text-gray-800 mb-3">Comparing the Two Budget Options</h2>
+          <h2 id="comparing-budget-options" className="text-lg font-semibold text-gray-800 mb-3">Comparing the Two Budget Options</h2>
           <p className="text-sm text-gray-700 mb-3">
             The Select Board evaluated two approaches to address Middlesex&apos;s growing administrative needs. The <strong>Office Expansion</strong> option would increase existing Clerk&apos;s office hours (+$47K), add a part-time Town Admin ($14.5K), and hire a FEMA Project Manager ($20K)—relying on current staff to take on additional responsibilities. The <strong>Town Administrator</strong> option would hire a dedicated full-time position ($72.8K salary + $44K benefits = ~$117K gross), but absorbs ~$84K in existing costs: the Assistant Town Clerk position (~$37K wages + ~$34K benefits including transferred healthcare), Selectboard Minute Taker ($7.5K), and FEMA coordinator ($9K)—resulting in a net cost of ~$33K.
           </p>

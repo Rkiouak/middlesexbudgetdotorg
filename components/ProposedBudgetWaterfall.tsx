@@ -205,7 +205,7 @@ export default function ProposedBudgetWaterfall() {
             The Select Board considered two approaches to address the town&apos;s growing administrative workload: either increase hours for existing employees and find ways to fund additional work from Select Board members, or hire a new <strong>Town Administrator</strong>. The Town Administrator has a gross cost of ~$117K (salary + benefits), but the net budget impact is only ~$33K due to ~$84K in absorbed costs from eliminated positions and transferred healthcare. The waterfall chart below shows the Town Admin at this net cost, while the absorbed costs remain visible in their original categories (Administration and Other).
           </p>
 
-          <h3 className="text-base font-semibold text-gray-800 mt-6 mb-3">Town Administrator Cost Breakdown</h3>
+          <h3 id="town-admin-breakdown" className="text-base font-semibold text-gray-800 mt-6 mb-3">Town Administrator Cost Breakdown</h3>
           <p className="text-sm text-gray-700 mb-4">
             The Town Administrator position has a gross cost of ~$117K, but the net budget impact is ~$33K due to absorbed costs from eliminated positions and transferred healthcare.
           </p>
