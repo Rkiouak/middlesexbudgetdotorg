@@ -1,4 +1,4 @@
-name: Deploy to Cloud Run
+name: Deploy to GCS
 
 on:
   push:
@@ -7,9 +7,7 @@ on:
 
 env:
   PROJECT_ID: clojure-gen-blog
-  REGION: us-central1
-  SERVICE: middlesex-budget
-  IMAGE: us-central1-docker.pkg.dev/clojure-gen-blog/cloud-run/middlesex-budget
+  BUCKET: gs://middlesex-budget-site
 
 jobs:
   deploy:
@@ -23,6 +21,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
       - name: Authenticate to Google Cloud
         id: auth
         uses: google-github-actions/auth@v2
@@ -33,22 +43,15 @@ jobs:
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
 
-      - name: Build and push container
+      - name: Deploy to GCS
         run: |
-          gcloud builds submit \
-            --tag ${{ env.IMAGE }}:${{ github.sha }} \
-            --project ${{ env.PROJECT_ID }}
+          gsutil -m rsync -r -d out/ ${{ env.BUCKET }}
+          gsutil web set -m index.html -e 404.html ${{ env.BUCKET }}
 
-      - name: Deploy to Cloud Run
+      - name: Invalidate CDN cache
         run: |
-          gcloud run deploy ${{ env.SERVICE }} \
-            --image ${{ env.IMAGE }}:${{ github.sha }} \
-            --platform managed \
-            --region ${{ env.REGION }} \
-            --allow-unauthenticated \
-            --memory 512Mi \
-            --cpu 1 \
-            --min-instances 0 \
-            --max-instances 1 \
-            --port 3000 \
-            --project ${{ env.PROJECT_ID }}
+          gcloud compute url-maps invalidate-cdn-cache rkiouak-lb \
+            --path="/*" \
+            --host="middlesexbudget.org" \
+            --project=${{ env.PROJECT_ID }} \
+            --async

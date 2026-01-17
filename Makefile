@@ -1,33 +1,32 @@
-.PHONY: build deploy all clean-revisions
+.PHONY: build deploy all clean generate-pdf dev
 
 PROJECT := clojure-gen-blog
-REGION := us-central1
-SERVICE := middlesex-budget
-IMAGE := us-central1-docker.pkg.dev/$(PROJECT)/cloud-run/$(SERVICE):latest
+BUCKET := gs://middlesex-budget-site
 
+# Build static site (output in 'out/' directory)
 build:
-	gcloud builds submit --tag $(IMAGE) --project=$(PROJECT)
+	npm run build
 
-deploy:
-	gcloud run deploy $(SERVICE) \
-		--image $(IMAGE) \
-		--platform managed \
-		--region $(REGION) \
-		--allow-unauthenticated \
-		--memory 512Mi \
-		--cpu 1 \
-		--min-instances 0 \
-		--max-instances 1 \
-		--port 3000 \
-		--project=$(PROJECT)
+# Deploy static files to GCS bucket
+deploy: build
+	gsutil -m rsync -r -d out/ $(BUCKET)
+	gsutil web set -m index.html -e 404.html $(BUCKET)
+	@echo "Deployed to $(BUCKET)"
 
-clean-revisions:
-	@echo "Cleaning up old revisions (keeping only serving revision)..."
-	@gcloud run revisions list --service=$(SERVICE) --region=$(REGION) --project=$(PROJECT) \
-		--format="value(name)" --filter="status.conditions.status:False" | \
-		xargs -r -I {} gcloud run revisions delete {} --region=$(REGION) --project=$(PROJECT) --quiet
+# Generate PDF from running dev server (run 'npm run dev' first in another terminal)
+generate-pdf:
+	node scripts/generate-pdf.mjs
+
+# Start dev server
+dev:
+	npm run dev
+
+# Clean build artifacts
+clean:
+	rm -rf out/ .next/
+
+# Full deploy: generate PDF, build, and deploy
+all: generate-pdf deploy
 
 push:
 	git push origin main
-
-all: push

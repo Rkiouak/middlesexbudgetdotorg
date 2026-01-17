@@ -12,8 +12,8 @@ A Next.js website providing budget transparency for the Town of Middlesex, Vermo
 - **Styling:** Tailwind CSS
 - **Charts:** Recharts (waterfall, line charts)
 - **Markdown:** react-markdown with remark-gfm
-- **Deployment:** Google Cloud Run with Cloud Build CI/CD
-- **CDN/LB:** Google Cloud Global Load Balancer
+- **Deployment:** Static export to GCS bucket
+- **PDF:** Puppeteer (build-time generation)
 
 ## Project Structure
 
@@ -40,10 +40,12 @@ website/
 │   └── data.ts               # Posts and authors data
 ├── public/
 │   ├── data/*.csv            # Budget CSV files (fy2013.csv-fy2027.csv, named by proposed FY)
-│   └── middlesex-header.png  # Town header image
-├── Dockerfile                # Multi-stage build for Cloud Run
+│   ├── middlesex-header.png  # Town header image
+│   └── *.pdf                 # Generated PDF (build-time)
+├── scripts/
+│   └── generate-pdf.mjs      # PDF generation script (requires dev server)
 ├── Makefile                  # Build and deploy automation
-└── next.config.ts            # Standalone output for containerization
+└── next.config.ts            # Static export configuration
 ```
 
 ## Key Components
@@ -58,47 +60,35 @@ website/
 
 **Layout:** Both pages use flex layout with sticky sidebar (hidden on mobile).
 
-## GCP Deployment Architecture
+## GCP Deployment
 
-### Infrastructure
-- **Project:** `clojure-gen-blog`
-- **Region:** `us-central1`
-- **Static IP:** `34.54.22.113`
-- **URL Map:** `rkiouak-lb`
-- **HTTPS Proxy:** `rkiouak-lb-target-proxy-4`
+### Static Hosting
+- **Bucket:** `gs://middlesex-budget-site`
+- **Output:** Static files in `out/` directory
 
-### Cloud Run Service
-- **Service name:** `middlesex-budget`
-- **Image:** `us-central1-docker.pkg.dev/clojure-gen-blog/cloud-run/middlesex-budget:latest`
-- **Config:** 512Mi memory, 1 CPU, 0-1 instances, port 3000
-
-### Load Balancer Components
-- **Backend Service:** `middlesex-budget-backend` (EXTERNAL_MANAGED)
-- **Serverless NEG:** `middlesex-budget-neg`
-- **SSL Certificate:** `middlesex-cert` (Google-managed for middlesexbudget.org)
-- **Path Matcher:** `middlesex-budget-matcher` in URL map
-
-### DNS
-A record: `middlesexbudget.org` → `34.54.22.113`
-
-## Build & Deploy
+### Build & Deploy
 
 ```bash
-# Full build and deploy
-make all
+# Build static site
+make build
 
-# Individual steps
-make build          # Build container via Cloud Build
-make deploy         # Deploy to Cloud Run
-make clean-revisions # Remove old revisions
+# Deploy to GCS bucket
+make deploy
+
+# Generate PDF (requires dev server running)
+make generate-pdf
+
+# Full workflow: generate PDF, build, deploy
+make all
 ```
 
 ### Makefile Targets
-- `push`: Push commits to origin/main (triggers CI/CD)
-- `build`: Runs `gcloud builds submit` to build and push container
-- `deploy`: Deploys to Cloud Run with `--max-instances 1`
-- `clean-revisions`: Removes non-serving revisions
-- `all`: Pushes to main (CI/CD handles build and deploy)
+- `build`: Builds static site to `out/`
+- `deploy`: Syncs `out/` to GCS bucket
+- `generate-pdf`: Generates PDF from running dev server
+- `dev`: Starts development server
+- `clean`: Removes build artifacts
+- `all`: Full deploy (generate-pdf + deploy)
 
 ## Content Updates
 

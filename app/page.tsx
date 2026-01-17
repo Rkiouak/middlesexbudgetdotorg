@@ -8,6 +8,7 @@ import ProposedBudgetWaterfall from "@/components/ProposedBudgetWaterfall";
 import BudgetAnalysis from "@/components/BudgetAnalysis";
 import DataDownloads from "@/components/DataDownloads";
 import MobileNav from "@/components/MobileNav";
+import PdfExportButton from "@/components/PdfExportButton";
 
 function getAnalysisContent(): string {
   const analysisPath = join(
@@ -34,12 +35,17 @@ export default function Home() {
         <main id="main-content" className="flex-1 overflow-auto" role="main">
           <div className="py-6 px-4 border-b-2 border-gray-200">
             <div className="max-w-4xl mx-auto">
-              <h1 className="text-xl md:text-2xl text-gray-800 font-semibold">
-                A Resident&apos;s Guide to Middlesex Budgets
-              </h1>
-              <p className="text-sm text-gray-700 mt-1">
-                Fiscal Year 2011 - 2027 Budget Data and Analysis
-              </p>
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                <div>
+                  <h1 className="text-xl md:text-2xl text-gray-800 font-semibold">
+                    A Resident&apos;s Guide to Middlesex Budgets
+                  </h1>
+                  <p className="text-sm text-gray-700 mt-1">
+                    Fiscal Year 2011 - 2027 Budget Data and Analysis
+                  </p>
+                </div>
+                <PdfExportButton />
+              </div>
             </div>
           </div>
           <CommunityPosts />
