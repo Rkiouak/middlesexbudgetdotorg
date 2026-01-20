@@ -53,12 +53,30 @@ export default function Home() {
           {/* Proposed FY2027 Budget Section */}
           <section id="proposed-fy2027-budget" className="py-6 px-4 border-b-2 border-gray-200 bg-gray-50">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-xl md:text-2xl text-gray-800 font-semibold">
-                Proposed FY2027 Budget
-              </h2>
-              <p className="text-sm text-gray-600 mt-1">
-                Pre-Town Meeting provisional budget under consideration by the Select Board
-              </p>
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
+                <div>
+                  <h2 className="text-xl md:text-2xl text-gray-800 font-semibold">
+                    Proposed FY2027 Budget
+                  </h2>
+                  <p className="text-sm text-gray-600 mt-1">
+                    Pre-Town Meeting provisional budget under consideration by the Select Board
+                  </p>
+                </div>
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1DCt7qceMu2RbS5G75_c1jhVVbR-WhUdN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-[#1e4d2b] bg-white border border-gray-300 rounded hover:bg-gray-50 hover:border-[#1e4d2b] transition-colors whitespace-nowrap"
+                  title="Opens in Google Sheets"
+                >
+                  {/* Google Sheets icon */}
+                  <svg className="h-4 w-4 text-[#0f9d58]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.5 2H6C4.9 2 4 2.9 4 4v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V7.5L14.5 2zM18 20H6V4h7v4h5v12z"/>
+                    <path d="M8 12h3v2H8v-2zm5 0h3v2h-3v-2zm-5 3h3v2H8v-2zm5 0h3v2h-3v-2z"/>
+                  </svg>
+                  View Proposed Budget for Town Meeting Day
+                </a>
+              </div>
             </div>
           </section>
           <ProposedBudgetWaterfall />

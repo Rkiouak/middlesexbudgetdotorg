@@ -65,30 +65,37 @@ website/
 ### Static Hosting
 - **Bucket:** `gs://middlesex-budget-site`
 - **Output:** Static files in `out/` directory
+- **CI/CD:** GitHub Actions deploys on push to main
 
-### Build & Deploy
+### IMPORTANT: Deployment Rules
+
+**NEVER manually deploy to GCS.** Always let CI/CD handle deployments:
+1. Make changes locally
+2. Commit and push to main
+3. GitHub Actions will build and deploy automatically
+
+The `make deploy` target exists for reference but should NOT be used directly.
+
+### Local Development
 
 ```bash
-# Build static site
-make build
+# Start development server
+make dev
 
-# Deploy to GCS bucket
-make deploy
+# Build static site locally (for testing)
+make build
 
 # Generate PDF (requires dev server running)
 make generate-pdf
-
-# Full workflow: generate PDF, build, deploy
-make all
 ```
 
 ### Makefile Targets
 - `build`: Builds static site to `out/`
-- `deploy`: Syncs `out/` to GCS bucket
+- `deploy`: Syncs `out/` to GCS bucket (CI/CD only - do not run manually)
 - `generate-pdf`: Generates PDF from running dev server
 - `dev`: Starts development server
 - `clean`: Removes build artifacts
-- `all`: Full deploy (generate-pdf + deploy)
+- `all`: Full deploy (CI/CD only - do not run manually)
 
 ## Content Updates
 
