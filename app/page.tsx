@@ -106,6 +106,15 @@ export default function Home() {
           &copy; 2025 Matt Rkiouak. Content may not be sold or misrepresented.
           {" · "}
           <a
+            href="https://hungermountaini.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white/90"
+          >
+            Built by Hunger Mountain Intelligence
+          </a>
+          {" · "}
+          <a
             href="https://github.com/Rkiouak/middlesexbudgetdotorg"
             target="_blank"
             rel="noopener noreferrer"
