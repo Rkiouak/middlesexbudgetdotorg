@@ -26,7 +26,7 @@ const STAFF_DATA = [
   { year: "FY24", budget: 135941, note: "" },
   { year: "FY25", budget: 141468, note: "" },
   { year: "FY26", budget: 174934, note: "Clerk/Treasurer split into two full-time roles" },
-  { year: "FY27", budget: 245425, note: "Health jumps to $92K (MVP Gold plan)" },
+  { year: "FY27", budget: 204835, note: "MVP Gold plan for Clerk + Treasurer (~$51.5K)" },
 ];
 
 const formatCurrency = (value: number) => {
@@ -154,6 +154,7 @@ export default function GeneralGovernmentChart() {
           Source: Town Reports FY2018–FY2026, FY2027 Proposed Budget. Includes
           office wages (Clerk, Ass&apos;t Clerk, Treasurer/Finance), payroll tax,
           retirement, health insurance, life/LTD, workers comp, and dental/vision.
+          FY2027 health is office-staff only (~$51.5K for Clerk + Treasurer on MVP Gold).
           Excludes Listers, Selectboard, FEMA, Town Administrator.
         </p>
       </div>
