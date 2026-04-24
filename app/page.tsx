@@ -48,6 +48,30 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {/* Urgent: Special Town Meeting Banner */}
+          <div className="bg-red-50 border-b-2 border-red-300">
+            <div className="max-w-4xl mx-auto py-4 px-4">
+              <a
+                href="/special-meeting-retro"
+                className="flex items-start sm:items-center gap-3 group"
+              >
+                <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-red-600 text-white rounded animate-pulse">
+                  MAY 9
+                </span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold text-red-900 group-hover:underline">
+                    Special Town Meeting: FY2027 Budget Reconsideration
+                  </p>
+                  <p className="text-xs text-red-700 mt-0.5">
+                    New post: Budget Committee member reflects on the April 23rd
+                    special meeting and the alternative budget process.
+                    Read the full analysis &rarr;
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
           <CommunityPosts />
 
           {/* Proposed FY2027 Budget Section */}

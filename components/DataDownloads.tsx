@@ -29,14 +29,24 @@ const TOC_SECTIONS = [
   { label: "Major Events", href: "#major-events", indent: true },
 ];
 
-interface DataDownloadsProps {
-  showToc?: boolean;
+export interface TocSection {
+  label: string;
+  href: string;
+  indent?: boolean;
 }
 
-export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
+interface DataDownloadsProps {
+  showToc?: boolean;
+  customToc?: TocSection[];
+  customTocTitle?: string;
+}
+
+export default function DataDownloads({ showToc = true, customToc, customTocTitle }: DataDownloadsProps) {
+  const tocItems = customToc || TOC_SECTIONS;
+  const tocTitle = customTocTitle || "Contents";
   return (
     <aside className="bg-white border-r border-gray-200 p-4 h-full" aria-label="Sidebar navigation">
-      {!showToc && (
+      {!showToc && !customToc && (
         <Link
           href="/"
           className="block py-2 mb-4 text-sm font-medium text-[#1e4d2b] hover:text-[#2d724a] transition-colors"
@@ -45,14 +55,23 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
         </Link>
       )}
 
-      {showToc && (
+      {(showToc || customToc) && (
         <>
+          {customToc && (
+            <Link
+              href="/"
+              className="block py-2 mb-4 text-sm font-medium text-[#1e4d2b] hover:text-[#2d724a] transition-colors"
+            >
+              &larr; Home
+            </Link>
+          )}
+
           <h2 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3">
-            Contents
+            {tocTitle}
           </h2>
 
           <nav aria-label="Table of contents" className="flex flex-col gap-0.5 mb-6">
-            {TOC_SECTIONS.map((section) => (
+            {tocItems.map((section) => (
               <a
                 key={section.href}
                 href={section.href}
@@ -108,11 +127,19 @@ export default function DataDownloads({ showToc = true }: DataDownloadsProps) {
 
       <nav aria-label="Budget data downloads" className="flex flex-col gap-0.5">
         <a
+          href="/data/fy2027-comparative-budget.xlsx"
+          download
+          className="px-2 py-1 text-[#1e4d2b] text-xs hover:text-[#2d724a] hover:bg-emerald-50 rounded transition-colors font-semibold"
+        >
+          FY2027 Approved Budget
+          <span className="sr-only">(Excel download)</span>
+        </a>
+        <a
           href="/data/fy2027.csv"
           download
-          className="px-2 py-1 text-amber-700 text-xs hover:text-amber-900 hover:bg-amber-50 rounded transition-colors font-medium"
+          className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
         >
-          FY2027 (Proposed)
+          FY2027 (CSV)
           <span className="sr-only">(CSV download)</span>
         </a>
         {FISCAL_YEARS.map((year) => (

@@ -27,6 +27,12 @@ export const authors: Author[] = [
     name: "Zara Vincent",
     location: "Shady Rill Rd, Middlesex",
   },
+  {
+    id: "matt-rkiouak",
+    name: "Matt Rkiouak",
+    location: "Middlesex, VT",
+    role: "Budget Committee Member",
+  },
 ];
 
 export const posts: Post[] = [
