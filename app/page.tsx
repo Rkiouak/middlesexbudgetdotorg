@@ -52,7 +52,7 @@ export default function Home() {
           <div className="bg-red-50 border-b-2 border-red-300">
             <div className="max-w-4xl mx-auto py-4 px-4">
               <a
-                href="/special-meeting-retro"
+                href="/special-meeting-retro.html"
                 className="flex items-start sm:items-center gap-3 group"
               >
                 <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-red-600 text-white rounded animate-pulse">
