@@ -56,7 +56,7 @@ export default function Home() {
                 className="flex items-start sm:items-center gap-3 group"
               >
                 <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-red-600 text-white rounded animate-pulse">
-                  MAY 9
+                  MAY 9 &middot; 10 AM
                 </span>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-semibold text-red-900 group-hover:underline">
