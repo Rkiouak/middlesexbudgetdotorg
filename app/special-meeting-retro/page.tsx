@@ -136,7 +136,7 @@ export default function SpecialMeetingRetro() {
               </span>
               <p className="text-sm text-red-800">
                 <strong>Special Town Meeting vote</strong> on the reconsideration
-                of the FY2027 budget. Middlesex Town Hall, 10:00 AM.
+                of the FY2027 budget. Rumney Memorial School, 433 Shady Rill Rd, 10:00 AM.
               </p>
             </div>
           </div>
