@@ -48,31 +48,42 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* Urgent: Special Town Meeting Banner */}
-          <div className="bg-red-50 border-b-2 border-red-300">
-            <div className="max-w-4xl mx-auto py-4 px-4">
-              <a
-                href="/special-meeting-retro"
-                className="flex items-start sm:items-center gap-3 group"
-              >
-                <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-red-600 text-white rounded animate-pulse">
-                  MAY 9 &middot; 10 AM
-                </span>
-                <div className="flex-1 min-w-0">
+          {/* Banner: May 9 + Survey */}
+          <div className="border-b-2 border-red-300">
+            <div className="bg-red-50 py-3 px-4">
+              <div className="max-w-4xl mx-auto">
+                <a
+                  href="/special-meeting-retro"
+                  className="flex items-center gap-2 group"
+                >
+                  <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-red-600 text-white rounded animate-pulse">
+                    MAY 9 &middot; 10 AM
+                  </span>
                   <p className="text-sm font-semibold text-red-900 group-hover:underline">
-                    Special Town Meeting: FY2027 Budget Reconsideration
+                    Special Town Meeting at Rumney School &mdash; FY2027 Budget Reconsideration &rarr;
                   </p>
-                  <p className="text-xs text-red-700 mt-0.5">
-                    New post: Budget Committee member reflects on the April 23rd
-                    special meeting and the alternative budget process.
-                    Read the full analysis &rarr;
+                </a>
+              </div>
+            </div>
+            <div className="bg-blue-50 py-3 px-4">
+              <div className="max-w-4xl mx-auto">
+                <a
+                  href="/town-office-survey"
+                  className="block group"
+                >
+                  <p className="text-sm font-semibold text-blue-900 group-hover:underline">
+                    New: Survey of Recent Town Budgets &mdash; Office Spend
                   </p>
-                </div>
-              </a>
+                  <p className="text-xs text-blue-800 mt-0.5">
+                    How does Middlesex&apos;s town office spending compare to 17
+                    similar Vermont towns? At 5.74% of budget (office only),
+                    Middlesex ranks #9 of 18 &mdash; right at the median.
+                    With Town Administrator, it rises to #4 &rarr;
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
-
-          <CommunityPosts />
 
           {/* Proposed FY2027 Budget Section */}
           <section id="proposed-fy2027-budget" className="py-6 px-4 border-b-2 border-gray-200 bg-gray-50">
@@ -119,6 +130,7 @@ export default function Home() {
           </section>
           <BudgetWaterfallChart />
           <BudgetAnalysis content={analysisContent} />
+          <CommunityPosts />
         </main>
       </div>
       <footer className="py-6 px-4 bg-[#1e4d2b] text-white text-center text-sm" role="contentinfo">
