@@ -93,21 +93,19 @@ export default function DataDownloads({ showToc = true, customToc, customTocTitl
       <nav aria-label="Budget meeting minutes" className="flex flex-col gap-0.5 mb-6">
         <a
           href="/docs/alternate-budget-mtg-minutes-04-29-2026.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          download
           className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
         >
-          4/29 Alternate Budget Mtg <span aria-hidden="true">↗</span>
-          <span className="sr-only">(PDF, opens in new tab)</span>
+          4/29 Alternate Budget Mtg
+          <span className="sr-only">(PDF download)</span>
         </a>
         <a
           href="/docs/special-budget-committee-mtg-minutes-04-23-2026.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          download
           className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
         >
-          4/23 Special Budget Cmte <span aria-hidden="true">↗</span>
-          <span className="sr-only">(PDF, opens in new tab)</span>
+          4/23 Special Budget Cmte
+          <span className="sr-only">(PDF download)</span>
         </a>
       </nav>
 
