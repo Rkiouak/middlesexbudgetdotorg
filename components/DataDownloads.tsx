@@ -92,7 +92,7 @@ export default function DataDownloads({ showToc = true, customToc, customTocTitl
 
       <nav aria-label="Budget meeting minutes" className="flex flex-col gap-0.5 mb-6">
         <a
-          href="https://storage.googleapis.com/middlesex-budget-site/docs/alternate-budget-mtg-minutes-04-29-2026.pdf"
+          href="https://middlesexbudget.org/docs/alternate-budget-mtg-minutes-04-29-2026.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
@@ -101,7 +101,7 @@ export default function DataDownloads({ showToc = true, customToc, customTocTitl
           <span className="sr-only">(PDF, opens in new tab)</span>
         </a>
         <a
-          href="https://storage.googleapis.com/middlesex-budget-site/docs/special-budget-committee-mtg-minutes-04-23-2026.pdf"
+          href="https://middlesexbudget.org/docs/special-budget-committee-mtg-minutes-04-23-2026.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-2 py-1 text-gray-700 text-xs hover:text-[#1e4d2b] hover:bg-gray-50 rounded transition-colors"
