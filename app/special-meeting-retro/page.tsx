@@ -128,15 +128,15 @@ export default function SpecialMeetingRetro() {
             </div>
           </div>
 
-          {/* Special vote alert */}
-          <div className="bg-red-50 border-b-2 border-red-200 py-3 px-4">
+          {/* Vote result */}
+          <div className="bg-emerald-50 border-b-2 border-emerald-200 py-3 px-4">
             <div className="max-w-3xl mx-auto flex items-center gap-3">
-              <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-red-600 text-white rounded">
-                MAY 9
+              <span className="flex-shrink-0 px-2.5 py-1 text-xs font-bold bg-emerald-700 text-white rounded">
+                MAY 9 RESULT
               </span>
-              <p className="text-sm text-red-800">
-                <strong>Special Town Meeting vote</strong> on the reconsideration
-                of the FY2027 budget. Rumney Memorial School, 433 Shady Rill Rd, 10:00 AM.
+              <p className="text-sm text-emerald-900">
+                <strong>Reconsideration failed 142&ndash;40</strong> (~78% against).
+                The FY2027 budget adopted at Town Meeting stands.
               </p>
             </div>
           </div>

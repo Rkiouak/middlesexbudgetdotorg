@@ -160,7 +160,7 @@ function CustomTooltip({ active, payload }: CustomTooltipProps) {
       <div className="bg-white border border-gray-200 shadow-lg rounded px-3 py-2 text-sm">
         <p className="font-semibold text-gray-800">
           {item.name}
-          {item.name === "FY2027" ? " (Proposed)" : ""}
+          {item.name === "FY2027" ? " (Adopted)" : ""}
           {item.name === "FY2026" ? " (Current)" : ""}
         </p>
         <p className="text-gray-700">
@@ -191,7 +191,7 @@ export default function ProposedBudgetWaterfall() {
       {/* Budget increase explanation - outside amber section */}
       <section className="py-6 px-4 border-b border-gray-200">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-lg font-semibold text-gray-800 mb-3">Explaining the Proposed FY2027 Budget</h2>
+          <h2 className="text-lg font-semibold text-gray-800 mb-3">Explaining the Adopted FY2027 Budget</h2>
           <p className="text-sm text-gray-700 mb-3">
             <strong>Public Works</strong> shows increases in winter sand (+$35K) and trucking (+$40K). These reflect a return to normal budgeting after the Road Crew saved the town roughly $150-200K over the past 4-5 years by extracting sand from a pre-existing Middlesex sand pit—savings that are no longer available. Legal fees rose from $7.5K to $30K for ongoing flood recovery matters, and auditing doubled to $30K due to the complexity of flood-related finances.
           </p>
@@ -244,18 +244,18 @@ export default function ProposedBudgetWaterfall() {
       </section>
 
       {/* Waterfall chart section */}
-      <section className="py-6 px-4 border-b-2 border-gray-200 bg-amber-50" aria-labelledby="proposed-waterfall-heading">
+      <section className="py-6 px-4 border-b-2 border-gray-200 bg-emerald-50" aria-labelledby="proposed-waterfall-heading">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-start gap-2 mb-1">
-            <span className="px-2 py-0.5 text-xs font-semibold bg-amber-200 text-amber-800 rounded">
-              PROVISIONAL
+            <span className="px-2 py-0.5 text-xs font-semibold bg-emerald-200 text-emerald-900 rounded">
+              ADOPTED
             </span>
             <h3 id="proposed-waterfall-heading" className="text-lg font-semibold text-gray-800">
-              Proposed Budget: FY2026 → FY2027
+              Adopted Budget: FY2026 → FY2027
             </h3>
           </div>
           <p className="text-sm text-gray-600 mb-4">
-            <span className="italic">{growthPct}% increase</span> · Pre-Town Meeting vote
+            <span className="italic">{growthPct}% increase</span> · Upheld May 9 (142&ndash;40 against reconsideration)
           </p>
 
           {/* Legend */}
@@ -340,7 +340,7 @@ export default function ProposedBudgetWaterfall() {
           </div>
 
           <p className="text-xs text-gray-500 mt-3">
-            Source: FY2027 Proposed Budget (provisional). Debt service reductions offset some Public Works and Fire Dept increases.
+            Source: FY2027 Adopted Budget. Debt service reductions offset some Public Works and Fire Dept increases.
           </p>
         </div>
       </section>
